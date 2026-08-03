@@ -123,7 +123,7 @@ async function loadAuthors() {
     .map((line) => {
       const match = line.match(/^(\d+)(?:\s+(.+))?$/);
       if (!match) throw new Error(`Bad author line: ${line}`);
-      return { id: Number(match[1]), name: match[2] || `#${match[1]}` };
+      return { id: Number(match[1]), alias: clean(match[2]) };
     });
 }
 
@@ -161,10 +161,12 @@ async function loadTaskDifficulty(task) {
 
 async function loadRow(author, tasks, difficulties, hardTasks) {
   const submissions = [];
+  let timusName = "";
   let next = `${TIMUS}/status.aspx?space=1&author=${author.id}&count=100&locale=en`;
 
   for (let page = 0; page < PAGES && next; page += 1) {
     const text = await fetchText(`${READER}${next}`);
+    if (!timusName) timusName = parseReaderAuthorName(text);
     submissions.push(...parseReaderSubmissions(text, author.id, tasks));
     const nextHref = text.match(/\[Next 100\]\((https:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1]
       || text.match(/Next 100.*?\((https:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1];
@@ -172,7 +174,7 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
   }
 
   const uniqueSubmissions = uniqueById(submissions);
-  const name = uniqueSubmissions.find((item) => item.authorName)?.authorName || author.name;
+  const name = author.alias || uniqueSubmissions.find((item) => item.authorName)?.authorName || timusName || `#${author.id}`;
   const cells = tasks.map((task) => scoreTask(task, uniqueSubmissions, difficulties[task] || 0, hardTasks.has(task)));
   return enrichRow({
     id: author.id,
@@ -187,7 +189,7 @@ function uniqueById(items) {
 
 function parseReaderSubmissions(text, authorId, tasks) {
   const taskSet = new Set(tasks);
-  const pageAuthorName = clean(text.match(/Author:\s*\[([\s\S]*?)\]\(/)?.[1]);
+  const pageAuthorName = parseReaderAuthorName(text);
   return [...text.matchAll(/\[(\d+)\]\([^)]+\)([\s\S]*?)(?=\[\d+\]\([^)]+\)|Show \[|$)/g)]
     .map((match) => {
       const block = match[2];
@@ -216,6 +218,10 @@ function parseReaderSubmissions(text, authorId, tasks) {
     })
     .filter(Boolean)
     .filter((item) => item.timestamp >= CHALLENGE_START);
+}
+
+function parseReaderAuthorName(text) {
+  return clean(text.match(/Author:\s*\[([\s\S]*?)\]\(/)?.[1]);
 }
 
 function parseDate(block) {

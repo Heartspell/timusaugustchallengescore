@@ -4,7 +4,7 @@ Static ICPC-style scoreboard for a Timus challenge.
 
 ## Edit participants and tasks
 
-- `authors.txt`: one Timus author id per line, optional display name after the id.
+- `authors.txt`: one Timus author id per line. Add text after the id only when you want a manual alias; otherwise the site takes the name from Timus.
 - `tasks.txt`: one day per block. The third task in each block is treated as the hard task.
 
 ## Update data

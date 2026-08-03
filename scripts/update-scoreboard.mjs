@@ -51,7 +51,7 @@ async function loadAuthors() {
     .map((line) => {
       const match = line.match(/^(\d+)(?:\s+(.+))?$/);
       if (!match) throw new Error(`Bad author line: ${line}`);
-      return { id: Number(match[1]), name: match[2] || `#${match[1]}` };
+      return { id: Number(match[1]), alias: clean(match[2]) };
     });
 }
 
@@ -83,17 +83,19 @@ async function loadTaskDifficulty(task) {
 
 async function loadRow(author, tasks, difficulties, hardTasks) {
   const submissions = [];
+  let timusName = "";
   let next = `/status.aspx?space=1&author=${author.id}&count=100&locale=en`;
 
   for (let page = 0; page < PAGES && next; page += 1) {
     const html = await fetchText(`${BASE}${next}`);
+    if (!timusName) timusName = parseStatusAuthorName(html);
     submissions.push(...parseSubmissions(html, author.id, tasks));
     const nextHref = html.match(/<td class="footer_right"[^>]*>[\s\S]*?<a href="([^"]+)"/i)?.[1];
     next = nextHref ? `/${decodeEntities(nextHref).replace(/^\/+/, "")}` : "";
   }
 
   const uniqueSubmissions = uniqueById(submissions);
-  const name = uniqueSubmissions.find((item) => item.authorName)?.authorName || author.name;
+  const name = author.alias || uniqueSubmissions.find((item) => item.authorName)?.authorName || timusName || `#${author.id}`;
   const cells = tasks.map((task) => scoreTask(task, uniqueSubmissions, difficulties[task] || 0, hardTasks.has(task)));
   return enrichRow({
     id: author.id,
@@ -130,6 +132,11 @@ function parseSubmissions(html, authorId, tasks) {
     })
     .filter(Boolean)
     .filter((item) => item.timestamp >= CHALLENGE_START);
+}
+
+function parseStatusAuthorName(html) {
+  const match = html.match(/Author:\s*<A[^>]*>([\s\S]*?)<\/A>/i);
+  return clean(stripTags(match?.[1] || ""));
 }
 
 function scoreTask(task, submissions, difficulty = 0, hard = false) {
