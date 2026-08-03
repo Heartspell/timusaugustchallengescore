@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TIMUS august 2026 challenge</title>
+    <link rel="stylesheet" href="style.css?v=25">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>TIMUS august 2026 challenge</h1>
+        <div class="status-panel">
+          <span id="loader" class="loader" hidden></span>
+          <p id="status">loading</p>
+          <button id="reload" type="button">Reload</button>
+        </div>
+      </header>
+
+      <nav class="rank-controls" aria-label="Rating mode">
+        <button type="button" class="active" data-rank="solved">Solved</button>
+        <button type="button" data-rank="difficulty">Difficulty</button>
+        <button type="button" data-rank="hard">Hard</button>
+      </nav>
+
+      <div class="table-wrap">
+        <table id="board">
+          <thead></thead>
+          <tbody><tr><td>loading</td></tr></tbody>
+        </table>
+      </div>
+
+      <section id="attempts" hidden>
+        <h2 id="attemptsTitle"></h2>
+        <div class="table-wrap attempts-wrap">
+          <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Date</th>
+              <th>Problem</th>
+              <th>Verdict</th>
+              <th>Language</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js?v=25"></script>
+  </body>
+</html>

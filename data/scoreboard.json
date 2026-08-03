@@ -1,0 +1,1669 @@
+{
+  "title": "TIMUS august 2026 challenge",
+  "updatedAt": "2026-08-03T18:42:44.114Z",
+  "pages": 5,
+  "days": [
+    [
+      1000,
+      1213,
+      1780
+    ],
+    [
+      1001,
+      1049,
+      1115
+    ],
+    [
+      1313,
+      1987,
+      1852
+    ]
+  ],
+  "tasks": [
+    1000,
+    1213,
+    1780,
+    1001,
+    1049,
+    1115,
+    1313,
+    1987,
+    1852
+  ],
+  "difficulties": {
+    "1000": 16,
+    "1001": 14,
+    "1049": 249,
+    "1115": 411,
+    "1213": 170,
+    "1313": 34,
+    "1780": 897,
+    "1852": 2471,
+    "1987": 168
+  },
+  "rows": [
+    {
+      "id": 69385,
+      "name": "Muravev Slava [Samara SAU]",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240277,
+              "date": "20:49:39 31 Jul 2026",
+              "timestamp": 1785530979000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240377,
+              "date": "09:13:46 1 Aug 2026",
+              "timestamp": 1785575626000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": true,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11240381,
+              "date": "09:17:23 1 Aug 2026",
+              "timestamp": 1785575843000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240380,
+              "date": "09:14:32 1 Aug 2026",
+              "timestamp": 1785575672000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240379,
+              "date": "09:14:15 1 Aug 2026",
+              "timestamp": 1785575655000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Restricted function"
+            }
+          ]
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240577,
+              "date": "23:24:03 1 Aug 2026",
+              "timestamp": 1785626643000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240580,
+              "date": "23:29:34 1 Aug 2026",
+              "timestamp": 1785626974000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1115,
+          "difficulty": 411,
+          "hard": true,
+          "solved": true,
+          "wa": 6,
+          "label": "+(6)",
+          "attempts": [
+            {
+              "id": 11240686,
+              "date": "11:22:58 2 Aug 2026",
+              "timestamp": 1785669778000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240681,
+              "date": "11:02:23 2 Aug 2026",
+              "timestamp": 1785668543000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240680,
+              "date": "11:02:10 2 Aug 2026",
+              "timestamp": 1785668530000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Runtime error"
+            },
+            {
+              "id": 11240679,
+              "date": "10:57:30 2 Aug 2026",
+              "timestamp": 1785668250000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Java 1.8",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240678,
+              "date": "10:57:04 2 Aug 2026",
+              "timestamp": 1785668224000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Runtime error"
+            },
+            {
+              "id": 11240676,
+              "date": "10:51:09 2 Aug 2026",
+              "timestamp": 1785667869000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Runtime error"
+            },
+            {
+              "id": 11240594,
+              "date": "00:05:05 2 Aug 2026",
+              "timestamp": 1785629105000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240593,
+              "date": "23:59:06 1 Aug 2026",
+              "timestamp": 1785628746000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Memory limit exceeded"
+            },
+            {
+              "id": 11240586,
+              "date": "23:40:20 1 Aug 2026",
+              "timestamp": 1785627620000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Memory limit exceeded"
+            },
+            {
+              "id": 11240585,
+              "date": "23:38:56 1 Aug 2026",
+              "timestamp": 1785627536000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            }
+          ]
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240845,
+              "date": "18:39:51 2 Aug 2026",
+              "timestamp": 1785695991000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1313,
+              "problemName": "Some Words about Sport",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1987,
+          "difficulty": 168,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240846,
+              "date": "18:50:29 2 Aug 2026",
+              "timestamp": 1785696629000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1987,
+              "problemName": "Nested Segments",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1852,
+          "difficulty": 2471,
+          "hard": true,
+          "solved": true,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11240917,
+              "date": "21:57:53 2 Aug 2026",
+              "timestamp": 1785707873000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1852,
+              "problemName": "Cube in a Cube in a Cube",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240897,
+              "date": "21:26:36 2 Aug 2026",
+              "timestamp": 1785705996000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1852,
+              "problemName": "Cube in a Cube in a Cube",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            }
+          ]
+        }
+      ],
+      "solved": 9,
+      "wa": 8,
+      "difficultyScore": 4430,
+      "hardSolved": 3,
+      "hardScore": 3779
+    },
+    {
+      "id": 408283,
+      "name": "Erzhan",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240400,
+              "date": "11:08:51 1 Aug 2026",
+              "timestamp": 1785582531000,
+              "authorName": "Erzhan",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240533,
+              "date": "20:26:01 1 Aug 2026",
+              "timestamp": 1785615961000,
+              "authorName": "Erzhan",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240554,
+              "date": "22:12:15 1 Aug 2026",
+              "timestamp": 1785622335000,
+              "authorName": "Erzhan",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240553,
+              "date": "22:10:58 1 Aug 2026",
+              "timestamp": 1785622258000,
+              "authorName": "Erzhan",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240675,
+              "date": "10:46:11 2 Aug 2026",
+              "timestamp": 1785667571000,
+              "authorName": "Erzhan",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240677,
+              "date": "10:56:50 2 Aug 2026",
+              "timestamp": 1785668210000,
+              "authorName": "Erzhan",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1115,
+          "difficulty": 411,
+          "hard": true,
+          "solved": true,
+          "wa": 17,
+          "label": "+(17)",
+          "attempts": [
+            {
+              "id": 11240913,
+              "date": "21:55:36 2 Aug 2026",
+              "timestamp": 1785707736000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240856,
+              "date": "19:17:53 2 Aug 2026",
+              "timestamp": 1785698273000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240855,
+              "date": "19:12:00 2 Aug 2026",
+              "timestamp": 1785697920000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240854,
+              "date": "19:08:17 2 Aug 2026",
+              "timestamp": 1785697697000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240853,
+              "date": "19:05:25 2 Aug 2026",
+              "timestamp": 1785697525000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240852,
+              "date": "19:04:41 2 Aug 2026",
+              "timestamp": 1785697481000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240758,
+              "date": "14:37:24 2 Aug 2026",
+              "timestamp": 1785681444000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240716,
+              "date": "12:12:11 2 Aug 2026",
+              "timestamp": 1785672731000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240715,
+              "date": "12:11:55 2 Aug 2026",
+              "timestamp": 1785672715000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240713,
+              "date": "12:11:04 2 Aug 2026",
+              "timestamp": 1785672664000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240705,
+              "date": "11:52:20 2 Aug 2026",
+              "timestamp": 1785671540000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240704,
+              "date": "11:51:58 2 Aug 2026",
+              "timestamp": 1785671518000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240703,
+              "date": "11:51:33 2 Aug 2026",
+              "timestamp": 1785671493000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240701,
+              "date": "11:47:33 2 Aug 2026",
+              "timestamp": 1785671253000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240700,
+              "date": "11:46:48 2 Aug 2026",
+              "timestamp": 1785671208000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11240697,
+              "date": "11:44:53 2 Aug 2026",
+              "timestamp": 1785671093000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240696,
+              "date": "11:42:43 2 Aug 2026",
+              "timestamp": 1785670963000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240695,
+              "date": "11:41:37 2 Aug 2026",
+              "timestamp": 1785670897000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240694,
+              "date": "11:40:21 2 Aug 2026",
+              "timestamp": 1785670821000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240693,
+              "date": "11:38:59 2 Aug 2026",
+              "timestamp": 1785670739000,
+              "authorName": "Erzhan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": true,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11241113,
+              "date": "14:17:30 3 Aug 2026",
+              "timestamp": 1785766650000,
+              "authorName": "Erzhan",
+              "problemId": 1313,
+              "problemName": "Some Words about Sport",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241112,
+              "date": "14:16:21 3 Aug 2026",
+              "timestamp": 1785766581000,
+              "authorName": "Erzhan",
+              "problemId": 1313,
+              "problemName": "Some Words about Sport",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1987,
+          "difficulty": 168,
+          "hard": false,
+          "solved": true,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11241128,
+              "date": "14:56:21 3 Aug 2026",
+              "timestamp": 1785768981000,
+              "authorName": "Erzhan",
+              "problemId": 1987,
+              "problemName": "Nested Segments",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241126,
+              "date": "14:53:55 3 Aug 2026",
+              "timestamp": 1785768835000,
+              "authorName": "Erzhan",
+              "problemId": 1987,
+              "problemName": "Nested Segments",
+              "language": "G++ 13.2 x64",
+              "verdict": "Runtime error (access violation)"
+            },
+            {
+              "id": 11241124,
+              "date": "14:49:56 3 Aug 2026",
+              "timestamp": 1785768596000,
+              "authorName": "Erzhan",
+              "problemId": 1987,
+              "problemName": "Nested Segments",
+              "language": "G++ 13.2 x64",
+              "verdict": "Runtime error (access violation)"
+            }
+          ]
+        },
+        {
+          "task": 1852,
+          "difficulty": 2471,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 8,
+      "wa": 20,
+      "difficultyScore": 1959,
+      "hardSolved": 2,
+      "hardScore": 1308
+    },
+    {
+      "id": 408257,
+      "name": "amirhanordobaev",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11240373,
+              "date": "08:55:02 1 Aug 2026",
+              "timestamp": 1785574502000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240372,
+              "date": "08:53:56 1 Aug 2026",
+              "timestamp": 1785574436000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Runtime error"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240376,
+              "date": "09:11:40 1 Aug 2026",
+              "timestamp": 1785575500000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": true,
+          "wa": 5,
+          "label": "+(5)",
+          "attempts": [
+            {
+              "id": 11240391,
+              "date": "09:36:43 1 Aug 2026",
+              "timestamp": 1785577003000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240389,
+              "date": "09:32:15 1 Aug 2026",
+              "timestamp": 1785576735000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240386,
+              "date": "09:25:18 1 Aug 2026",
+              "timestamp": 1785576318000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240384,
+              "date": "09:21:08 1 Aug 2026",
+              "timestamp": 1785576068000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240383,
+              "date": "09:19:39 1 Aug 2026",
+              "timestamp": 1785575979000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240382,
+              "date": "09:18:22 1 Aug 2026",
+              "timestamp": 1785575902000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240374,
+              "date": "09:02:54 1 Aug 2026",
+              "timestamp": 1785574974000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240735,
+              "date": "12:50:50 2 Aug 2026",
+              "timestamp": 1785675050000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240734,
+              "date": "12:49:24 2 Aug 2026",
+              "timestamp": 1785674964000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240732,
+              "date": "12:48:19 2 Aug 2026",
+              "timestamp": 1785674899000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240730,
+              "date": "12:46:32 2 Aug 2026",
+              "timestamp": 1785674792000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240728,
+              "date": "12:44:44 2 Aug 2026",
+              "timestamp": 1785674684000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1115,
+          "difficulty": 411,
+          "hard": true,
+          "solved": true,
+          "wa": 19,
+          "label": "+(19)",
+          "attempts": [
+            {
+              "id": 11240988,
+              "date": "23:16:48 2 Aug 2026",
+              "timestamp": 1785712608000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240981,
+              "date": "23:13:05 2 Aug 2026",
+              "timestamp": 1785712385000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240980,
+              "date": "23:12:47 2 Aug 2026",
+              "timestamp": 1785712367000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240979,
+              "date": "23:12:29 2 Aug 2026",
+              "timestamp": 1785712349000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240978,
+              "date": "23:12:08 2 Aug 2026",
+              "timestamp": 1785712328000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240977,
+              "date": "23:11:26 2 Aug 2026",
+              "timestamp": 1785712286000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240976,
+              "date": "23:10:56 2 Aug 2026",
+              "timestamp": 1785712256000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240975,
+              "date": "23:10:37 2 Aug 2026",
+              "timestamp": 1785712237000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240963,
+              "date": "23:00:41 2 Aug 2026",
+              "timestamp": 1785711641000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240960,
+              "date": "22:58:04 2 Aug 2026",
+              "timestamp": 1785711484000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240959,
+              "date": "22:55:50 2 Aug 2026",
+              "timestamp": 1785711350000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240957,
+              "date": "22:55:12 2 Aug 2026",
+              "timestamp": 1785711312000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240955,
+              "date": "22:49:23 2 Aug 2026",
+              "timestamp": 1785710963000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240952,
+              "date": "22:48:06 2 Aug 2026",
+              "timestamp": 1785710886000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240948,
+              "date": "22:42:23 2 Aug 2026",
+              "timestamp": 1785710543000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240947,
+              "date": "22:40:23 2 Aug 2026",
+              "timestamp": 1785710423000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240946,
+              "date": "22:38:52 2 Aug 2026",
+              "timestamp": 1785710332000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240945,
+              "date": "22:37:03 2 Aug 2026",
+              "timestamp": 1785710223000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240944,
+              "date": "22:36:23 2 Aug 2026",
+              "timestamp": 1785710183000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11240943,
+              "date": "22:35:06 2 Aug 2026",
+              "timestamp": 1785710106000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240942,
+              "date": "22:31:59 2 Aug 2026",
+              "timestamp": 1785709919000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240940,
+              "date": "22:30:24 2 Aug 2026",
+              "timestamp": 1785709824000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240937,
+              "date": "22:28:55 2 Aug 2026",
+              "timestamp": 1785709735000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240936,
+              "date": "22:27:19 2 Aug 2026",
+              "timestamp": 1785709639000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240935,
+              "date": "22:26:26 2 Aug 2026",
+              "timestamp": 1785709586000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240934,
+              "date": "22:25:50 2 Aug 2026",
+              "timestamp": 1785709550000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240932,
+              "date": "22:24:56 2 Aug 2026",
+              "timestamp": 1785709496000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240749,
+              "date": "13:36:49 2 Aug 2026",
+              "timestamp": 1785677809000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240744,
+              "date": "13:25:28 2 Aug 2026",
+              "timestamp": 1785677128000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241057,
+              "date": "10:01:56 3 Aug 2026",
+              "timestamp": 1785751316000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1313,
+              "problemName": "Some Words about Sport",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1987,
+          "difficulty": 168,
+          "hard": false,
+          "solved": true,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11241241,
+              "date": "22:05:03 3 Aug 2026",
+              "timestamp": 1785794703000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1987,
+              "problemName": "Nested Segments",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241240,
+              "date": "22:03:47 3 Aug 2026",
+              "timestamp": 1785794627000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1987,
+              "problemName": "Nested Segments",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1852,
+          "difficulty": 2471,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 8,
+      "wa": 26,
+      "difficultyScore": 1959,
+      "hardSolved": 2,
+      "hardScore": 1308
+    },
+    {
+      "id": 408277,
+      "name": "Arthur Asanaliev",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240451,
+              "date": "15:43:41 1 Aug 2026",
+              "timestamp": 1785599021000,
+              "authorName": "Arthur Asanaliev",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240457,
+              "date": "15:59:48 1 Aug 2026",
+              "timestamp": 1785599988000,
+              "authorName": "Arthur Asanaliev",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": true,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11240712,
+              "date": "12:09:22 2 Aug 2026",
+              "timestamp": 1785672562000,
+              "authorName": "Arthur Asanaliev",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240708,
+              "date": "12:04:45 2 Aug 2026",
+              "timestamp": 1785672285000,
+              "authorName": "Arthur Asanaliev",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": true,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11240740,
+              "date": "13:11:18 2 Aug 2026",
+              "timestamp": 1785676278000,
+              "authorName": "Arthur Asanaliev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240739,
+              "date": "13:08:48 2 Aug 2026",
+              "timestamp": 1785676128000,
+              "authorName": "Arthur Asanaliev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "G++ 13.2 x64",
+              "verdict": "Runtime error (access violation)"
+            }
+          ]
+        },
+        {
+          "task": 1115,
+          "difficulty": 411,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1987,
+          "difficulty": 168,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1852,
+          "difficulty": 2471,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 4,
+      "wa": 2,
+      "difficultyScore": 449,
+      "hardSolved": 0,
+      "hardScore": 0
+    },
+    {
+      "id": 408320,
+      "name": "Bekhan Rashidbekov",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11241137,
+              "date": "15:08:36 3 Aug 2026",
+              "timestamp": 1785769716000,
+              "authorName": "Bekhan Rashidbekov",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241136,
+              "date": "15:07:54 3 Aug 2026",
+              "timestamp": 1785769674000,
+              "authorName": "Bekhan Rashidbekov",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "Visual C++ 2022 x64",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11241133,
+              "date": "15:07:06 3 Aug 2026",
+              "timestamp": 1785769626000,
+              "authorName": "Bekhan Rashidbekov",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "FreePascal 2.6",
+              "verdict": "Compilation error"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241155,
+              "date": "15:47:31 3 Aug 2026",
+              "timestamp": 1785772051000,
+              "authorName": "Bekhan Rashidbekov",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241162,
+              "date": "16:11:23 3 Aug 2026",
+              "timestamp": 1785773483000,
+              "authorName": "Bekhan Rashidbekov",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241160,
+              "date": "16:08:32 3 Aug 2026",
+              "timestamp": 1785773312000,
+              "authorName": "Bekhan Rashidbekov",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": true,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11241174,
+              "date": "16:46:36 3 Aug 2026",
+              "timestamp": 1785775596000,
+              "authorName": "Bekhan Rashidbekov",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241165,
+              "date": "16:22:16 3 Aug 2026",
+              "timestamp": 1785774136000,
+              "authorName": "Bekhan Rashidbekov",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1115,
+          "difficulty": 411,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1987,
+          "difficulty": 168,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1852,
+          "difficulty": 2471,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 4,
+      "wa": 3,
+      "difficultyScore": 449,
+      "hardSolved": 0,
+      "hardScore": 0
+    }
+  ]
+}
