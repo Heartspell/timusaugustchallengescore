@@ -108,7 +108,7 @@ async function loadSavedBoard(liveError) {
     const difficulties = data.difficulties || {};
     const rows = applyAuthorAliases(enrichRows(data.rows || [], difficulties, hardTasks), authors);
     const view = renderBoard(rows, tasks, days, difficulties, hardTasks);
-    lastStatusPrefix = "saved data";
+    lastStatusPrefix = `saved ${formatSavedTime(data.updatedAt)}`;
     lastStatusSuffix = "";
     updateStatus(view);
   } catch (error) {
@@ -376,6 +376,12 @@ function getBoardView(tasks, days) {
 
 function updateStatus(view) {
   statusEl.textContent = `${lastStatusPrefix}${lastStatusSuffix}`;
+}
+
+function formatSavedTime(value) {
+  const date = value ? new Date(value) : null;
+  if (!date || Number.isNaN(date.getTime())) return "data";
+  return date.toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" });
 }
 
 function setLoading(value) {
