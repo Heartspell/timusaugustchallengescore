@@ -186,7 +186,7 @@ function uniqueById(items) {
 
 function parseReaderSubmissions(text, authorId, tasks) {
   const taskSet = new Set(tasks);
-  const pageAuthorName = clean(text.match(/Author:\s*\[([^\]]+)\]/)?.[1]);
+  const pageAuthorName = clean(text.match(/Author:\s*\[([\s\S]*?)\]\(/)?.[1]);
   return [...text.matchAll(/\[(\d+)\]\([^)]+\)([\s\S]*?)(?=\[\d+\]\([^)]+\)|Show \[|$)/g)]
     .map((match) => {
       const block = match[2];
