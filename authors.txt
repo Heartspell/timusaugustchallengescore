@@ -1,6 +1,7 @@
 # one author per line: id optional-name
-408320 Bekhan Rashidbekov
-69385 slamur
-408277 Arthur Asanaliev
-408283 Erzhan
-408257 amirhanordobaev
+408320 
+69385 
+408277 
+408283 
+408257 
+408293
