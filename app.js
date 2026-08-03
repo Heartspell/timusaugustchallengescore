@@ -186,15 +186,17 @@ function uniqueById(items) {
 
 function parseReaderSubmissions(text, authorId, tasks) {
   const taskSet = new Set(tasks);
-  return [...text.matchAll(/\[(\d+)\]\(https:\/\/acm\.timus\.ru\/getsubmit\.aspx\/[^)]+\)([\s\S]*?)(?=\[\d+\]\(https:\/\/acm\.timus\.ru\/getsubmit\.aspx\/|Show \[|$)/g)]
+  const pageAuthorName = clean(text.match(/Author:\s*\[([^\]]+)\]/)?.[1]);
+  return [...text.matchAll(/\[(\d+)\]\([^)]+\)([\s\S]*?)(?=\[\d+\]\([^)]+\)|Show \[|$)/g)]
     .map((match) => {
       const block = match[2];
       const parsedDate = parseDate(block);
       const author = block.match(/\[([\s\S]*?)\]\(https:\/\/acm\.timus\.ru\/author\.aspx\?id=(\d+)\)/);
       const parsedAuthorId = Number(author?.[2]);
-      const problem = block.match(/\[(\d+)\. ([\s\S]*?)\]\(https:\/\/acm\.timus\.ru\/problem\.aspx\?space=1&num=(\d+)\)/);
+      if (parsedAuthorId && parsedAuthorId !== authorId) return null;
+      const problem = block.match(/\[(\d+)\. ([\s\S]*?)\]\([^)]+\)/);
       const problemId = Number(problem?.[1]);
-      if (parsedAuthorId !== authorId || !taskSet.has(problemId)) return null;
+      if (!problem || !taskSet.has(problemId)) return null;
 
       const afterProblem = block.slice(block.indexOf(problem[0]) + problem[0].length);
       const verdict = VERDICTS.find((item) => afterProblem.includes(item)) || "";
@@ -204,7 +206,7 @@ function parseReaderSubmissions(text, authorId, tasks) {
         id: Number(match[1]),
         date: parsedDate.text,
         timestamp: parsedDate.timestamp,
-        authorName: clean(author?.[1]),
+        authorName: clean(author?.[1]) || pageAuthorName,
         problemId,
         problemName: clean(problem[2]),
         language,
