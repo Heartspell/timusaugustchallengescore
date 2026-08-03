@@ -64,6 +64,24 @@ h1 {
   animation: spin 700ms linear infinite;
 }
 
+.loading-cell {
+  height: 86px;
+  color: #555;
+  font-weight: bold;
+  text-align: center;
+}
+
+.loading-cell .loader {
+  display: inline-block;
+  margin-right: 7px;
+  vertical-align: -2px;
+}
+
+.loading-spinner {
+  border-color: #d0d0d0;
+  border-top-color: #1a5cc8;
+}
+
 #reload {
   border: 1px solid #cfe0ff;
   padding: 2px 6px;
