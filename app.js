@@ -98,12 +98,15 @@ async function loadLiveBoard() {
 
 async function loadSavedBoard(liveError) {
   try {
-    const data = await fetchJson(`data/scoreboard.json?t=${Date.now()}`);
+    const [data, authors] = await Promise.all([
+      fetchJson(`data/scoreboard.json?t=${Date.now()}`),
+      loadAuthors().catch(() => []),
+    ]);
     const tasks = data.tasks || [];
     const days = data.days || chunk(tasks, 3);
     const hardTasks = getHardTaskSet(days);
     const difficulties = data.difficulties || {};
-    const rows = enrichRows(data.rows || [], difficulties, hardTasks);
+    const rows = applyAuthorAliases(enrichRows(data.rows || [], difficulties, hardTasks), authors);
     const view = renderBoard(rows, tasks, days, difficulties, hardTasks);
     lastStatusPrefix = "saved data";
     lastStatusSuffix = "";
@@ -256,6 +259,14 @@ function enrichRows(rows, difficulties, hardTasks) {
       difficulty: Number(cell.difficulty ?? difficulties[cell.task] ?? 0),
       hard: hardTasks.has(cell.task),
     })),
+  }));
+}
+
+function applyAuthorAliases(rows, authors) {
+  const aliases = new Map(authors.filter((author) => author.alias).map((author) => [author.id, author.alias]));
+  return rows.map((row) => ({
+    ...row,
+    name: aliases.get(row.id) || row.name,
   }));
 }
 
