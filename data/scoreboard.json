@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-03T18:54:45.604Z",
+  "updatedAt": "2026-08-03T18:57:25.632Z",
   "pages": 5,
   "days": [
     [
@@ -1664,6 +1664,230 @@
       "difficultyScore": 449,
       "hardSolved": 0,
       "hardScore": 0
+    },
+    {
+      "id": 408293,
+      "name": "Shabdan",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240609,
+              "date": "00:43:08 2 Aug 2026",
+              "timestamp": 1785631388000,
+              "authorName": "Shabdan",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1115,
+          "difficulty": 411,
+          "hard": true,
+          "solved": true,
+          "wa": 11,
+          "label": "+(11)",
+          "attempts": [
+            {
+              "id": 11240899,
+              "date": "21:30:32 2 Aug 2026",
+              "timestamp": 1785706232000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240892,
+              "date": "21:19:54 2 Aug 2026",
+              "timestamp": 1785705594000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240891,
+              "date": "21:18:56 2 Aug 2026",
+              "timestamp": 1785705536000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240890,
+              "date": "21:15:29 2 Aug 2026",
+              "timestamp": 1785705329000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240889,
+              "date": "21:14:06 2 Aug 2026",
+              "timestamp": 1785705246000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240888,
+              "date": "21:11:57 2 Aug 2026",
+              "timestamp": 1785705117000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240883,
+              "date": "21:00:23 2 Aug 2026",
+              "timestamp": 1785704423000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240881,
+              "date": "20:58:08 2 Aug 2026",
+              "timestamp": 1785704288000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240879,
+              "date": "20:55:35 2 Aug 2026",
+              "timestamp": 1785704135000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240878,
+              "date": "20:53:37 2 Aug 2026",
+              "timestamp": 1785704017000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Runtime error (access violation)"
+            },
+            {
+              "id": 11240877,
+              "date": "20:53:17 2 Aug 2026",
+              "timestamp": 1785703997000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Visual C++ 2022 x64",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11240876,
+              "date": "20:48:08 2 Aug 2026",
+              "timestamp": 1785703688000,
+              "authorName": "Shabdan",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Runtime error (access violation)"
+            }
+          ]
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1987,
+          "difficulty": 168,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1852,
+          "difficulty": 2471,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 2,
+      "wa": 11,
+      "difficultyScore": 1308,
+      "hardSolved": 2,
+      "hardScore": 1308
     }
   ]
 }
