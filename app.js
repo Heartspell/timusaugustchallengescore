@@ -89,6 +89,7 @@ async function loadLiveBoard() {
     lastStatusSuffix = "";
     updateStatus(view);
   } catch (error) {
+    console.warn(error);
     await loadSavedBoard(error);
   } finally {
     setLoading(false);
@@ -105,7 +106,7 @@ async function loadSavedBoard(liveError) {
     const rows = enrichRows(data.rows || [], difficulties, hardTasks);
     const view = renderBoard(rows, tasks, days, difficulties, hardTasks);
     lastStatusPrefix = "saved data";
-    lastStatusSuffix = ` (${liveError.message})`;
+    lastStatusSuffix = "";
     updateStatus(view);
   } catch (error) {
     board.tBodies[0].innerHTML = `<tr><td>${escapeHtml(error.message)}</td></tr>`;
