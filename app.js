@@ -88,7 +88,7 @@ async function loadLiveBoard(options = {}) {
   setLoading(true);
   try {
     hideAttempts();
-    statusEl.textContent = options.manual ? "reloading Timus" : "parsing Timus";
+    statusEl.textContent = options.manual ? "fresh Timus reload" : "parsing Timus";
     const [authors, days, savedData] = await Promise.all([
       loadAuthors(),
       loadTaskDays(),
@@ -545,7 +545,9 @@ async function mapLimit(items, limit, iteratee) {
 }
 
 function readerUrl(url) {
-  return `${READER}${encodeURIComponent(url.replace(/^https?:\/\//, ""))}`;
+  const freshUrl = new URL(url);
+  freshUrl.searchParams.set("fresh", Date.now().toString());
+  return `${READER}${encodeURIComponent(freshUrl.href.replace(/^https?:\/\//, ""))}`;
 }
 
 function getPenalty(item) {
