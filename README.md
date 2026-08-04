@@ -10,7 +10,7 @@ Static ICPC-style scoreboard for a Timus challenge.
 ## Update data
 
 The site parses Timus in the browser on load and falls back to `data/scoreboard.json`.
-GitHub Actions updates that JSON every 15 minutes.
+GitHub Actions updates that JSON every 5 minutes.
 
 Manual update:
 
