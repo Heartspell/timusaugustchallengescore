@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-04T04:39:42.741Z",
+  "updatedAt": "2026-08-04T07:17:31.114Z",
   "pages": 5,
   "days": [
     [
@@ -422,13 +422,54 @@
           "difficulty": 968,
           "hard": true,
           "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "wa": 4,
+          "label": "-4",
+          "attempts": [
+            {
+              "id": 11241332,
+              "date": "10:21:02 4 Aug 2026",
+              "timestamp": 1785838862000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11241331,
+              "date": "10:19:51 4 Aug 2026",
+              "timestamp": 1785838791000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Runtime error"
+            },
+            {
+              "id": 11241330,
+              "date": "10:17:30 4 Aug 2026",
+              "timestamp": 1785838650000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11241329,
+              "date": "10:17:20 4 Aug 2026",
+              "timestamp": 1785838640000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "Python 3.12 x64",
+              "verdict": "Time limit exceeded"
+            }
+          ]
         }
       ],
       "solved": 11,
-      "wa": 9,
+      "wa": 13,
       "difficultyScore": 4695,
       "hardSolved": 3,
       "hardScore": 3779
@@ -1673,6 +1714,291 @@
       "hardScore": 0
     },
     {
+      "id": 408280,
+      "name": "alinurLoL228",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11240272,
+              "date": "20:12:21 31 Jul 2026",
+              "timestamp": 1785528741000,
+              "authorName": "alinurLoL228",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240271,
+              "date": "20:11:00 31 Jul 2026",
+              "timestamp": 1785528660000,
+              "authorName": "alinurLoL228",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "GCC 13.2 x64",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11240268,
+              "date": "20:09:06 31 Jul 2026",
+              "timestamp": 1785528546000,
+              "authorName": "alinurLoL228",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "GCC 13.2 x64",
+              "verdict": "Compilation error"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240403,
+              "date": "11:20:26 1 Aug 2026",
+              "timestamp": 1785583226000,
+              "authorName": "alinurLoL228",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240722,
+              "date": "12:23:46 2 Aug 2026",
+              "timestamp": 1785673426000,
+              "authorName": "alinurLoL228",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": true,
+          "wa": 3,
+          "label": "+(3)",
+          "attempts": [
+            {
+              "id": 11240894,
+              "date": "21:23:07 2 Aug 2026",
+              "timestamp": 1785705787000,
+              "authorName": "alinurLoL228",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240737,
+              "date": "12:52:13 2 Aug 2026",
+              "timestamp": 1785675133000,
+              "authorName": "alinurLoL228",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240733,
+              "date": "12:48:53 2 Aug 2026",
+              "timestamp": 1785674933000,
+              "authorName": "alinurLoL228",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240725,
+              "date": "12:35:01 2 Aug 2026",
+              "timestamp": 1785674101000,
+              "authorName": "alinurLoL228",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            }
+          ]
+        },
+        {
+          "task": 1115,
+          "difficulty": 411,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1987,
+          "difficulty": 167,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1852,
+          "difficulty": 2471,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1820,
+          "difficulty": 25,
+          "hard": false,
+          "solved": true,
+          "wa": 3,
+          "label": "+(3)",
+          "attempts": [
+            {
+              "id": 11241322,
+              "date": "09:53:27 4 Aug 2026",
+              "timestamp": 1785837207000,
+              "authorName": "alinurLoL228",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241320,
+              "date": "09:52:05 4 Aug 2026",
+              "timestamp": 1785837125000,
+              "authorName": "alinurLoL228",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11241318,
+              "date": "09:49:47 4 Aug 2026",
+              "timestamp": 1785836987000,
+              "authorName": "alinurLoL228",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11241317,
+              "date": "09:48:23 4 Aug 2026",
+              "timestamp": 1785836903000,
+              "authorName": "alinurLoL228",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1247,
+          "difficulty": 241,
+          "hard": false,
+          "solved": true,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11241328,
+              "date": "10:15:24 4 Aug 2026",
+              "timestamp": 1785838524000,
+              "authorName": "alinurLoL228",
+              "problemId": 1247,
+              "problemName": "Check a Sequence",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241327,
+              "date": "10:13:50 4 Aug 2026",
+              "timestamp": 1785838430000,
+              "authorName": "alinurLoL228",
+              "problemId": 1247,
+              "problemName": "Check a Sequence",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11241324,
+              "date": "09:59:25 4 Aug 2026",
+              "timestamp": 1785837565000,
+              "authorName": "alinurLoL228",
+              "problemId": 1247,
+              "problemName": "Check a Sequence",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1932,
+          "difficulty": 968,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 6,
+      "wa": 10,
+      "difficultyScore": 715,
+      "hardSolved": 0,
+      "hardScore": 0
+    },
+    {
       "id": 408294,
       "name": "tragedy",
       "cells": [
@@ -2137,219 +2463,6 @@
       ],
       "solved": 4,
       "wa": 2,
-      "difficultyScore": 449,
-      "hardSolved": 0,
-      "hardScore": 0
-    },
-    {
-      "id": 408280,
-      "name": "alinurLoL228",
-      "cells": [
-        {
-          "task": 1000,
-          "difficulty": 16,
-          "hard": false,
-          "solved": true,
-          "wa": 2,
-          "label": "+(2)",
-          "attempts": [
-            {
-              "id": 11240272,
-              "date": "20:12:21 31 Jul 2026",
-              "timestamp": 1785528741000,
-              "authorName": "alinurLoL228",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240271,
-              "date": "20:11:00 31 Jul 2026",
-              "timestamp": 1785528660000,
-              "authorName": "alinurLoL228",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "GCC 13.2 x64",
-              "verdict": "Compilation error"
-            },
-            {
-              "id": 11240268,
-              "date": "20:09:06 31 Jul 2026",
-              "timestamp": 1785528546000,
-              "authorName": "alinurLoL228",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "GCC 13.2 x64",
-              "verdict": "Compilation error"
-            }
-          ]
-        },
-        {
-          "task": 1213,
-          "difficulty": 170,
-          "hard": false,
-          "solved": true,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240403,
-              "date": "11:20:26 1 Aug 2026",
-              "timestamp": 1785583226000,
-              "authorName": "alinurLoL228",
-              "problemId": 1213,
-              "problemName": "Cockroaches!",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1780,
-          "difficulty": 897,
-          "hard": true,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1001,
-          "difficulty": 14,
-          "hard": false,
-          "solved": true,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240722,
-              "date": "12:23:46 2 Aug 2026",
-              "timestamp": 1785673426000,
-              "authorName": "alinurLoL228",
-              "problemId": 1001,
-              "problemName": "Reverse Root",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1049,
-          "difficulty": 249,
-          "hard": false,
-          "solved": true,
-          "wa": 3,
-          "label": "+(3)",
-          "attempts": [
-            {
-              "id": 11240894,
-              "date": "21:23:07 2 Aug 2026",
-              "timestamp": 1785705787000,
-              "authorName": "alinurLoL228",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240737,
-              "date": "12:52:13 2 Aug 2026",
-              "timestamp": 1785675133000,
-              "authorName": "alinurLoL228",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240733,
-              "date": "12:48:53 2 Aug 2026",
-              "timestamp": 1785674933000,
-              "authorName": "alinurLoL228",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240725,
-              "date": "12:35:01 2 Aug 2026",
-              "timestamp": 1785674101000,
-              "authorName": "alinurLoL228",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "G++ 13.2 x64",
-              "verdict": "Time limit exceeded"
-            }
-          ]
-        },
-        {
-          "task": 1115,
-          "difficulty": 411,
-          "hard": true,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1313,
-          "difficulty": 34,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1987,
-          "difficulty": 167,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1852,
-          "difficulty": 2471,
-          "hard": true,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1820,
-          "difficulty": 25,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1247,
-          "difficulty": 241,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1932,
-          "difficulty": 968,
-          "hard": true,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        }
-      ],
-      "solved": 4,
-      "wa": 5,
       "difficultyScore": 449,
       "hardSolved": 0,
       "hardScore": 0
