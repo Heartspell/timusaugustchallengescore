@@ -54,9 +54,10 @@ let lastStatusSuffix = "";
 let rankMode = "solved";
 let resizeTimer = 0;
 let loading = false;
+let pendingReload = false;
 let assetVersion = currentAssetVersion();
 
-reloadButton.addEventListener("click", () => loadLiveBoard());
+reloadButton.addEventListener("click", () => loadLiveBoard({ manual: true }));
 rankButtons.forEach((button) => {
   button.addEventListener("click", () => {
     rankMode = button.dataset.rank;
@@ -68,7 +69,7 @@ rankButtons.forEach((button) => {
 });
 setActiveRankButton();
 loadLiveBoard();
-setInterval(loadLiveBoard, REFRESH_MS);
+setInterval(() => loadLiveBoard(), REFRESH_MS);
 setInterval(checkAssetVersion, VERSION_CHECK_MS);
 window.addEventListener("resize", () => {
   clearTimeout(resizeTimer);
@@ -79,11 +80,15 @@ window.addEventListener("resize", () => {
   }, 120);
 });
 
-async function loadLiveBoard() {
-  if (loading) return;
+async function loadLiveBoard(options = {}) {
+  if (loading) {
+    pendingReload = pendingReload || options.manual;
+    return;
+  }
   setLoading(true);
   try {
-    statusEl.textContent = "parsing Timus";
+    hideAttempts();
+    statusEl.textContent = options.manual ? "reloading Timus" : "parsing Timus";
     const [authors, days, savedData] = await Promise.all([
       loadAuthors(),
       loadTaskDays(),
@@ -101,8 +106,8 @@ async function loadLiveBoard() {
         console.warn(`live failed for ${author.id}`, error);
         failed += 1;
         const savedRow = savedRows.get(author.id);
-        if (!savedRow) throw error;
-        return applyAuthorAliases([normalizeRow(savedRow, tasks, difficulties, hardTasks)], [author])[0];
+        if (savedRow) return applyAuthorAliases([normalizeRow(savedRow, tasks, difficulties, hardTasks)], [author])[0];
+        return emptyRow(author, tasks, difficulties, hardTasks);
       }
     });
     const view = renderBoard(rows, tasks, days, difficulties, hardTasks);
@@ -115,6 +120,10 @@ async function loadLiveBoard() {
     await loadSavedBoard(error);
   } finally {
     setLoading(false);
+    if (pendingReload) {
+      pendingReload = false;
+      loadLiveBoard({ manual: true });
+    }
   }
 }
 
@@ -291,6 +300,14 @@ function scoreTask(task, submissions, difficulty = 0, hard = false) {
 
 function normalizeRows(rows, tasks, difficulties, hardTasks) {
   return rows.map((row) => normalizeRow(row, tasks, difficulties, hardTasks));
+}
+
+function emptyRow(author, tasks, difficulties, hardTasks) {
+  return enrichRow({
+    id: author.id,
+    name: author.alias || `#${author.id}`,
+    cells: tasks.map((task) => scoreTask(task, [], difficulties[task] || 0, hardTasks.has(task))),
+  });
 }
 
 function normalizeRow(row, tasks, difficulties, hardTasks) {
@@ -477,6 +494,12 @@ function showAttempts(row, cell) {
       <td>${escapeHtml(item.language)}</td>
     </tr>
   `).join("");
+}
+
+function hideAttempts() {
+  attempts.hidden = true;
+  attemptsTitle.textContent = "";
+  attemptsBody.innerHTML = "";
 }
 
 async function fetchText(url) {
