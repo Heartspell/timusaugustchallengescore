@@ -31,10 +31,17 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/update-scoreboard.mjs
+      - name: Bump asset version
+        run: |
+          if git diff --quiet -- data/scoreboard.json; then
+            echo "Scoreboard unchanged; asset version left as is."
+          else
+            node -e 'const fs=require("fs"); const path="index.html"; const version=process.env.GITHUB_RUN_NUMBER || Date.now().toString(); const html=fs.readFileSync(path,"utf8"); const next=html.replace(/(style\.css\?v=)[^"]+/g, "$1"+version).replace(/(app\.js\?v=)[^"]+/g, "$1"+version); fs.writeFileSync(path,next); console.log("asset version: "+version);'
+          fi
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update Timus scoreboard"
-          file_pattern: data/scoreboard.json
+          file_pattern: data/scoreboard.json index.html
       - uses: actions/configure-pages@v5
       - name: Build static artifact
         run: |
