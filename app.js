@@ -1,5 +1,6 @@
 const PAGES = 5;
-const REFRESH_MS = 60000;
+const REFRESH_MS = 90000;
+const VERSION_CHECK_MS = 120000;
 const TIMUS = "https://acm.timus.ru";
 const READER = "https://r.jina.ai/http://r.jina.ai/http%3A%2F%2F";
 const LIVE_LIMIT = 3;
@@ -53,6 +54,7 @@ let lastStatusSuffix = "";
 let rankMode = "solved";
 let resizeTimer = 0;
 let loading = false;
+let assetVersion = currentAssetVersion();
 
 reloadButton.addEventListener("click", () => loadLiveBoard());
 rankButtons.forEach((button) => {
@@ -67,6 +69,7 @@ rankButtons.forEach((button) => {
 setActiveRankButton();
 loadLiveBoard();
 setInterval(loadLiveBoard, REFRESH_MS);
+setInterval(checkAssetVersion, VERSION_CHECK_MS);
 window.addEventListener("resize", () => {
   clearTimeout(resizeTimer);
   resizeTimer = setTimeout(() => {
@@ -138,6 +141,17 @@ async function loadSavedBoard(liveError) {
 
 async function loadSavedData() {
   return fetchJson(`data/scoreboard.json?t=${Date.now()}`);
+}
+
+async function checkAssetVersion() {
+  try {
+    const html = await fetchText(`index.html?t=${Date.now()}`);
+    const nextVersion = clean(html.match(/app\.js\?v=([^"]+)/)?.[1]);
+    if (nextVersion && assetVersion && nextVersion !== assetVersion) location.reload();
+    assetVersion = nextVersion || assetVersion;
+  } catch (error) {
+    console.warn("version check failed", error);
+  }
 }
 
 async function loadAuthors() {
@@ -513,6 +527,10 @@ function readerUrl(url) {
 
 function getPenalty(item) {
   return Number(item?.penalty ?? item?.wa ?? 0);
+}
+
+function currentAssetVersion() {
+  return clean(document.querySelector('script[src^="app.js?v="]')?.src.match(/[?&]v=([^&]+)/)?.[1]);
 }
 
 function clean(value = "") {
