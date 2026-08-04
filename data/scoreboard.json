@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-04T07:17:31.114Z",
+  "updatedAt": "2026-08-04T10:02:58.140Z",
   "pages": 5,
   "days": [
     [
@@ -1509,6 +1509,333 @@
       "hardScore": 1308
     },
     {
+      "id": 408294,
+      "name": "tragedy",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240478,
+              "date": "17:26:38 1 Aug 2026",
+              "timestamp": 1785605198000,
+              "authorName": "tragedy",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": true,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11240490,
+              "date": "18:01:07 1 Aug 2026",
+              "timestamp": 1785607267000,
+              "authorName": "tragedy",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240488,
+              "date": "17:58:33 1 Aug 2026",
+              "timestamp": 1785607113000,
+              "authorName": "tragedy",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240487,
+              "date": "17:58:14 1 Aug 2026",
+              "timestamp": 1785607094000,
+              "authorName": "tragedy",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "Visual C++ 2022 x64",
+              "verdict": "Compilation error"
+            }
+          ]
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240819,
+              "date": "17:50:34 2 Aug 2026",
+              "timestamp": 1785693034000,
+              "authorName": "tragedy",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": true,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11240842,
+              "date": "18:31:44 2 Aug 2026",
+              "timestamp": 1785695504000,
+              "authorName": "tragedy",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240840,
+              "date": "18:29:18 2 Aug 2026",
+              "timestamp": 1785695358000,
+              "authorName": "tragedy",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1115,
+          "difficulty": 411,
+          "hard": true,
+          "solved": false,
+          "wa": 5,
+          "label": "-5",
+          "attempts": [
+            {
+              "id": 11241002,
+              "date": "23:55:16 2 Aug 2026",
+              "timestamp": 1785714916000,
+              "authorName": "tragedy",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Clang++ 17 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11241001,
+              "date": "23:53:38 2 Aug 2026",
+              "timestamp": 1785714818000,
+              "authorName": "tragedy",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240997,
+              "date": "23:32:20 2 Aug 2026",
+              "timestamp": 1785713540000,
+              "authorName": "tragedy",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Clang++ 17 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240995,
+              "date": "23:31:30 2 Aug 2026",
+              "timestamp": 1785713490000,
+              "authorName": "tragedy",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Clang++ 17 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240989,
+              "date": "23:22:29 2 Aug 2026",
+              "timestamp": 1785712949000,
+              "authorName": "tragedy",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Clang++ 17 x64",
+              "verdict": "Time limit exceeded"
+            }
+          ]
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": true,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11241249,
+              "date": "23:11:23 3 Aug 2026",
+              "timestamp": 1785798683000,
+              "authorName": "tragedy",
+              "problemId": 1313,
+              "problemName": "Some Words about Sport",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241238,
+              "date": "21:02:22 3 Aug 2026",
+              "timestamp": 1785790942000,
+              "authorName": "tragedy",
+              "problemId": 1313,
+              "problemName": "Some Words about Sport",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11241236,
+              "date": "21:00:09 3 Aug 2026",
+              "timestamp": 1785790809000,
+              "authorName": "tragedy",
+              "problemId": 1313,
+              "problemName": "Some Words about Sport",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1987,
+          "difficulty": 167,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241259,
+              "date": "00:12:29 4 Aug 2026",
+              "timestamp": 1785802349000,
+              "authorName": "tragedy",
+              "problemId": 1987,
+              "problemName": "Nested Segments",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1852,
+          "difficulty": 2471,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1820,
+          "difficulty": 25,
+          "hard": false,
+          "solved": true,
+          "wa": 3,
+          "label": "+(3)",
+          "attempts": [
+            {
+              "id": 11241418,
+              "date": "14:45:26 4 Aug 2026",
+              "timestamp": 1785854726000,
+              "authorName": "tragedy",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241417,
+              "date": "14:43:45 4 Aug 2026",
+              "timestamp": 1785854625000,
+              "authorName": "tragedy",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11241416,
+              "date": "14:42:08 4 Aug 2026",
+              "timestamp": 1785854528000,
+              "authorName": "tragedy",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11241415,
+              "date": "14:38:42 4 Aug 2026",
+              "timestamp": 1785854322000,
+              "authorName": "tragedy",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1247,
+          "difficulty": 241,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1932,
+          "difficulty": 968,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 7,
+      "wa": 13,
+      "difficultyScore": 675,
+      "hardSolved": 0,
+      "hardScore": 0
+    },
+    {
       "id": 408298,
       "name": "Arisbek Alikbaev",
       "cells": [
@@ -1626,9 +1953,20 @@
           "difficulty": 411,
           "hard": true,
           "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11241406,
+              "date": "14:07:43 4 Aug 2026",
+              "timestamp": 1785852463000,
+              "authorName": "Arisbek Alikbaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Python 3.12 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1313,
@@ -1708,7 +2046,7 @@
         }
       ],
       "solved": 6,
-      "wa": 2,
+      "wa": 3,
       "difficultyScore": 650,
       "hardSolved": 0,
       "hardScore": 0
@@ -1999,292 +2337,6 @@
       "hardScore": 0
     },
     {
-      "id": 408294,
-      "name": "tragedy",
-      "cells": [
-        {
-          "task": 1000,
-          "difficulty": 16,
-          "hard": false,
-          "solved": true,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240478,
-              "date": "17:26:38 1 Aug 2026",
-              "timestamp": 1785605198000,
-              "authorName": "tragedy",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1213,
-          "difficulty": 170,
-          "hard": false,
-          "solved": true,
-          "wa": 2,
-          "label": "+(2)",
-          "attempts": [
-            {
-              "id": 11240490,
-              "date": "18:01:07 1 Aug 2026",
-              "timestamp": 1785607267000,
-              "authorName": "tragedy",
-              "problemId": 1213,
-              "problemName": "Cockroaches!",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240488,
-              "date": "17:58:33 1 Aug 2026",
-              "timestamp": 1785607113000,
-              "authorName": "tragedy",
-              "problemId": 1213,
-              "problemName": "Cockroaches!",
-              "language": "Clang++ 17 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240487,
-              "date": "17:58:14 1 Aug 2026",
-              "timestamp": 1785607094000,
-              "authorName": "tragedy",
-              "problemId": 1213,
-              "problemName": "Cockroaches!",
-              "language": "Visual C++ 2022 x64",
-              "verdict": "Compilation error"
-            }
-          ]
-        },
-        {
-          "task": 1780,
-          "difficulty": 897,
-          "hard": true,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1001,
-          "difficulty": 14,
-          "hard": false,
-          "solved": true,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240819,
-              "date": "17:50:34 2 Aug 2026",
-              "timestamp": 1785693034000,
-              "authorName": "tragedy",
-              "problemId": 1001,
-              "problemName": "Reverse Root",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1049,
-          "difficulty": 249,
-          "hard": false,
-          "solved": true,
-          "wa": 1,
-          "label": "+(1)",
-          "attempts": [
-            {
-              "id": 11240842,
-              "date": "18:31:44 2 Aug 2026",
-              "timestamp": 1785695504000,
-              "authorName": "tragedy",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240840,
-              "date": "18:29:18 2 Aug 2026",
-              "timestamp": 1785695358000,
-              "authorName": "tragedy",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "Clang++ 17 x64",
-              "verdict": "Wrong answer"
-            }
-          ]
-        },
-        {
-          "task": 1115,
-          "difficulty": 411,
-          "hard": true,
-          "solved": false,
-          "wa": 5,
-          "label": "-5",
-          "attempts": [
-            {
-              "id": 11241002,
-              "date": "23:55:16 2 Aug 2026",
-              "timestamp": 1785714916000,
-              "authorName": "tragedy",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Clang++ 17 x64",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11241001,
-              "date": "23:53:38 2 Aug 2026",
-              "timestamp": 1785714818000,
-              "authorName": "tragedy",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Clang++ 17 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240997,
-              "date": "23:32:20 2 Aug 2026",
-              "timestamp": 1785713540000,
-              "authorName": "tragedy",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Clang++ 17 x64",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240995,
-              "date": "23:31:30 2 Aug 2026",
-              "timestamp": 1785713490000,
-              "authorName": "tragedy",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Clang++ 17 x64",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240989,
-              "date": "23:22:29 2 Aug 2026",
-              "timestamp": 1785712949000,
-              "authorName": "tragedy",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Clang++ 17 x64",
-              "verdict": "Time limit exceeded"
-            }
-          ]
-        },
-        {
-          "task": 1313,
-          "difficulty": 34,
-          "hard": false,
-          "solved": true,
-          "wa": 2,
-          "label": "+(2)",
-          "attempts": [
-            {
-              "id": 11241249,
-              "date": "23:11:23 3 Aug 2026",
-              "timestamp": 1785798683000,
-              "authorName": "tragedy",
-              "problemId": 1313,
-              "problemName": "Some Words about Sport",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11241238,
-              "date": "21:02:22 3 Aug 2026",
-              "timestamp": 1785790942000,
-              "authorName": "tragedy",
-              "problemId": 1313,
-              "problemName": "Some Words about Sport",
-              "language": "Clang++ 17 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11241236,
-              "date": "21:00:09 3 Aug 2026",
-              "timestamp": 1785790809000,
-              "authorName": "tragedy",
-              "problemId": 1313,
-              "problemName": "Some Words about Sport",
-              "language": "Clang++ 17 x64",
-              "verdict": "Wrong answer"
-            }
-          ]
-        },
-        {
-          "task": 1987,
-          "difficulty": 167,
-          "hard": false,
-          "solved": true,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11241259,
-              "date": "00:12:29 4 Aug 2026",
-              "timestamp": 1785802349000,
-              "authorName": "tragedy",
-              "problemId": 1987,
-              "problemName": "Nested Segments",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1852,
-          "difficulty": 2471,
-          "hard": true,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1820,
-          "difficulty": 25,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1247,
-          "difficulty": 241,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1932,
-          "difficulty": 968,
-          "hard": true,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        }
-      ],
-      "solved": 6,
-      "wa": 10,
-      "difficultyScore": 650,
-      "hardSolved": 0,
-      "hardScore": 0
-    },
-    {
       "id": 408277,
       "name": "Arthur Asanaliev",
       "cells": [
@@ -2394,6 +2446,189 @@
               "problemName": "Brave Balloonists",
               "language": "G++ 13.2 x64",
               "verdict": "Runtime error (access violation)"
+            }
+          ]
+        },
+        {
+          "task": 1115,
+          "difficulty": 411,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1987,
+          "difficulty": 167,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1852,
+          "difficulty": 2471,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1820,
+          "difficulty": 25,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1247,
+          "difficulty": 241,
+          "hard": false,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1932,
+          "difficulty": 968,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 4,
+      "wa": 2,
+      "difficultyScore": 449,
+      "hardSolved": 0,
+      "hardScore": 0
+    },
+    {
+      "id": 408323,
+      "name": "curela",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11241247,
+              "date": "23:07:40 3 Aug 2026",
+              "timestamp": 1785798460000,
+              "authorName": "curela",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241246,
+              "date": "23:06:00 3 Aug 2026",
+              "timestamp": 1785798360000,
+              "authorName": "curela",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11241245,
+              "date": "23:04:06 3 Aug 2026",
+              "timestamp": 1785798246000,
+              "authorName": "curela",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "Visual C++ 2022 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241252,
+              "date": "23:27:07 3 Aug 2026",
+              "timestamp": 1785799627000,
+              "authorName": "curela",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": false,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241392,
+              "date": "13:13:50 4 Aug 2026",
+              "timestamp": 1785849230000,
+              "authorName": "curela",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": true,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241395,
+              "date": "13:23:40 4 Aug 2026",
+              "timestamp": 1785849820000,
+              "authorName": "curela",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
             }
           ]
         },
@@ -2914,9 +3149,20 @@
           "difficulty": 167,
           "hard": false,
           "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11241389,
+              "date": "13:07:33 4 Aug 2026",
+              "timestamp": 1785848853000,
+              "authorName": "Adil",
+              "problemId": 1987,
+              "problemName": "Nested Segments",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1852,
@@ -2967,7 +3213,7 @@
         }
       ],
       "solved": 3,
-      "wa": 18,
+      "wa": 19,
       "difficultyScore": 2657,
       "hardSolved": 1,
       "hardScore": 2471
@@ -3122,167 +3368,6 @@
       "difficultyScore": 1308,
       "hardSolved": 2,
       "hardScore": 1308
-    },
-    {
-      "id": 408323,
-      "name": "curela",
-      "cells": [
-        {
-          "task": 1000,
-          "difficulty": 16,
-          "hard": false,
-          "solved": true,
-          "wa": 2,
-          "label": "+(2)",
-          "attempts": [
-            {
-              "id": 11241247,
-              "date": "23:07:40 3 Aug 2026",
-              "timestamp": 1785798460000,
-              "authorName": "curela",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11241246,
-              "date": "23:06:00 3 Aug 2026",
-              "timestamp": 1785798360000,
-              "authorName": "curela",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11241245,
-              "date": "23:04:06 3 Aug 2026",
-              "timestamp": 1785798246000,
-              "authorName": "curela",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "Visual C++ 2022 x64",
-              "verdict": "Wrong answer"
-            }
-          ]
-        },
-        {
-          "task": 1213,
-          "difficulty": 170,
-          "hard": false,
-          "solved": true,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11241252,
-              "date": "23:27:07 3 Aug 2026",
-              "timestamp": 1785799627000,
-              "authorName": "curela",
-              "problemId": 1213,
-              "problemName": "Cockroaches!",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1780,
-          "difficulty": 897,
-          "hard": true,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1001,
-          "difficulty": 14,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1049,
-          "difficulty": 249,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1115,
-          "difficulty": 411,
-          "hard": true,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1313,
-          "difficulty": 34,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1987,
-          "difficulty": 167,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1852,
-          "difficulty": 2471,
-          "hard": true,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1820,
-          "difficulty": 25,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1247,
-          "difficulty": 241,
-          "hard": false,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1932,
-          "difficulty": 968,
-          "hard": true,
-          "solved": false,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        }
-      ],
-      "solved": 2,
-      "wa": 2,
-      "difficultyScore": 186,
-      "hardSolved": 0,
-      "hardScore": 0
     },
     {
       "id": 408293,
