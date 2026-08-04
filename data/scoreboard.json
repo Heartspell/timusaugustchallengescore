@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-04T14:38:42.425Z",
+  "updatedAt": "2026-08-04T16:30:40.792Z",
   "pages": 5,
   "days": [
     [
@@ -432,11 +432,111 @@
           "task": 1932,
           "difficulty": 968,
           "hard": true,
-          "solved": false,
-          "penalty": 4,
-          "wa": 4,
-          "label": "-4",
+          "solved": true,
+          "penalty": 5,
+          "wa": 5,
+          "label": "+(5)",
           "attempts": [
+            {
+              "id": 11241506,
+              "date": "21:11:26 4 Aug 2026",
+              "timestamp": 1785877886000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241505,
+              "date": "21:08:38 4 Aug 2026",
+              "timestamp": 1785877718000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241504,
+              "date": "21:08:26 4 Aug 2026",
+              "timestamp": 1785877706000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "Python 3.12 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241503,
+              "date": "21:06:17 4 Aug 2026",
+              "timestamp": 1785877577000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "Python 3.12 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241502,
+              "date": "21:05:49 4 Aug 2026",
+              "timestamp": 1785877549000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241501,
+              "date": "21:05:07 4 Aug 2026",
+              "timestamp": 1785877507000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241500,
+              "date": "21:02:25 4 Aug 2026",
+              "timestamp": 1785877345000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241499,
+              "date": "21:01:19 4 Aug 2026",
+              "timestamp": 1785877279000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241498,
+              "date": "20:58:56 4 Aug 2026",
+              "timestamp": 1785877136000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "Python 3.12 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11241497,
+              "date": "20:58:40 4 Aug 2026",
+              "timestamp": 1785877120000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
             {
               "id": 11241332,
               "date": "10:21:02 4 Aug 2026",
@@ -480,12 +580,12 @@
           ]
         }
       ],
-      "solved": 11,
-      "penalty": 14,
-      "wa": 14,
-      "difficultyScore": 4695,
-      "hardSolved": 3,
-      "hardScore": 3779
+      "solved": 12,
+      "penalty": 15,
+      "wa": 15,
+      "difficultyScore": 5663,
+      "hardSolved": 4,
+      "hardScore": 4747
     },
     {
       "id": 408294,
