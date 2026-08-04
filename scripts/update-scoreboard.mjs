@@ -29,7 +29,7 @@ for (const author of authors) {
   rows.push(await loadRow(author, tasks, difficulties, hardTasks));
 }
 
-rows.sort((a, b) => b.solved - a.solved || a.wa - b.wa || b.difficultyScore - a.difficultyScore || a.name.localeCompare(b.name));
+rows.sort((a, b) => b.solved - a.solved || a.penalty - b.penalty || b.difficultyScore - a.difficultyScore || a.name.localeCompare(b.name));
 
 await mkdir("data", { recursive: true });
 await writeFile("data/scoreboard.json", JSON.stringify({
@@ -142,14 +142,15 @@ function parseStatusAuthorName(html) {
 function scoreTask(task, submissions, difficulty = 0, hard = false) {
   const list = submissions.filter((item) => item.problemId === task).sort((a, b) => a.id - b.id);
   const ac = list.find((item) => item.verdict === "Accepted");
-  const wa = ac ? list.filter((item) => item.id < ac.id && item.verdict !== "Accepted").length : list.length;
+  const penalty = ac ? list.filter((item) => item.id < ac.id && item.verdict !== "Accepted").length : list.length;
   return {
     task,
     difficulty,
     hard,
     solved: Boolean(ac),
-    wa,
-    label: ac ? (wa ? `+(${wa})` : "+") : (wa ? `-${wa}` : ""),
+    penalty,
+    wa: penalty,
+    label: ac ? (penalty ? `+(${penalty})` : "+") : (penalty ? `-${penalty}` : ""),
     attempts: list.slice().reverse(),
   };
 }
@@ -161,7 +162,8 @@ function enrichRow(row) {
   return {
     ...row,
     solved: solvedCells.length,
-    wa: cells.reduce((sum, cell) => sum + cell.wa, 0),
+    penalty: cells.reduce((sum, cell) => sum + cell.penalty, 0),
+    wa: cells.reduce((sum, cell) => sum + cell.penalty, 0),
     difficultyScore: solvedCells.reduce((sum, cell) => sum + cell.difficulty, 0),
     hardSolved: hardCells.length,
     hardScore: hardCells.reduce((sum, cell) => sum + cell.difficulty, 0),

@@ -406,7 +406,7 @@ th.sticky-metric-2 {
   #board {
     --rank-width: 30px;
     --name-width: 128px;
-    --score-width: 42px;
+    --score-width: 58px;
     min-width: 560px;
   }
 
@@ -453,7 +453,7 @@ th.sticky-metric-2 {
 @media (max-width: 420px) {
   #board {
     --name-width: 108px;
-    --score-width: 38px;
+    --score-width: 52px;
     min-width: 500px;
   }
 

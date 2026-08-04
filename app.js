@@ -1,7 +1,9 @@
 const PAGES = 5;
 const REFRESH_MS = 60000;
 const TIMUS = "https://acm.timus.ru";
-const READER = "https://r.jina.ai/http://";
+const READER = "https://r.jina.ai/http://r.jina.ai/http%3A%2F%2F";
+const LIVE_LIMIT = 3;
+const FETCH_TIMEOUT_MS = 15000;
 const CHALLENGE_START = Date.UTC(2026, 6, 31);
 const MONTHS = {
   Jan: 0,
@@ -79,13 +81,30 @@ async function loadLiveBoard() {
   setLoading(true);
   try {
     statusEl.textContent = "parsing Timus";
-    const [authors, days] = await Promise.all([loadAuthors(), loadTaskDays()]);
+    const [authors, days, savedData] = await Promise.all([
+      loadAuthors(),
+      loadTaskDays(),
+      loadSavedData().catch(() => null),
+    ]);
     const tasks = days.flat();
     const hardTasks = getHardTaskSet(days);
-    const difficulties = await loadTaskDifficulties(tasks, await loadSavedDifficulties());
-    const rows = await Promise.all(authors.map((author) => loadRow(author, tasks, difficulties, hardTasks)));
+    const savedRows = new Map(normalizeRows(savedData?.rows || [], tasks, savedData?.difficulties || {}, hardTasks).map((row) => [row.id, row]));
+    const difficulties = await loadTaskDifficulties(tasks, savedData?.difficulties || {});
+    let failed = 0;
+    const rows = await mapLimit(authors, LIVE_LIMIT, async (author) => {
+      try {
+        return await loadRow(author, tasks, difficulties, hardTasks);
+      } catch (error) {
+        console.warn(`live failed for ${author.id}`, error);
+        failed += 1;
+        const savedRow = savedRows.get(author.id);
+        if (!savedRow) throw error;
+        return applyAuthorAliases([normalizeRow(savedRow, tasks, difficulties, hardTasks)], [author])[0];
+      }
+    });
     const view = renderBoard(rows, tasks, days, difficulties, hardTasks);
-    lastStatusPrefix = `live ${new Date().toLocaleTimeString("ru-RU")}`;
+    const parsed = authors.length - failed;
+    lastStatusPrefix = failed ? `live ${parsed}/${authors.length} ${new Date().toLocaleTimeString("ru-RU")}` : `live ${new Date().toLocaleTimeString("ru-RU")}`;
     lastStatusSuffix = "";
     updateStatus(view);
   } catch (error) {
@@ -99,14 +118,14 @@ async function loadLiveBoard() {
 async function loadSavedBoard(liveError) {
   try {
     const [data, authors] = await Promise.all([
-      fetchJson(`data/scoreboard.json?t=${Date.now()}`),
+      loadSavedData(),
       loadAuthors().catch(() => []),
     ]);
     const tasks = data.tasks || [];
     const days = data.days || chunk(tasks, 3);
     const hardTasks = getHardTaskSet(days);
     const difficulties = data.difficulties || {};
-    const rows = applyAuthorAliases(enrichRows(data.rows || [], difficulties, hardTasks), authors);
+    const rows = applyAuthorAliases(normalizeRows(data.rows || [], tasks, difficulties, hardTasks), authors);
     const view = renderBoard(rows, tasks, days, difficulties, hardTasks);
     lastStatusPrefix = `saved ${formatSavedTime(data.updatedAt)}`;
     lastStatusSuffix = "";
@@ -115,6 +134,10 @@ async function loadSavedBoard(liveError) {
     board.tBodies[0].innerHTML = `<tr><td>${escapeHtml(error.message)}</td></tr>`;
     statusEl.textContent = "error";
   }
+}
+
+async function loadSavedData() {
+  return fetchJson(`data/scoreboard.json?t=${Date.now()}`);
 }
 
 async function loadAuthors() {
@@ -158,7 +181,7 @@ async function loadTaskDifficulties(tasks, saved = {}) {
 }
 
 async function loadTaskDifficulty(task) {
-  const text = await fetchText(`${READER}${TIMUS}/problem.aspx?space=1&num=${task}&locale=en`);
+  const text = await fetchText(readerUrl(`${TIMUS}/problem.aspx?space=1&num=${task}&locale=en`));
   return Number(text.match(/Difficulty:\s*(\d+)/i)?.[1] || 0);
 }
 
@@ -168,7 +191,7 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
   let next = `${TIMUS}/status.aspx?space=1&author=${author.id}&count=100&locale=en`;
 
   for (let page = 0; page < PAGES && next; page += 1) {
-    const text = await fetchText(`${READER}${next}`);
+    const text = await fetchText(readerUrl(next));
     if (!timusName) timusName = parseReaderAuthorName(text);
     submissions.push(...parseReaderSubmissions(text, author.id, tasks));
     const nextHref = text.match(/\[Next 100\]\((https:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1]
@@ -239,27 +262,41 @@ function parseDate(block) {
 function scoreTask(task, submissions, difficulty = 0, hard = false) {
   const list = submissions.filter((item) => item.problemId === task).sort((a, b) => a.id - b.id);
   const ac = list.find((item) => item.verdict === "Accepted");
-  const wa = ac ? list.filter((item) => item.id < ac.id && item.verdict !== "Accepted").length : list.length;
+  const penalty = ac ? list.filter((item) => item.id < ac.id && item.verdict !== "Accepted").length : list.length;
   return {
     task,
     difficulty,
     hard,
     solved: Boolean(ac),
-    wa,
-    label: ac ? (wa ? `+(${wa})` : "+") : (wa ? `-${wa}` : ""),
+    penalty,
+    wa: penalty,
+    label: ac ? (penalty ? `+(${penalty})` : "+") : (penalty ? `-${penalty}` : ""),
     attempts: list.slice().reverse(),
   };
 }
 
-function enrichRows(rows, difficulties, hardTasks) {
-  return rows.map((row) => enrichRow({
+function normalizeRows(rows, tasks, difficulties, hardTasks) {
+  return rows.map((row) => normalizeRow(row, tasks, difficulties, hardTasks));
+}
+
+function normalizeRow(row, tasks, difficulties, hardTasks) {
+  const cells = new Map((row.cells || []).map((cell) => [cell.task, cell]));
+  return enrichRow({
     ...row,
-    cells: (row.cells || []).map((cell) => ({
-      ...cell,
-      difficulty: Number(cell.difficulty ?? difficulties[cell.task] ?? 0),
-      hard: hardTasks.has(cell.task),
-    })),
-  }));
+    cells: tasks.map((task) => {
+      const cell = cells.get(task) || { task, solved: false, label: "", attempts: [] };
+      const penalty = getPenalty(cell);
+      return {
+        ...cell,
+        task,
+        penalty,
+        wa: penalty,
+        difficulty: Number(cell.difficulty ?? difficulties[task] ?? 0),
+        hard: hardTasks.has(task),
+        attempts: cell.attempts || [],
+      };
+    }),
+  });
 }
 
 function applyAuthorAliases(rows, authors) {
@@ -277,7 +314,8 @@ function enrichRow(row) {
   return {
     ...row,
     solved: solvedCells.length,
-    wa: cells.reduce((sum, cell) => sum + cell.wa, 0),
+    penalty: cells.reduce((sum, cell) => sum + getPenalty(cell), 0),
+    wa: cells.reduce((sum, cell) => sum + getPenalty(cell), 0),
     difficultyScore: solvedCells.reduce((sum, cell) => sum + cell.difficulty, 0),
     hardSolved: hardCells.length,
     hardScore: hardCells.reduce((sum, cell) => sum + cell.difficulty, 0),
@@ -338,18 +376,18 @@ function renderBoard(rows, tasks, days, difficulties = {}, hardTasks = getHardTa
 function sortRows(rows) {
   const tie = (a, b) => a.name.localeCompare(b.name);
   if (rankMode === "difficulty") {
-    return rows.slice().sort((a, b) => b.difficultyScore - a.difficultyScore || b.solved - a.solved || a.wa - b.wa || tie(a, b));
+    return rows.slice().sort((a, b) => b.difficultyScore - a.difficultyScore || b.solved - a.solved || getPenalty(a) - getPenalty(b) || tie(a, b));
   }
   if (rankMode === "hard") {
-    return rows.slice().sort((a, b) => b.hardSolved - a.hardSolved || b.hardScore - a.hardScore || b.solved - a.solved || a.wa - b.wa || tie(a, b));
+    return rows.slice().sort((a, b) => b.hardSolved - a.hardSolved || b.hardScore - a.hardScore || b.solved - a.solved || getPenalty(a) - getPenalty(b) || tie(a, b));
   }
-  return rows.slice().sort((a, b) => b.solved - a.solved || a.wa - b.wa || b.difficultyScore - a.difficultyScore || tie(a, b));
+  return rows.slice().sort((a, b) => b.solved - a.solved || getPenalty(a) - getPenalty(b) || b.difficultyScore - a.difficultyScore || tie(a, b));
 }
 
 function getMetricColumns() {
   if (rankMode === "difficulty") return [{ title: "Diff", key: "difficultyScore" }];
   if (rankMode === "hard") return [{ title: "Hard", key: "hardSolved" }, { title: "Hard Diff", key: "hardScore" }];
-  return [{ title: "Solved", key: "solved" }, { title: "WA", key: "wa" }];
+  return [{ title: "Solved", key: "solved" }, { title: "Penalty", key: "penalty" }];
 }
 
 function getVisibleTaskDays(days) {
@@ -366,8 +404,8 @@ function getBoardView(tasks, days) {
   const mobile = width <= 720;
   const tiny = width <= 420;
   const compact = days.length > 10;
-  const fixedColumns = tiny ? 31 + 108 + 76 : mobile ? 31 + 128 + 84 : compact ? 41 + 190 + 104 : 53 + 248 + 128;
-  const metricColumns = (tiny ? 38 : mobile ? 42 : compact ? 52 : 64) * getMetricColumns().length;
+  const fixedColumns = tiny ? 31 + 108 : mobile ? 31 + 128 : compact ? 41 + 190 : 53 + 248;
+  const metricColumns = (tiny ? 52 : mobile ? 58 : compact ? 52 : 64) * getMetricColumns().length;
   const taskWidth = tiny ? 38 : mobile ? 42 : 58;
   const minWidth = fixedColumns + metricColumns + tasks.length * taskWidth;
   const label = days.length === 1 ? "Day 1/1" : `Day 1-${days.length}/${days.length}`;
@@ -404,7 +442,7 @@ function taskHeaderHtml(task, difficulty) {
 }
 
 function cellHtml(row, cell) {
-  const cls = cell.solved ? "ok" : cell.wa ? "bad" : "empty";
+  const cls = cell.solved ? "ok" : getPenalty(cell) ? "bad" : "empty";
   const attrs = cell.attempts.length ? `data-author="${row.id}" data-task="${cell.task}"` : "";
   return `<td class="task ${cls}" ${attrs}>${escapeHtml(cell.label)}</td>`;
 }
@@ -428,21 +466,53 @@ function showAttempts(row, cell) {
 }
 
 async function fetchText(url) {
-  const response = await fetch(url, { cache: "no-store" });
-  if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
+  const response = await fetchWithTimeout(url);
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
   return response.text();
 }
 
 async function fetchJson(url) {
-  const response = await fetch(url, { cache: "no-store" });
-  if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
+  const response = await fetchWithTimeout(url);
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
   return response.json();
+}
+
+async function fetchWithTimeout(url) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    return await fetch(url, { cache: "no-store", signal: controller.signal });
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 function chunk(items, size) {
   const result = [];
   for (let i = 0; i < items.length; i += size) result.push(items.slice(i, i + size));
   return result;
+}
+
+async function mapLimit(items, limit, iteratee) {
+  const result = [];
+  let index = 0;
+  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (index < items.length) {
+      const current = index;
+      index += 1;
+      result[current] = await iteratee(items[current], current);
+    }
+  });
+  await Promise.all(workers);
+  return result;
+}
+
+function readerUrl(url) {
+  return `${READER}${encodeURIComponent(url.replace(/^https?:\/\//, ""))}`;
+}
+
+function getPenalty(item) {
+  return Number(item?.penalty ?? item?.wa ?? 0);
 }
 
 function clean(value = "") {
