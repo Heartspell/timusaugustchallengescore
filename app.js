@@ -285,7 +285,7 @@ function parseDate(block) {
 function scoreTask(task, submissions, difficulty = 0, hard = false) {
   const list = submissions.filter((item) => item.problemId === task).sort((a, b) => a.id - b.id);
   const ac = list.find((item) => item.verdict === "Accepted");
-  const penalty = ac ? list.filter((item) => item.id < ac.id && item.verdict !== "Accepted").length : list.length;
+  const penalty = list.filter((item) => item.verdict !== "Accepted").length;
   return {
     task,
     difficulty,
