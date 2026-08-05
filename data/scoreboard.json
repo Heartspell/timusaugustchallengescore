@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-05T17:06:59.720Z",
+  "updatedAt": "2026-08-05T18:46:23.379Z",
   "pages": 5,
   "days": [
     [
@@ -1552,6 +1552,488 @@
       "hardScore": 1308
     },
     {
+      "id": 408303,
+      "name": "Adil",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240578,
+              "date": "23:27:45 1 Aug 2026",
+              "timestamp": 1785626865000,
+              "authorName": "Adil",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": true,
+          "penalty": 2,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11240766,
+              "date": "15:11:36 2 Aug 2026",
+              "timestamp": 1785683496000,
+              "authorName": "Adil",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240765,
+              "date": "15:11:17 2 Aug 2026",
+              "timestamp": 1785683477000,
+              "authorName": "Adil",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "GCC 13.2 x64",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11240764,
+              "date": "15:10:49 2 Aug 2026",
+              "timestamp": 1785683449000,
+              "authorName": "Adil",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "Visual C++ 2022",
+              "verdict": "Compilation error"
+            }
+          ]
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1115,
+          "difficulty": 411,
+          "hard": true,
+          "solved": false,
+          "penalty": 16,
+          "wa": 16,
+          "label": "-16",
+          "attempts": [
+            {
+              "id": 11241095,
+              "date": "12:58:25 3 Aug 2026",
+              "timestamp": 1785761905000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11241094,
+              "date": "12:58:03 3 Aug 2026",
+              "timestamp": 1785761883000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240939,
+              "date": "22:30:09 2 Aug 2026",
+              "timestamp": 1785709809000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240927,
+              "date": "22:18:21 2 Aug 2026",
+              "timestamp": 1785709101000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240926,
+              "date": "22:17:48 2 Aug 2026",
+              "timestamp": 1785709068000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Memory limit exceeded"
+            },
+            {
+              "id": 11240925,
+              "date": "22:17:28 2 Aug 2026",
+              "timestamp": 1785709048000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240910,
+              "date": "21:49:51 2 Aug 2026",
+              "timestamp": 1785707391000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240909,
+              "date": "21:48:49 2 Aug 2026",
+              "timestamp": 1785707329000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240907,
+              "date": "21:43:19 2 Aug 2026",
+              "timestamp": 1785706999000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240905,
+              "date": "21:35:53 2 Aug 2026",
+              "timestamp": 1785706553000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240901,
+              "date": "21:31:24 2 Aug 2026",
+              "timestamp": 1785706284000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240900,
+              "date": "21:30:36 2 Aug 2026",
+              "timestamp": 1785706236000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240898,
+              "date": "21:29:06 2 Aug 2026",
+              "timestamp": 1785706146000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240896,
+              "date": "21:25:59 2 Aug 2026",
+              "timestamp": 1785705959000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240887,
+              "date": "21:09:44 2 Aug 2026",
+              "timestamp": 1785704984000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Memory limit exceeded"
+            },
+            {
+              "id": 11240886,
+              "date": "21:09:07 2 Aug 2026",
+              "timestamp": 1785704947000,
+              "authorName": "Adil",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "G++ 13.2 x64",
+              "verdict": "Memory limit exceeded"
+            }
+          ]
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241474,
+              "date": "18:44:02 4 Aug 2026",
+              "timestamp": 1785869042000,
+              "authorName": "Adil",
+              "problemId": 1313,
+              "problemName": "Some Words about Sport",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1987,
+          "difficulty": 167,
+          "hard": false,
+          "solved": false,
+          "penalty": 1,
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11241389,
+              "date": "13:07:33 4 Aug 2026",
+              "timestamp": 1785848853000,
+              "authorName": "Adil",
+              "problemId": 1987,
+              "problemName": "Nested Segments",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1852,
+          "difficulty": 2454,
+          "hard": true,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241167,
+              "date": "16:24:49 3 Aug 2026",
+              "timestamp": 1785774289000,
+              "authorName": "Adil",
+              "problemId": 1852,
+              "problemName": "Cube in a Cube in a Cube",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1820,
+          "difficulty": 25,
+          "hard": false,
+          "solved": true,
+          "penalty": 1,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11241452,
+              "date": "16:54:09 4 Aug 2026",
+              "timestamp": 1785862449000,
+              "authorName": "Adil",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241451,
+              "date": "16:51:53 4 Aug 2026",
+              "timestamp": 1785862313000,
+              "authorName": "Adil",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1247,
+          "difficulty": 241,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241449,
+              "date": "16:45:56 4 Aug 2026",
+              "timestamp": 1785861956000,
+              "authorName": "Adil",
+              "problemId": 1247,
+              "problemName": "Check a Sequence",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1932,
+          "difficulty": 965,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1567,
+          "difficulty": 41,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241581,
+              "date": "11:37:47 5 Aug 2026",
+              "timestamp": 1785929867000,
+              "authorName": "Adil",
+              "problemId": 1567,
+              "problemName": "SMS-spam",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1343,
+          "difficulty": 417,
+          "hard": false,
+          "solved": true,
+          "penalty": 3,
+          "wa": 3,
+          "label": "+(3)",
+          "attempts": [
+            {
+              "id": 11241810,
+              "date": "22:27:41 5 Aug 2026",
+              "timestamp": 1785968861000,
+              "authorName": "Adil",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241807,
+              "date": "22:11:19 5 Aug 2026",
+              "timestamp": 1785967879000,
+              "authorName": "Adil",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11241804,
+              "date": "22:08:37 5 Aug 2026",
+              "timestamp": 1785967717000,
+              "authorName": "Adil",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "G++ 13.2 x64",
+              "verdict": "Output limit exceeded"
+            },
+            {
+              "id": 11241800,
+              "date": "22:04:25 5 Aug 2026",
+              "timestamp": 1785967465000,
+              "authorName": "Adil",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1467,
+          "difficulty": 1217,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 8,
+      "penalty": 23,
+      "wa": 23,
+      "difficultyScore": 3398,
+      "hardSolved": 1,
+      "hardScore": 2454
+    },
+    {
       "id": 408257,
       "name": "amirhanordobaev",
       "cells": [
@@ -2512,8 +2994,8 @@
       "hardScore": 0
     },
     {
-      "id": 408303,
-      "name": "Adil",
+      "id": 408296,
+      "name": "CoHHa9_MyXa",
       "cells": [
         {
           "task": 1000,
@@ -2525,13 +3007,13 @@
           "label": "+",
           "attempts": [
             {
-              "id": 11240578,
-              "date": "23:27:45 1 Aug 2026",
-              "timestamp": 1785626865000,
-              "authorName": "Adil",
+              "id": 11240461,
+              "date": "16:28:10 1 Aug 2026",
+              "timestamp": 1785601690000,
+              "authorName": "CoHHa9_MyXa",
               "problemId": 1000,
               "problemName": "A+B Problem",
-              "language": "PyPy 3.10 x64",
+              "language": "G++ 13.2 x64",
               "verdict": "Accepted"
             }
           ]
@@ -2541,39 +3023,19 @@
           "difficulty": 170,
           "hard": false,
           "solved": true,
-          "penalty": 2,
-          "wa": 2,
-          "label": "+(2)",
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
           "attempts": [
             {
-              "id": 11240766,
-              "date": "15:11:36 2 Aug 2026",
-              "timestamp": 1785683496000,
-              "authorName": "Adil",
+              "id": 11240584,
+              "date": "23:36:53 1 Aug 2026",
+              "timestamp": 1785627413000,
+              "authorName": "CoHHa9_MyXa",
               "problemId": 1213,
               "problemName": "Cockroaches!",
               "language": "G++ 13.2 x64",
               "verdict": "Accepted"
-            },
-            {
-              "id": 11240765,
-              "date": "15:11:17 2 Aug 2026",
-              "timestamp": 1785683477000,
-              "authorName": "Adil",
-              "problemId": 1213,
-              "problemName": "Cockroaches!",
-              "language": "GCC 13.2 x64",
-              "verdict": "Compilation error"
-            },
-            {
-              "id": 11240764,
-              "date": "15:10:49 2 Aug 2026",
-              "timestamp": 1785683449000,
-              "authorName": "Adil",
-              "problemId": 1213,
-              "problemName": "Cockroaches!",
-              "language": "Visual C++ 2022",
-              "verdict": "Compilation error"
             }
           ]
         },
@@ -2591,11 +3053,42 @@
           "task": 1001,
           "difficulty": 14,
           "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "solved": true,
+          "penalty": 2,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11240723,
+              "date": "12:26:33 2 Aug 2026",
+              "timestamp": 1785673593000,
+              "authorName": "CoHHa9_MyXa",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240717,
+              "date": "12:12:19 2 Aug 2026",
+              "timestamp": 1785672739000,
+              "authorName": "CoHHa9_MyXa",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "G++ 13.2 x64",
+              "verdict": "Runtime error"
+            },
+            {
+              "id": 11240714,
+              "date": "12:11:05 2 Aug 2026",
+              "timestamp": 1785672665000,
+              "authorName": "CoHHa9_MyXa",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "G++ 13.2 x64",
+              "verdict": "Runtime error"
+            }
+          ]
         },
         {
           "task": 1049,
@@ -2612,171 +3105,10 @@
           "difficulty": 411,
           "hard": true,
           "solved": false,
-          "penalty": 16,
-          "wa": 16,
-          "label": "-16",
-          "attempts": [
-            {
-              "id": 11241095,
-              "date": "12:58:25 3 Aug 2026",
-              "timestamp": 1785761905000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11241094,
-              "date": "12:58:03 3 Aug 2026",
-              "timestamp": 1785761883000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240939,
-              "date": "22:30:09 2 Aug 2026",
-              "timestamp": 1785709809000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240927,
-              "date": "22:18:21 2 Aug 2026",
-              "timestamp": 1785709101000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240926,
-              "date": "22:17:48 2 Aug 2026",
-              "timestamp": 1785709068000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Memory limit exceeded"
-            },
-            {
-              "id": 11240925,
-              "date": "22:17:28 2 Aug 2026",
-              "timestamp": 1785709048000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240910,
-              "date": "21:49:51 2 Aug 2026",
-              "timestamp": 1785707391000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240909,
-              "date": "21:48:49 2 Aug 2026",
-              "timestamp": 1785707329000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240907,
-              "date": "21:43:19 2 Aug 2026",
-              "timestamp": 1785706999000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240905,
-              "date": "21:35:53 2 Aug 2026",
-              "timestamp": 1785706553000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240901,
-              "date": "21:31:24 2 Aug 2026",
-              "timestamp": 1785706284000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240900,
-              "date": "21:30:36 2 Aug 2026",
-              "timestamp": 1785706236000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240898,
-              "date": "21:29:06 2 Aug 2026",
-              "timestamp": 1785706146000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240896,
-              "date": "21:25:59 2 Aug 2026",
-              "timestamp": 1785705959000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240887,
-              "date": "21:09:44 2 Aug 2026",
-              "timestamp": 1785704984000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Memory limit exceeded"
-            },
-            {
-              "id": 11240886,
-              "date": "21:09:07 2 Aug 2026",
-              "timestamp": 1785704947000,
-              "authorName": "Adil",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "G++ 13.2 x64",
-              "verdict": "Memory limit exceeded"
-            }
-          ]
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
         },
         {
           "task": 1313,
@@ -2788,10 +3120,10 @@
           "label": "+",
           "attempts": [
             {
-              "id": 11241474,
-              "date": "18:44:02 4 Aug 2026",
-              "timestamp": 1785869042000,
-              "authorName": "Adil",
+              "id": 11241825,
+              "date": "23:36:40 5 Aug 2026",
+              "timestamp": 1785973000000,
+              "authorName": "CoHHa9_MyXa",
               "problemId": 1313,
               "problemName": "Some Words about Sport",
               "language": "G++ 13.2 x64",
@@ -2804,67 +3136,55 @@
           "difficulty": 167,
           "hard": false,
           "solved": false,
-          "penalty": 1,
-          "wa": 1,
-          "label": "-1",
-          "attempts": [
-            {
-              "id": 11241389,
-              "date": "13:07:33 4 Aug 2026",
-              "timestamp": 1785848853000,
-              "authorName": "Adil",
-              "problemId": 1987,
-              "problemName": "Nested Segments",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            }
-          ]
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
         },
         {
           "task": 1852,
           "difficulty": 2454,
           "hard": true,
-          "solved": true,
+          "solved": false,
           "penalty": 0,
           "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11241167,
-              "date": "16:24:49 3 Aug 2026",
-              "timestamp": 1785774289000,
-              "authorName": "Adil",
-              "problemId": 1852,
-              "problemName": "Cube in a Cube in a Cube",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
+          "label": "",
+          "attempts": []
         },
         {
           "task": 1820,
           "difficulty": 25,
           "hard": false,
           "solved": true,
-          "penalty": 1,
-          "wa": 1,
-          "label": "+(1)",
+          "penalty": 2,
+          "wa": 2,
+          "label": "+(2)",
           "attempts": [
             {
-              "id": 11241452,
-              "date": "16:54:09 4 Aug 2026",
-              "timestamp": 1785862449000,
-              "authorName": "Adil",
+              "id": 11241573,
+              "date": "10:32:05 5 Aug 2026",
+              "timestamp": 1785925925000,
+              "authorName": "CoHHa9_MyXa",
               "problemId": 1820,
               "problemName": "Ural Steaks",
               "language": "G++ 13.2 x64",
               "verdict": "Accepted"
             },
             {
-              "id": 11241451,
-              "date": "16:51:53 4 Aug 2026",
-              "timestamp": 1785862313000,
-              "authorName": "Adil",
+              "id": 11241571,
+              "date": "10:27:03 5 Aug 2026",
+              "timestamp": 1785925623000,
+              "authorName": "CoHHa9_MyXa",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11241569,
+              "date": "10:24:39 5 Aug 2026",
+              "timestamp": 1785925479000,
+              "authorName": "CoHHa9_MyXa",
               "problemId": 1820,
               "problemName": "Ural Steaks",
               "language": "G++ 13.2 x64",
@@ -2876,22 +3196,11 @@
           "task": 1247,
           "difficulty": 241,
           "hard": false,
-          "solved": true,
+          "solved": false,
           "penalty": 0,
           "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11241449,
-              "date": "16:45:56 4 Aug 2026",
-              "timestamp": 1785861956000,
-              "authorName": "Adil",
-              "problemId": 1247,
-              "problemName": "Check a Sequence",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
+          "label": "",
+          "attempts": []
         },
         {
           "task": 1932,
@@ -2913,10 +3222,10 @@
           "label": "+",
           "attempts": [
             {
-              "id": 11241581,
-              "date": "11:37:47 5 Aug 2026",
-              "timestamp": 1785929867000,
-              "authorName": "Adil",
+              "id": 11241575,
+              "date": "11:08:42 5 Aug 2026",
+              "timestamp": 1785928122000,
+              "authorName": "CoHHa9_MyXa",
               "problemId": 1567,
               "problemName": "SMS-spam",
               "language": "G++ 13.2 x64",
@@ -2929,21 +3238,10 @@
           "difficulty": 417,
           "hard": false,
           "solved": false,
-          "penalty": 1,
-          "wa": 1,
-          "label": "-1",
-          "attempts": [
-            {
-              "id": 11241800,
-              "date": "22:04:25 5 Aug 2026",
-              "timestamp": 1785967465000,
-              "authorName": "Adil",
-              "problemId": 1343,
-              "problemName": "Fairy Tale",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            }
-          ]
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
         },
         {
           "task": 1467,
@@ -2956,12 +3254,12 @@
           "attempts": []
         }
       ],
-      "solved": 7,
-      "penalty": 21,
-      "wa": 21,
-      "difficultyScore": 2981,
-      "hardSolved": 1,
-      "hardScore": 2454
+      "solved": 6,
+      "penalty": 4,
+      "wa": 4,
+      "difficultyScore": 300,
+      "hardSolved": 0,
+      "hardScore": 0
     },
     {
       "id": 408280,
@@ -3288,263 +3586,6 @@
       "penalty": 10,
       "wa": 10,
       "difficultyScore": 715,
-      "hardSolved": 0,
-      "hardScore": 0
-    },
-    {
-      "id": 408296,
-      "name": "CoHHa9_MyXa",
-      "cells": [
-        {
-          "task": 1000,
-          "difficulty": 16,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240461,
-              "date": "16:28:10 1 Aug 2026",
-              "timestamp": 1785601690000,
-              "authorName": "CoHHa9_MyXa",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1213,
-          "difficulty": 170,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240584,
-              "date": "23:36:53 1 Aug 2026",
-              "timestamp": 1785627413000,
-              "authorName": "CoHHa9_MyXa",
-              "problemId": 1213,
-              "problemName": "Cockroaches!",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1780,
-          "difficulty": 897,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1001,
-          "difficulty": 14,
-          "hard": false,
-          "solved": true,
-          "penalty": 2,
-          "wa": 2,
-          "label": "+(2)",
-          "attempts": [
-            {
-              "id": 11240723,
-              "date": "12:26:33 2 Aug 2026",
-              "timestamp": 1785673593000,
-              "authorName": "CoHHa9_MyXa",
-              "problemId": 1001,
-              "problemName": "Reverse Root",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240717,
-              "date": "12:12:19 2 Aug 2026",
-              "timestamp": 1785672739000,
-              "authorName": "CoHHa9_MyXa",
-              "problemId": 1001,
-              "problemName": "Reverse Root",
-              "language": "G++ 13.2 x64",
-              "verdict": "Runtime error"
-            },
-            {
-              "id": 11240714,
-              "date": "12:11:05 2 Aug 2026",
-              "timestamp": 1785672665000,
-              "authorName": "CoHHa9_MyXa",
-              "problemId": 1001,
-              "problemName": "Reverse Root",
-              "language": "G++ 13.2 x64",
-              "verdict": "Runtime error"
-            }
-          ]
-        },
-        {
-          "task": 1049,
-          "difficulty": 249,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1115,
-          "difficulty": 411,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1313,
-          "difficulty": 34,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1987,
-          "difficulty": 167,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1852,
-          "difficulty": 2454,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1820,
-          "difficulty": 25,
-          "hard": false,
-          "solved": true,
-          "penalty": 2,
-          "wa": 2,
-          "label": "+(2)",
-          "attempts": [
-            {
-              "id": 11241573,
-              "date": "10:32:05 5 Aug 2026",
-              "timestamp": 1785925925000,
-              "authorName": "CoHHa9_MyXa",
-              "problemId": 1820,
-              "problemName": "Ural Steaks",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11241571,
-              "date": "10:27:03 5 Aug 2026",
-              "timestamp": 1785925623000,
-              "authorName": "CoHHa9_MyXa",
-              "problemId": 1820,
-              "problemName": "Ural Steaks",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11241569,
-              "date": "10:24:39 5 Aug 2026",
-              "timestamp": 1785925479000,
-              "authorName": "CoHHa9_MyXa",
-              "problemId": 1820,
-              "problemName": "Ural Steaks",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            }
-          ]
-        },
-        {
-          "task": 1247,
-          "difficulty": 241,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1932,
-          "difficulty": 965,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1567,
-          "difficulty": 41,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11241575,
-              "date": "11:08:42 5 Aug 2026",
-              "timestamp": 1785928122000,
-              "authorName": "CoHHa9_MyXa",
-              "problemId": 1567,
-              "problemName": "SMS-spam",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1343,
-          "difficulty": 417,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1467,
-          "difficulty": 1217,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        }
-      ],
-      "solved": 5,
-      "penalty": 4,
-      "wa": 4,
-      "difficultyScore": 266,
       "hardSolved": 0,
       "hardScore": 0
     },
