@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-05T13:20:08.165Z",
+  "updatedAt": "2026-08-05T15:33:04.481Z",
   "pages": 5,
   "days": [
     [
@@ -60,7 +60,7 @@
     "1780": 897,
     "1820": 25,
     "1852": 2454,
-    "1932": 968,
+    "1932": 965,
     "1987": 167
   },
   "rows": [
@@ -441,7 +441,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": true,
           "penalty": 5,
@@ -594,21 +594,83 @@
           "task": 1567,
           "difficulty": 41,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241754,
+              "date": "19:46:17 5 Aug 2026",
+              "timestamp": 1785959177000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1567,
+              "problemName": "SMS-spam",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1343,
           "difficulty": 417,
           "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "solved": true,
+          "penalty": 4,
+          "wa": 4,
+          "label": "+(4)",
+          "attempts": [
+            {
+              "id": 11241764,
+              "date": "20:06:24 5 Aug 2026",
+              "timestamp": 1785960384000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241763,
+              "date": "20:04:58 5 Aug 2026",
+              "timestamp": 1785960298000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Runtime error"
+            },
+            {
+              "id": 11241761,
+              "date": "20:01:10 5 Aug 2026",
+              "timestamp": 1785960070000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11241760,
+              "date": "20:00:56 5 Aug 2026",
+              "timestamp": 1785960056000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Restricted function"
+            },
+            {
+              "id": 11241759,
+              "date": "20:00:13 5 Aug 2026",
+              "timestamp": 1785960013000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1467,
@@ -621,12 +683,12 @@
           "attempts": []
         }
       ],
-      "solved": 12,
-      "penalty": 15,
-      "wa": 15,
-      "difficultyScore": 5646,
+      "solved": 14,
+      "penalty": 19,
+      "wa": 19,
+      "difficultyScore": 6101,
       "hardSolved": 4,
-      "hardScore": 4730
+      "hardScore": 4727
     },
     {
       "id": 408294,
@@ -963,7 +1025,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -1443,7 +1505,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -2093,7 +2155,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -2403,7 +2465,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -2833,7 +2895,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3172,7 +3234,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3418,7 +3480,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3655,7 +3717,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3881,7 +3943,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4075,13 +4137,24 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241748,
+              "date": "19:11:55 5 Aug 2026",
+              "timestamp": 1785957115000,
+              "authorName": "aimoon",
+              "problemId": 1932,
+              "problemName": "The Secret of Identifier",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1567,
@@ -4114,12 +4187,12 @@
           "attempts": []
         }
       ],
-      "solved": 2,
+      "solved": 3,
       "penalty": 1,
       "wa": 1,
-      "difficultyScore": 1308,
-      "hardSolved": 2,
-      "hardScore": 1308
+      "difficultyScore": 2273,
+      "hardSolved": 3,
+      "hardScore": 2273
     },
     {
       "id": 408293,
@@ -4369,7 +4442,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4542,7 +4615,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4725,7 +4798,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4908,7 +4981,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -5070,7 +5143,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -5232,7 +5305,7 @@
         },
         {
           "task": 1932,
-          "difficulty": 968,
+          "difficulty": 965,
           "hard": true,
           "solved": false,
           "penalty": 0,
