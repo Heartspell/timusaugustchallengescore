@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-05T15:33:04.481Z",
+  "updatedAt": "2026-08-05T17:06:59.720Z",
   "pages": 5,
   "days": [
     [
@@ -2929,10 +2929,21 @@
           "difficulty": 417,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 1,
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11241800,
+              "date": "22:04:25 5 Aug 2026",
+              "timestamp": 1785967465000,
+              "authorName": "Adil",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1467,
@@ -2946,8 +2957,8 @@
         }
       ],
       "solved": 7,
-      "penalty": 20,
-      "wa": 20,
+      "penalty": 21,
+      "wa": 21,
       "difficultyScore": 2981,
       "hardSolved": 1,
       "hardScore": 2454
