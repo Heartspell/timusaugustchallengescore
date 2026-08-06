@@ -32,7 +32,7 @@ for (const author of authors) {
 rows.sort((a, b) => b.solved - a.solved || a.penalty - b.penalty || b.difficultyScore - a.difficultyScore || a.name.localeCompare(b.name));
 
 await mkdir("data", { recursive: true });
-await writeFile("data/scoreboard.json", JSON.stringify({
+const scoreboard = {
   title: "TIMUS august 2026 challenge",
   updatedAt: new Date().toISOString(),
   pages: PAGES,
@@ -40,7 +40,27 @@ await writeFile("data/scoreboard.json", JSON.stringify({
   tasks,
   difficulties,
   rows,
-}, null, 2) + "\n");
+};
+
+if (await hasScoreboardChanges("data/scoreboard.json", scoreboard)) {
+  await writeFile("data/scoreboard.json", JSON.stringify(scoreboard, null, 2) + "\n");
+} else {
+  console.log("Scoreboard unchanged.");
+}
+
+async function hasScoreboardChanges(path, next) {
+  try {
+    const current = JSON.parse(await readFile(path, "utf8"));
+    return JSON.stringify(withoutUpdatedAt(current)) !== JSON.stringify(withoutUpdatedAt(next));
+  } catch {
+    return true;
+  }
+}
+
+function withoutUpdatedAt(data) {
+  const { updatedAt, ...rest } = data;
+  return rest;
+}
 
 async function loadAuthors() {
   const body = await readFile("authors.txt", "utf8");
