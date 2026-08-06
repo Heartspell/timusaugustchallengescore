@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-06T09:50:02.371Z",
+  "updatedAt": "2026-08-06T11:53:30.258Z",
   "pages": 5,
   "days": [
     [
@@ -63,7 +63,7 @@
     "1247": 241,
     "1313": 34,
     "1343": 417,
-    "1434": 877,
+    "1434": 876,
     "1467": 1217,
     "1567": 41,
     "1613": 142,
@@ -757,7 +757,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -1302,11 +1302,32 @@
           "task": 1343,
           "difficulty": 417,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11242078,
+              "date": "15:08:19 6 Aug 2026",
+              "timestamp": 1786028899000,
+              "authorName": "Erzhan",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11242076,
+              "date": "15:07:37 6 Aug 2026",
+              "timestamp": 1786028857000,
+              "authorName": "Erzhan",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1467,
@@ -1353,15 +1374,26 @@
           "task": 1613,
           "difficulty": 142,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11242061,
+              "date": "14:53:59 6 Aug 2026",
+              "timestamp": 1786028039000,
+              "authorName": "Erzhan",
+              "problemId": 1613,
+              "problemName": "For Fans of Statistics",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -1370,10 +1402,10 @@
           "attempts": []
         }
       ],
-      "solved": 12,
+      "solved": 14,
       "penalty": 25,
       "wa": 25,
-      "difficultyScore": 2282,
+      "difficultyScore": 2841,
       "hardSolved": 2,
       "hardScore": 1308
     },
@@ -1782,7 +1814,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -2193,7 +2225,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -2632,6 +2664,16 @@
           "label": "+(3)",
           "attempts": [
             {
+              "id": 11242097,
+              "date": "15:42:47 6 Aug 2026",
+              "timestamp": 1786030967000,
+              "authorName": "Adil",
+              "problemId": 1343,
+              "problemName": "Fairy Tale",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
               "id": 11241810,
               "date": "22:27:41 5 Aug 2026",
               "timestamp": 1785968861000,
@@ -2705,7 +2747,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3385,7 +3427,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3735,7 +3777,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4013,7 +4055,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4311,7 +4353,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4567,7 +4609,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4802,7 +4844,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -5126,7 +5168,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -5329,7 +5371,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -5532,7 +5574,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -5745,7 +5787,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -5958,7 +6000,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -6150,7 +6192,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 877,
+          "difficulty": 876,
           "hard": true,
           "solved": false,
           "penalty": 0,
