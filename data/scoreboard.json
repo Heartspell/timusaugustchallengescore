@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-07T07:44:12.442Z",
+  "updatedAt": "2026-08-07T08:41:38.084Z",
   "pages": 5,
   "days": [
     [
@@ -2041,15 +2041,36 @@
           "difficulty": 465,
           "hard": true,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 2,
+          "wa": 2,
+          "label": "-2",
+          "attempts": [
+            {
+              "id": 11242393,
+              "date": "13:19:39 7 Aug 2026",
+              "timestamp": 1786108779000,
+              "authorName": "Adil",
+              "problemId": 1019,
+              "problemName": "Line Painting",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11242392,
+              "date": "12:59:08 7 Aug 2026",
+              "timestamp": 1786107548000,
+              "authorName": "Adil",
+              "problemId": 1019,
+              "problemName": "Line Painting",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         }
       ],
       "solved": 10,
-      "penalty": 23,
-      "wa": 23,
+      "penalty": 25,
+      "wa": 25,
       "difficultyScore": 3557,
       "hardSolved": 1,
       "hardScore": 2454
