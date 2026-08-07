@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TIMUS august 2026 challenge</title>
-    <link rel="stylesheet" href="style.css?v=55">
+    <link rel="stylesheet" href="style.css?v=56">
   </head>
   <body>
     <main>
@@ -21,6 +21,12 @@
         <button type="button" class="active" data-rank="solved">Solved</button>
         <button type="button" data-rank="difficulty">Difficulty</button>
         <button type="button" data-rank="hard">Hard</button>
+      </nav>
+
+      <nav id="weekControls" class="week-controls" aria-label="Week view" hidden>
+        <button type="button" data-week-step="-1">Prev</button>
+        <span id="weekLabel">Week 1</span>
+        <button type="button" data-week-step="1">Next</button>
       </nav>
 
       <div class="table-wrap">
@@ -56,6 +62,6 @@
       </section>
     </main>
 
-    <script src="app.js?v=55"></script>
+    <script src="app.js?v=56"></script>
   </body>
 </html>

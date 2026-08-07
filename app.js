@@ -1,6 +1,7 @@
 const PAGES = 5;
 const REFRESH_MS = 90000;
 const VERSION_CHECK_MS = 120000;
+const DAYS_PER_WEEK = 7;
 const TIMUS = "https://acm.timus.ru";
 const READER = "https://r.jina.ai/http://r.jina.ai/http%3A%2F%2F";
 const LIVE_LIMIT = 3;
@@ -44,6 +45,9 @@ const attempts = document.querySelector("#attempts");
 const attemptsTitle = document.querySelector("#attemptsTitle");
 const attemptsBody = attempts.querySelector("tbody");
 const rankButtons = [...document.querySelectorAll("[data-rank]")];
+const weekControls = document.querySelector("#weekControls");
+const weekLabel = document.querySelector("#weekLabel");
+const weekButtons = [...document.querySelectorAll("[data-week-step]")];
 let lastRows = [];
 let lastTasks = [];
 let lastDays = [];
@@ -52,6 +56,7 @@ let lastHardTasks = new Set();
 let lastStatusPrefix = "";
 let lastStatusSuffix = "";
 let rankMode = "solved";
+let selectedWeek = 0;
 let resizeTimer = 0;
 let loading = false;
 let pendingReload = false;
@@ -63,6 +68,15 @@ rankButtons.forEach((button) => {
     rankMode = button.dataset.rank;
     setActiveRankButton();
     if (!lastDays.length) return;
+    const view = renderBoard(lastRows, lastTasks, lastDays, lastDifficulties, lastHardTasks);
+    updateStatus(view);
+  });
+});
+weekButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    if (!lastDays.length) return;
+    const weekCount = getWeekCount(lastDays);
+    selectedWeek = clamp(selectedWeek + Number(button.dataset.weekStep), 1, weekCount);
     const view = renderBoard(lastRows, lastTasks, lastDays, lastDifficulties, lastHardTasks);
     updateStatus(view);
   });
@@ -359,11 +373,13 @@ function renderBoard(rows, tasks, days, difficulties = {}, hardTasks = getHardTa
   lastDays = days;
   lastDifficulties = difficulties;
   lastHardTasks = hardTasks;
-  const rankedRows = sortRows(rows);
   const metricColumns = getMetricColumns();
+  syncSelectedWeek(days);
+  renderWeekControls(days);
   const taskDays = getVisibleTaskDays(days);
   const visibleTasks = taskDays.flatMap((day) => day.tasks);
   const visibleTaskSet = new Set(visibleTasks);
+  const rankedRows = sortRows(rows);
   const view = getBoardView(visibleTasks, days);
   board.classList.toggle("compact-board", view.compact);
   board.style.minWidth = `${view.minWidth}px`;
@@ -422,12 +438,37 @@ function getMetricColumns() {
 }
 
 function getVisibleTaskDays(days) {
-  return days
+  const weekEnd = Math.min(days.length, selectedWeek * DAYS_PER_WEEK);
+  return days.slice(0, weekEnd)
     .map((day, index) => ({
       index,
       tasks: rankMode === "hard" ? day.slice(2, 3) : day,
     }))
     .filter((day) => day.tasks.length > 0);
+}
+
+function getWeekCount(days) {
+  return Math.max(1, Math.ceil(days.length / DAYS_PER_WEEK));
+}
+
+function syncSelectedWeek(days) {
+  const weekCount = getWeekCount(days);
+  selectedWeek = selectedWeek ? clamp(selectedWeek, 1, weekCount) : weekCount;
+}
+
+function renderWeekControls(days) {
+  const weekCount = getWeekCount(days);
+  const lastDay = Math.min(days.length, selectedWeek * DAYS_PER_WEEK);
+  const firstDay = (selectedWeek - 1) * DAYS_PER_WEEK + 1;
+  weekControls.hidden = days.length === 0;
+  weekLabel.textContent = `Week ${selectedWeek} / ${weekCount} (Day 1-${lastDay})`;
+  weekButtons.forEach((button) => {
+    const step = Number(button.dataset.weekStep);
+    const disabled = step < 0 ? selectedWeek <= 1 : selectedWeek >= weekCount;
+    button.disabled = disabled;
+    button.title = step < 0 ? `Week ${Math.max(1, selectedWeek - 1)}` : `Week ${Math.min(weekCount, selectedWeek + 1)}`;
+  });
+  if (firstDay > lastDay) weekLabel.textContent = `Week ${selectedWeek} / ${weekCount}`;
 }
 
 function getBoardView(tasks, days) {
@@ -552,6 +593,10 @@ function readerUrl(url) {
 
 function getPenalty(item) {
   return Number(item?.penalty ?? item?.wa ?? 0);
+}
+
+function clamp(value, min, max) {
+  return Math.min(Math.max(value, min), max);
 }
 
 function currentAssetVersion() {

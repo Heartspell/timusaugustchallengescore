@@ -101,7 +101,8 @@ h1 {
   opacity: 0.65;
 }
 
-.rank-controls {
+.rank-controls,
+.week-controls {
   width: fit-content;
   margin: -16px auto 12px;
   padding: 2px;
@@ -110,7 +111,15 @@ h1 {
   font-size: 0;
 }
 
-.rank-controls button {
+.week-controls {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-top: -6px;
+}
+
+.rank-controls button,
+.week-controls button {
   margin: 0;
   border: 0;
   border-left: 1px solid #d2dced;
@@ -122,17 +131,35 @@ h1 {
   transition: background-color 140ms ease, color 140ms ease;
 }
 
-.rank-controls button:first-child {
+.rank-controls button:first-child,
+.week-controls button:first-child {
   border-left: 0;
 }
 
-.rank-controls button:hover {
+.rank-controls button:hover,
+.week-controls button:hover {
   background: #e8f0ff;
 }
 
 .rank-controls button.active {
   background: #1a5cc8;
   color: #fff;
+}
+
+.week-controls button:disabled {
+  color: #777;
+  cursor: default;
+}
+
+.week-controls button:disabled:hover {
+  background: transparent;
+}
+
+#weekLabel {
+  border-left: 1px solid #d2dced;
+  padding: 4px 13px;
+  color: #000;
+  font: bold 12px Arial, Helvetica, sans-serif;
 }
 
 .table-wrap {
@@ -302,6 +329,7 @@ th.sticky-metric-2 {
 
 @media (prefers-reduced-motion: reduce) {
   .rank-controls button,
+  .week-controls button,
   #reload,
   th,
   td {
@@ -382,12 +410,19 @@ th.sticky-metric-2 {
     line-height: 1.25;
   }
 
-  .rank-controls {
+  .rank-controls,
+  .week-controls {
     margin: -3px auto 8px;
     padding: 1px;
   }
 
-  .rank-controls button {
+  .week-controls {
+    margin-top: -4px;
+  }
+
+  .rank-controls button,
+  .week-controls button,
+  #weekLabel {
     padding: 4px 9px;
     font-size: 11px;
   }
