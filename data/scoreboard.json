@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-08T04:53:11.710Z",
+  "updatedAt": "2026-08-08T05:00:51.675Z",
   "pages": 5,
   "days": [
     [
@@ -2759,11 +2759,31 @@
           "task": 1019,
           "difficulty": 465,
           "hard": true,
-          "solved": false,
-          "penalty": 3,
-          "wa": 3,
-          "label": "-3",
+          "solved": true,
+          "penalty": 4,
+          "wa": 4,
+          "label": "+(4)",
           "attempts": [
+            {
+              "id": 11242762,
+              "date": "09:58:07 8 Aug 2026",
+              "timestamp": 1786183087000,
+              "authorName": "Adil",
+              "problemId": 1019,
+              "problemName": "Line Painting",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11242761,
+              "date": "09:55:45 8 Aug 2026",
+              "timestamp": 1786182945000,
+              "authorName": "Adil",
+              "problemId": 1019,
+              "problemName": "Line Painting",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
             {
               "id": 11242759,
               "date": "09:46:08 8 Aug 2026",
@@ -2827,12 +2847,12 @@
           "attempts": []
         }
       ],
-      "solved": 10,
-      "penalty": 29,
-      "wa": 29,
-      "difficultyScore": 3557,
-      "hardSolved": 1,
-      "hardScore": 2454
+      "solved": 11,
+      "penalty": 30,
+      "wa": 30,
+      "difficultyScore": 4022,
+      "hardSolved": 2,
+      "hardScore": 2919
     },
     {
       "id": 408294,
