@@ -69,7 +69,7 @@ async function loadAuthors() {
     .map((line) => line.replace(/#.*/, "").trim())
     .filter(Boolean)
     .map((line) => {
-      const match = line.match(/^(\d+)(?:\s+(.+))?$/);
+      const match = line.match(/^(\d+)(?:;(.+))?$/); // id;optional-alias
       if (!match) throw new Error(`Bad author line: ${line}`);
       return { id: Number(match[1]), alias: clean(match[2]) };
     });
