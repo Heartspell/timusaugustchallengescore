@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-08T15:50:23.420Z",
+  "updatedAt": "2026-08-08T16:43:09.848Z",
   "pages": 5,
   "days": [
     [
@@ -2318,11 +2318,22 @@
           "task": 1079,
           "difficulty": 111,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11242949,
+              "date": "21:04:05 8 Aug 2026",
+              "timestamp": 1786223045000,
+              "authorName": "Adil",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1038,
@@ -2345,10 +2356,10 @@
           "attempts": []
         }
       ],
-      "solved": 13,
+      "solved": 14,
       "penalty": 30,
       "wa": 30,
-      "difficultyScore": 4226,
+      "difficultyScore": 4337,
       "hardSolved": 2,
       "hardScore": 2920
     },
