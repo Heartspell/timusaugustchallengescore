@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-08T16:43:09.848Z",
+  "updatedAt": "2026-08-08T17:51:52.544Z",
   "pages": 5,
   "days": [
     [
@@ -3678,10 +3678,31 @@
           "difficulty": 489,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 2,
+          "wa": 2,
+          "label": "-2",
+          "attempts": [
+            {
+              "id": 11242977,
+              "date": "22:42:51 8 Aug 2026",
+              "timestamp": 1786228971000,
+              "authorName": "CoHHa9_MyXa",
+              "problemId": 1038,
+              "problemName": "Spell Checker",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11242976,
+              "date": "22:39:38 8 Aug 2026",
+              "timestamp": 1786228778000,
+              "authorName": "CoHHa9_MyXa",
+              "problemId": 1038,
+              "problemName": "Spell Checker",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1422,
@@ -3695,8 +3716,8 @@
         }
       ],
       "solved": 9,
-      "penalty": 4,
-      "wa": 4,
+      "penalty": 6,
+      "wa": 6,
       "difficultyScore": 480,
       "hardSolved": 0,
       "hardScore": 0
