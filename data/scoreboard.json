@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-08T07:07:59.354Z",
+  "updatedAt": "2026-08-08T08:01:36.276Z",
   "pages": 5,
   "days": [
     [
@@ -5163,11 +5163,32 @@
           "task": 1820,
           "difficulty": 25,
           "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "solved": true,
+          "penalty": 1,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11242790,
+              "date": "13:01:29 8 Aug 2026",
+              "timestamp": 1786194089000,
+              "authorName": "curela",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11242789,
+              "date": "13:00:32 8 Aug 2026",
+              "timestamp": 1786194032000,
+              "authorName": "curela",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1247,
@@ -5310,10 +5331,10 @@
           "attempts": []
         }
       ],
-      "solved": 6,
-      "penalty": 2,
-      "wa": 2,
-      "difficultyScore": 650,
+      "solved": 7,
+      "penalty": 3,
+      "wa": 3,
+      "difficultyScore": 675,
       "hardSolved": 0,
       "hardScore": 0
     },
