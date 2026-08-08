@@ -438,10 +438,11 @@ function getMetricColumns() {
 }
 
 function getVisibleTaskDays(days) {
+  const weekStart = (selectedWeek - 1) * DAYS_PER_WEEK;
   const weekEnd = Math.min(days.length, selectedWeek * DAYS_PER_WEEK);
-  return days.slice(0, weekEnd)
-    .map((day, index) => ({
-      index,
+  return days.slice(weekStart, weekEnd)
+    .map((day, offset) => ({
+      index: weekStart + offset,
       tasks: rankMode === "hard" ? day.slice(2, 3) : day,
     }))
     .filter((day) => day.tasks.length > 0);
@@ -460,8 +461,9 @@ function renderWeekControls(days) {
   const weekCount = getWeekCount(days);
   const lastDay = Math.min(days.length, selectedWeek * DAYS_PER_WEEK);
   const firstDay = (selectedWeek - 1) * DAYS_PER_WEEK + 1;
+  const dayLabel = firstDay === lastDay ? `Day ${lastDay}` : `Day ${firstDay}-${lastDay}`;
   weekControls.hidden = days.length === 0;
-  weekLabel.textContent = `Week ${selectedWeek} / ${weekCount} (Day 1-${lastDay})`;
+  weekLabel.textContent = `Week ${selectedWeek} / ${weekCount} (${dayLabel})`;
   weekButtons.forEach((button) => {
     const step = Number(button.dataset.weekStep);
     const disabled = step < 0 ? selectedWeek <= 1 : selectedWeek >= weekCount;
