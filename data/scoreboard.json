@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-10T04:07:43.401Z",
+  "updatedAt": "2026-08-10T04:09:23.966Z",
   "pages": 5,
   "days": [
     [
@@ -7830,6 +7830,360 @@
       "difficultyScore": 2272,
       "hardSolved": 3,
       "hardScore": 2272
+    },
+    {
+      "id": 408326,
+      "name": "Сарыбаев Касым",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1115,
+          "difficulty": 410,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1987,
+          "difficulty": 167,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1852,
+          "difficulty": 2455,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1820,
+          "difficulty": 25,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241405,
+              "date": "14:04:18 4 Aug 2026",
+              "timestamp": 1785852258000,
+              "authorName": "Kasym",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "Visual C++ 2022",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1247,
+          "difficulty": 241,
+          "hard": false,
+          "solved": true,
+          "penalty": 2,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11241413,
+              "date": "14:26:05 4 Aug 2026",
+              "timestamp": 1785853565000,
+              "authorName": "Kasym",
+              "problemId": 1247,
+              "problemName": "Check a Sequence",
+              "language": "Visual C++ 2022",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241412,
+              "date": "14:24:33 4 Aug 2026",
+              "timestamp": 1785853473000,
+              "authorName": "Kasym",
+              "problemId": 1247,
+              "problemName": "Check a Sequence",
+              "language": "Visual C++ 2022",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11241411,
+              "date": "14:23:57 4 Aug 2026",
+              "timestamp": 1785853437000,
+              "authorName": "Kasym",
+              "problemId": 1247,
+              "problemName": "Check a Sequence",
+              "language": "Visual C++ 2022",
+              "verdict": "Compilation error"
+            }
+          ]
+        },
+        {
+          "task": 1932,
+          "difficulty": 965,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1567,
+          "difficulty": 41,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1343,
+          "difficulty": 417,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1467,
+          "difficulty": 1217,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 2012,
+          "difficulty": 17,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1613,
+          "difficulty": 142,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1434,
+          "difficulty": 875,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1196,
+          "difficulty": 52,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1295,
+          "difficulty": 151,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1019,
+          "difficulty": 465,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1079,
+          "difficulty": 111,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1038,
+          "difficulty": 489,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1422,
+          "difficulty": 850,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1349,
+          "difficulty": 51,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1190,
+          "difficulty": 339,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1268,
+          "difficulty": 722,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1601,
+          "difficulty": 92,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1127,
+          "difficulty": 322,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1076,
+          "difficulty": 712,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 2,
+      "penalty": 2,
+      "wa": 2,
+      "difficultyScore": 266,
+      "hardSolved": 0,
+      "hardScore": 0
     },
     {
       "id": 408293,
