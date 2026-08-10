@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const PAGES = Number(process.env.TIMUS_PAGES || 5);
+const SUBMISSIONS_PER_PAGE = 100;
 const BASE = "https://acm.timus.ru";
 const CHALLENGE_START = Date.UTC(2026, 6, 31);
 const MONTHS = {
@@ -103,13 +104,17 @@ async function loadTaskDifficulty(task) {
 
 async function loadRow(author, tasks, difficulties, hardTasks) {
   const submissions = [];
+  const taskSet = new Set(tasks);
   let timusName = "";
-  let next = `/status.aspx?space=1&author=${author.id}&count=100&locale=en`;
+  let next = `/status.aspx?space=1&author=${author.id}&count=${SUBMISSIONS_PER_PAGE}&locale=en`;
 
   for (let page = 0; page < PAGES && next; page += 1) {
     const html = await fetchText(`${BASE}${next}`);
     if (!timusName) timusName = parseStatusAuthorName(html);
-    submissions.push(...parseSubmissions(html, author.id, tasks));
+    const pageSubmissions = parseSubmissions(html, author.id);
+    const filteredPageSubmissions = pageSubmissions.filter((item) => taskSet.has(item.problemId) && item.timestamp >= CHALLENGE_START);
+    submissions.push(...filteredPageSubmissions);
+    if (pageSubmissions.length < SUBMISSIONS_PER_PAGE) break;
     const nextHref = html.match(/<td class="footer_right"[^>]*>[\s\S]*?<a href="([^"]+)"/i)?.[1];
     next = nextHref ? `/${decodeEntities(nextHref).replace(/^\/+/, "")}` : "";
   }
@@ -128,15 +133,14 @@ function uniqueById(items) {
   return [...new Map(items.map((item) => [item.id, item])).values()];
 }
 
-function parseSubmissions(html, authorId, tasks) {
-  const taskSet = new Set(tasks);
+function parseSubmissions(html, authorId) {
   return [...html.matchAll(/<tr class="(?:even|odd)">([\s\S]*?)<\/tr>/gi)]
     .map((match) => {
       const cells = [...match[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)].map((cell) => cell[1]);
       const submitId = Number(stripTags(cells[0]));
       const parsedAuthorId = Number((cells[2] || "").match(/author\.aspx\?id=(\d+)/i)?.[1]);
       const problemId = Number((cells[3] || "").match(/problem\.aspx\?space=1&amp;num=(\d+)/i)?.[1]);
-      if (!submitId || parsedAuthorId !== authorId || !taskSet.has(problemId)) return null;
+      if (!submitId || parsedAuthorId !== authorId || !problemId) return null;
       const parsedDate = parseTimusDate(stripTags(cells[1]));
 
       return {
@@ -150,8 +154,7 @@ function parseSubmissions(html, authorId, tasks) {
         verdict: clean(stripTags(cells[5])),
       };
     })
-    .filter(Boolean)
-    .filter((item) => item.timestamp >= CHALLENGE_START);
+    .filter(Boolean);
 }
 
 function parseStatusAuthorName(html) {
