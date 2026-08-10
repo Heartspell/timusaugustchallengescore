@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const PAGES = Number(process.env.TIMUS_PAGES || 5);
+const SUBMISSIONS_PER_PAGE = 100;
 const BASE = "https://acm.timus.ru";
 const CHALLENGE_START = Date.UTC(2026, 6, 31);
 const MONTHS = {
@@ -105,14 +106,15 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
   const submissions = [];
   const taskSet = new Set(tasks);
   let timusName = "";
-  let next = `/status.aspx?space=1&author=${author.id}&count=100&locale=en`;
+  let next = `/status.aspx?space=1&author=${author.id}&count=${SUBMISSIONS_PER_PAGE}&locale=en`;
 
   for (let page = 0; page < PAGES && next; page += 1) {
     const html = await fetchText(`${BASE}${next}`);
     if (!timusName) timusName = parseStatusAuthorName(html);
     const pageSubmissions = parseSubmissions(html, author.id);
-    submissions.push(...pageSubmissions.filter((item) => taskSet.has(item.problemId) && item.timestamp >= CHALLENGE_START));
-    if (pageSubmissions.some((item) => item.timestamp > 0 && item.timestamp < CHALLENGE_START)) break;
+    const filteredPageSubmissions = pageSubmissions.filter((item) => taskSet.has(item.problemId) && item.timestamp >= CHALLENGE_START);
+    submissions.push(...filteredPageSubmissions);
+    if (pageSubmissions.length < SUBMISSIONS_PER_PAGE) break;
     const nextHref = html.match(/<td class="footer_right"[^>]*>[\s\S]*?<a href="([^"]+)"/i)?.[1];
     next = nextHref ? `/${decodeEntities(nextHref).replace(/^\/+/, "")}` : "";
   }
