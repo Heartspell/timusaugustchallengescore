@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-10T15:43:00.476Z",
+  "updatedAt": "2026-08-10T17:38:53.614Z",
   "pages": 5,
   "days": [
     [
@@ -2811,10 +2811,21 @@
           "difficulty": 322,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 1,
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11244391,
+              "date": "22:31:57 10 Aug 2026",
+              "timestamp": 1786401117000,
+              "authorName": "Adil",
+              "problemId": 1127,
+              "problemName": "Colored Bricks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            }
+          ]
         },
         {
           "task": 1076,
@@ -2828,8 +2839,8 @@
         }
       ],
       "solved": 15,
-      "penalty": 31,
-      "wa": 31,
+      "penalty": 32,
+      "wa": 32,
       "difficultyScore": 4388,
       "hardSolved": 2,
       "hardScore": 2920
