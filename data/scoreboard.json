@@ -1,6 +1,6 @@
 {
   "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-10T07:54:54.772Z",
+  "updatedAt": "2026-08-10T10:49:05.664Z",
   "pages": 5,
   "days": [
     [
@@ -2628,10 +2628,30 @@
           "difficulty": 465,
           "hard": true,
           "solved": true,
-          "penalty": 4,
-          "wa": 4,
-          "label": "+(4)",
+          "penalty": 5,
+          "wa": 5,
+          "label": "+(5)",
           "attempts": [
+            {
+              "id": 11244134,
+              "date": "15:20:37 10 Aug 2026",
+              "timestamp": 1786375237000,
+              "authorName": "Adil",
+              "problemId": 1019,
+              "problemName": "Line Painting",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11244133,
+              "date": "15:20:18 10 Aug 2026",
+              "timestamp": 1786375218000,
+              "authorName": "Adil",
+              "problemId": 1019,
+              "problemName": "Line Painting",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Compilation error"
+            },
             {
               "id": 11242762,
               "date": "09:58:07 8 Aug 2026",
@@ -2798,8 +2818,8 @@
         }
       ],
       "solved": 15,
-      "penalty": 30,
-      "wa": 30,
+      "penalty": 31,
+      "wa": 31,
       "difficultyScore": 4388,
       "hardSolved": 2,
       "hardScore": 2920
@@ -6676,10 +6696,21 @@
           "difficulty": 142,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 1,
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11244131,
+              "date": "15:19:10 10 Aug 2026",
+              "timestamp": 1786375150000,
+              "authorName": "Isa",
+              "problemId": 1613,
+              "problemName": "For Fans of Statistics",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            }
+          ]
         },
         {
           "task": 1434,
@@ -6875,8 +6906,8 @@
         }
       ],
       "solved": 7,
-      "penalty": 4,
-      "wa": 4,
+      "penalty": 5,
+      "wa": 5,
       "difficultyScore": 527,
       "hardSolved": 0,
       "hardScore": 0
