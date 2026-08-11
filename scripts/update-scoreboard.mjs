@@ -34,7 +34,7 @@ rows.sort((a, b) => b.solved - a.solved || a.penalty - b.penalty || b.difficulty
 
 await mkdir("data", { recursive: true });
 const scoreboard = {
-  title: "TIMUS august 2026 challenge",
+  title: "TIMUS August 2026 Challenge",
   updatedAt: new Date().toISOString(),
   pages: PAGES,
   days,
