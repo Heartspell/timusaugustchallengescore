@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-11T11:08:31.154Z",
+  "updatedAt": "2026-08-11T11:59:53.849Z",
   "pages": 5,
   "days": [
     [
@@ -3975,10 +3975,41 @@
           "difficulty": 339,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 3,
+          "wa": 3,
+          "label": "-3",
+          "attempts": [
+            {
+              "id": 11244983,
+              "date": "16:50:10 11 Aug 2026",
+              "timestamp": 1786467010000,
+              "authorName": "Isa",
+              "problemId": 1190,
+              "problemName": "Bar of Chocolate",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11244958,
+              "date": "16:30:28 11 Aug 2026",
+              "timestamp": 1786465828000,
+              "authorName": "Isa",
+              "problemId": 1190,
+              "problemName": "Bar of Chocolate",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11244935,
+              "date": "16:09:43 11 Aug 2026",
+              "timestamp": 1786464583000,
+              "authorName": "Isa",
+              "problemId": 1190,
+              "problemName": "Bar of Chocolate",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1268,
@@ -4074,8 +4105,8 @@
         }
       ],
       "solved": 12,
-      "penalty": 6,
-      "wa": 6,
+      "penalty": 9,
+      "wa": 9,
       "difficultyScore": 925,
       "hardSolved": 0,
       "hardScore": 0
