@@ -114,7 +114,7 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
     const pageSubmissions = parseSubmissions(html, author.id);
     const filteredPageSubmissions = pageSubmissions.filter((item) => taskSet.has(item.problemId) && item.timestamp >= CHALLENGE_START);
     submissions.push(...filteredPageSubmissions);
-    if (pageSubmissions.length < SUBMISSIONS_PER_PAGE) break;
+    if (filteredPageSubmissions.length < SUBMISSIONS_PER_PAGE) break;
     const nextHref = html.match(/<td class="footer_right"[^>]*>[\s\S]*?<a href="([^"]+)"/i)?.[1];
     next = nextHref ? `/${decodeEntities(nextHref).replace(/^\/+/, "")}` : "";
   }
