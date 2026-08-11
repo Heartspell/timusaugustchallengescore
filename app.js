@@ -83,7 +83,7 @@ weekButtons.forEach((button) => {
   });
 });
 setActiveRankButton();
-loadSavedBoard().then(() => loadLiveBoard());
+loadSavedBoard().finally(() => loadLiveBoard());
 setInterval(() => loadLiveBoard(), REFRESH_MS);
 setInterval(checkAssetVersion, VERSION_CHECK_MS);
 window.addEventListener("resize", () => {
