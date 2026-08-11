@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-11T17:44:19.961Z",
+  "updatedAt": "2026-08-11T18:40:22.716Z",
   "pages": 5,
   "days": [
     [
@@ -1031,10 +1031,221 @@
           "difficulty": 850,
           "hard": true,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 21,
+          "wa": 21,
+          "label": "-21",
+          "attempts": [
+            {
+              "id": 11245335,
+              "date": "23:12:08 11 Aug 2026",
+              "timestamp": 1786489928000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245333,
+              "date": "23:11:47 11 Aug 2026",
+              "timestamp": 1786489907000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245331,
+              "date": "23:09:25 11 Aug 2026",
+              "timestamp": 1786489765000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245330,
+              "date": "23:08:51 11 Aug 2026",
+              "timestamp": 1786489731000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245328,
+              "date": "23:06:20 11 Aug 2026",
+              "timestamp": 1786489580000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245325,
+              "date": "23:03:36 11 Aug 2026",
+              "timestamp": 1786489416000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245323,
+              "date": "23:00:36 11 Aug 2026",
+              "timestamp": 1786489236000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11245322,
+              "date": "22:59:57 11 Aug 2026",
+              "timestamp": 1786489197000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11245321,
+              "date": "22:59:35 11 Aug 2026",
+              "timestamp": 1786489175000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11245320,
+              "date": "22:58:04 11 Aug 2026",
+              "timestamp": 1786489084000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245319,
+              "date": "22:57:48 11 Aug 2026",
+              "timestamp": 1786489068000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11245318,
+              "date": "22:55:00 11 Aug 2026",
+              "timestamp": 1786488900000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245317,
+              "date": "22:54:49 11 Aug 2026",
+              "timestamp": 1786488889000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "Python 3.12 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245316,
+              "date": "22:54:04 11 Aug 2026",
+              "timestamp": 1786488844000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "Python 3.12 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245315,
+              "date": "22:53:37 11 Aug 2026",
+              "timestamp": 1786488817000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245313,
+              "date": "22:53:11 11 Aug 2026",
+              "timestamp": 1786488791000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245312,
+              "date": "22:52:59 11 Aug 2026",
+              "timestamp": 1786488779000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "Python 3.12 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245311,
+              "date": "22:51:53 11 Aug 2026",
+              "timestamp": 1786488713000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "Python 3.12 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245310,
+              "date": "22:51:41 11 Aug 2026",
+              "timestamp": 1786488701000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245309,
+              "date": "22:50:49 11 Aug 2026",
+              "timestamp": 1786488649000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11245308,
+              "date": "22:50:36 11 Aug 2026",
+              "timestamp": 1786488636000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "Python 3.12 x64",
+              "verdict": "Time limit exceeded"
+            }
+          ]
         },
         {
           "task": 1349,
@@ -1272,8 +1483,8 @@
         }
       ],
       "solved": 26,
-      "penalty": 28,
-      "wa": 28,
+      "penalty": 49,
+      "wa": 49,
       "difficultyScore": 9569,
       "hardSolved": 7,
       "hardScore": 6770
