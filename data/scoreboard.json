@@ -1,6 +1,6 @@
 {
-  "title": "TIMUS august 2026 challenge",
-  "updatedAt": "2026-08-11T03:56:49.686Z",
+  "title": "TIMUS August 2026 Challenge",
+  "updatedAt": "2026-08-11T04:38:43.825Z",
   "pages": 5,
   "days": [
     [
@@ -921,6 +921,26 @@
           "wa": 0,
           "label": "+",
           "attempts": [
+            {
+              "id": 11244602,
+              "date": "09:33:34 11 Aug 2026",
+              "timestamp": 1786440814000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1019,
+              "problemName": "Line Painting",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11244600,
+              "date": "09:33:20 11 Aug 2026",
+              "timestamp": 1786440800000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1019,
+              "problemName": "Line Painting",
+              "language": "Python 3.12 x64",
+              "verdict": "Accepted"
+            },
             {
               "id": 11242564,
               "date": "00:38:28 8 Aug 2026",
@@ -5974,6 +5994,457 @@
       "hardScore": 1307
     },
     {
+      "id": 408292,
+      "name": "Isa",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241967,
+              "date": "09:36:07 6 Aug 2026",
+              "timestamp": 1786008967000,
+              "authorName": "Isa",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11244601,
+              "date": "09:33:20 11 Aug 2026",
+              "timestamp": 1786440800000,
+              "authorName": "Isa",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11243378,
+              "date": "16:54:12 9 Aug 2026",
+              "timestamp": 1786294452000,
+              "authorName": "Isa",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1115,
+          "difficulty": 410,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11243307,
+              "date": "15:38:08 9 Aug 2026",
+              "timestamp": 1786289888000,
+              "authorName": "Isa",
+              "problemId": 1313,
+              "problemName": "Some Words about Sport",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1987,
+          "difficulty": 167,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1852,
+          "difficulty": 2438,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1820,
+          "difficulty": 25,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11243873,
+              "date": "10:10:37 10 Aug 2026",
+              "timestamp": 1786356637000,
+              "authorName": "Isa",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1247,
+          "difficulty": 241,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1932,
+          "difficulty": 965,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1567,
+          "difficulty": 41,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11243894,
+              "date": "11:07:44 10 Aug 2026",
+              "timestamp": 1786360064000,
+              "authorName": "Isa",
+              "problemId": 1567,
+              "problemName": "SMS-spam",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1343,
+          "difficulty": 417,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1467,
+          "difficulty": 1217,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 2012,
+          "difficulty": 17,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1613,
+          "difficulty": 142,
+          "hard": false,
+          "solved": false,
+          "penalty": 1,
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11244131,
+              "date": "15:19:10 10 Aug 2026",
+              "timestamp": 1786375150000,
+              "authorName": "Isa",
+              "problemId": 1613,
+              "problemName": "For Fans of Statistics",
+              "language": "G++ 13.2 x64",
+              "verdict": "Time limit exceeded"
+            }
+          ]
+        },
+        {
+          "task": 1434,
+          "difficulty": 875,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1196,
+          "difficulty": 52,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1295,
+          "difficulty": 151,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1019,
+          "difficulty": 465,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1079,
+          "difficulty": 111,
+          "hard": false,
+          "solved": true,
+          "penalty": 1,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11243346,
+              "date": "16:09:28 9 Aug 2026",
+              "timestamp": 1786291768000,
+              "authorName": "Isa",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11243339,
+              "date": "16:03:42 9 Aug 2026",
+              "timestamp": 1786291422000,
+              "authorName": "Isa",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1038,
+          "difficulty": 489,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1422,
+          "difficulty": 850,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1349,
+          "difficulty": 51,
+          "hard": false,
+          "solved": true,
+          "penalty": 3,
+          "wa": 3,
+          "label": "+(3)",
+          "attempts": [
+            {
+              "id": 11243279,
+              "date": "15:03:38 9 Aug 2026",
+              "timestamp": 1786287818000,
+              "authorName": "Isa",
+              "problemId": 1349,
+              "problemName": "Farm",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11243278,
+              "date": "15:02:51 9 Aug 2026",
+              "timestamp": 1786287771000,
+              "authorName": "Isa",
+              "problemId": 1349,
+              "problemName": "Farm",
+              "language": "Visual C++ 2022 x64",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11243277,
+              "date": "15:02:36 9 Aug 2026",
+              "timestamp": 1786287756000,
+              "authorName": "Isa",
+              "problemId": 1349,
+              "problemName": "Farm",
+              "language": "G++ 13.2 x64",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11243275,
+              "date": "15:00:49 9 Aug 2026",
+              "timestamp": 1786287649000,
+              "authorName": "Isa",
+              "problemId": 1349,
+              "problemName": "Farm",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1190,
+          "difficulty": 339,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1268,
+          "difficulty": 722,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1601,
+          "difficulty": 92,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1127,
+          "difficulty": 322,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1076,
+          "difficulty": 712,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 8,
+      "penalty": 5,
+      "wa": 5,
+      "difficultyScore": 541,
+      "hardSolved": 0,
+      "hardScore": 0
+    },
+    {
       "id": 408298,
       "name": "Арисбек Аликбаев",
       "cells": [
@@ -6492,446 +6963,6 @@
       "difficultyScore": 1085,
       "hardSolved": 1,
       "hardScore": 410
-    },
-    {
-      "id": 408292,
-      "name": "Isa",
-      "cells": [
-        {
-          "task": 1000,
-          "difficulty": 16,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11241967,
-              "date": "09:36:07 6 Aug 2026",
-              "timestamp": 1786008967000,
-              "authorName": "Isa",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1213,
-          "difficulty": 170,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1780,
-          "difficulty": 897,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1001,
-          "difficulty": 14,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1049,
-          "difficulty": 249,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11243378,
-              "date": "16:54:12 9 Aug 2026",
-              "timestamp": 1786294452000,
-              "authorName": "Isa",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1115,
-          "difficulty": 410,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1313,
-          "difficulty": 34,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11243307,
-              "date": "15:38:08 9 Aug 2026",
-              "timestamp": 1786289888000,
-              "authorName": "Isa",
-              "problemId": 1313,
-              "problemName": "Some Words about Sport",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1987,
-          "difficulty": 167,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1852,
-          "difficulty": 2438,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1820,
-          "difficulty": 25,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11243873,
-              "date": "10:10:37 10 Aug 2026",
-              "timestamp": 1786356637000,
-              "authorName": "Isa",
-              "problemId": 1820,
-              "problemName": "Ural Steaks",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1247,
-          "difficulty": 241,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1932,
-          "difficulty": 965,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1567,
-          "difficulty": 41,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11243894,
-              "date": "11:07:44 10 Aug 2026",
-              "timestamp": 1786360064000,
-              "authorName": "Isa",
-              "problemId": 1567,
-              "problemName": "SMS-spam",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1343,
-          "difficulty": 417,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1467,
-          "difficulty": 1217,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 2012,
-          "difficulty": 17,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1613,
-          "difficulty": 142,
-          "hard": false,
-          "solved": false,
-          "penalty": 1,
-          "wa": 1,
-          "label": "-1",
-          "attempts": [
-            {
-              "id": 11244131,
-              "date": "15:19:10 10 Aug 2026",
-              "timestamp": 1786375150000,
-              "authorName": "Isa",
-              "problemId": 1613,
-              "problemName": "For Fans of Statistics",
-              "language": "G++ 13.2 x64",
-              "verdict": "Time limit exceeded"
-            }
-          ]
-        },
-        {
-          "task": 1434,
-          "difficulty": 875,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1196,
-          "difficulty": 52,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1295,
-          "difficulty": 151,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1019,
-          "difficulty": 465,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1079,
-          "difficulty": 111,
-          "hard": false,
-          "solved": true,
-          "penalty": 1,
-          "wa": 1,
-          "label": "+(1)",
-          "attempts": [
-            {
-              "id": 11243346,
-              "date": "16:09:28 9 Aug 2026",
-              "timestamp": 1786291768000,
-              "authorName": "Isa",
-              "problemId": 1079,
-              "problemName": "Maximum",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11243339,
-              "date": "16:03:42 9 Aug 2026",
-              "timestamp": 1786291422000,
-              "authorName": "Isa",
-              "problemId": 1079,
-              "problemName": "Maximum",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            }
-          ]
-        },
-        {
-          "task": 1038,
-          "difficulty": 489,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1422,
-          "difficulty": 850,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1349,
-          "difficulty": 51,
-          "hard": false,
-          "solved": true,
-          "penalty": 3,
-          "wa": 3,
-          "label": "+(3)",
-          "attempts": [
-            {
-              "id": 11243279,
-              "date": "15:03:38 9 Aug 2026",
-              "timestamp": 1786287818000,
-              "authorName": "Isa",
-              "problemId": 1349,
-              "problemName": "Farm",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11243278,
-              "date": "15:02:51 9 Aug 2026",
-              "timestamp": 1786287771000,
-              "authorName": "Isa",
-              "problemId": 1349,
-              "problemName": "Farm",
-              "language": "Visual C++ 2022 x64",
-              "verdict": "Compilation error"
-            },
-            {
-              "id": 11243277,
-              "date": "15:02:36 9 Aug 2026",
-              "timestamp": 1786287756000,
-              "authorName": "Isa",
-              "problemId": 1349,
-              "problemName": "Farm",
-              "language": "G++ 13.2 x64",
-              "verdict": "Compilation error"
-            },
-            {
-              "id": 11243275,
-              "date": "15:00:49 9 Aug 2026",
-              "timestamp": 1786287649000,
-              "authorName": "Isa",
-              "problemId": 1349,
-              "problemName": "Farm",
-              "language": "G++ 13.2 x64",
-              "verdict": "Wrong answer"
-            }
-          ]
-        },
-        {
-          "task": 1190,
-          "difficulty": 339,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1268,
-          "difficulty": 722,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1601,
-          "difficulty": 92,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1127,
-          "difficulty": 322,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1076,
-          "difficulty": 712,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        }
-      ],
-      "solved": 7,
-      "penalty": 5,
-      "wa": 5,
-      "difficultyScore": 527,
-      "hardSolved": 0,
-      "hardScore": 0
     },
     {
       "id": 408301,
