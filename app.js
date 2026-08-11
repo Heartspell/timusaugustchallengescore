@@ -234,7 +234,7 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
 
     if (!timusName) timusName = parseReaderAuthorName(text);
 
-    const pageSubmissions = parseSubmissions(text, author.id);
+    const pageSubmissions = parseReaderSubmissions(text, author.id);
     const submissionsAfterChallengeStart = pageSubmissions.filter((item) => item.timestamp >= CHALLENGE_START);
 
     const submissionsInChallenge = submissionsAfterChallengeStart.filter((item) => taskSet.has(item.problemId));
