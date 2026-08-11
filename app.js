@@ -1,4 +1,5 @@
 const PAGES = 5;
+const SUBMISSIONS_PER_PAGE = 100;
 const REFRESH_MS = 90000;
 const VERSION_CHECK_MS = 120000;
 const DAYS_PER_WEEK = 7;
@@ -224,13 +225,23 @@ async function loadTaskDifficulty(task) {
 
 async function loadRow(author, tasks, difficulties, hardTasks) {
   const submissions = [];
+  const taskSet = new Set(tasks);
   let timusName = "";
-  let next = `${TIMUS}/status.aspx?space=1&author=${author.id}&count=100&locale=en`;
+  let next = `${TIMUS}/status.aspx?space=1&author=${author.id}&count=${SUBMISSIONS_PER_PAGE}&locale=en`;
 
   for (let page = 0; page < PAGES && next; page += 1) {
     const text = await fetchText(readerUrl(next));
+
     if (!timusName) timusName = parseReaderAuthorName(text);
-    submissions.push(...parseReaderSubmissions(text, author.id, tasks));
+
+    const pageSubmissions = parseSubmissions(text, author.id);
+    const submissionsAfterChallengeStart = pageSubmissions.filter((item) => item.timestamp >= CHALLENGE_START);
+
+    const submissionsInChallenge = submissionsAfterChallengeStart.filter((item) => taskSet.has(item.problemId));
+    submissions.push(...submissionsInChallenge);
+
+    if (submissionsAfterChallengeStart.length < SUBMISSIONS_PER_PAGE) break;
+    
     const nextHref = text.match(/\[Next 100\]\((https:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1]
       || text.match(/Next 100.*?\((https:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1];
     next = nextHref || "";
@@ -250,8 +261,7 @@ function uniqueById(items) {
   return [...new Map(items.map((item) => [item.id, item])).values()];
 }
 
-function parseReaderSubmissions(text, authorId, tasks) {
-  const taskSet = new Set(tasks);
+function parseReaderSubmissions(text, authorId) {
   const pageAuthorName = parseReaderAuthorName(text);
   return [...text.matchAll(/\[(\d+)\]\([^)]+\)([\s\S]*?)(?=\[\d+\]\([^)]+\)|Show \[|$)/g)]
     .map((match) => {
@@ -262,7 +272,7 @@ function parseReaderSubmissions(text, authorId, tasks) {
       if (parsedAuthorId && parsedAuthorId !== authorId) return null;
       const problem = block.match(/\[(\d+)\. ([\s\S]*?)\]\([^)]+\)/);
       const problemId = Number(problem?.[1]);
-      if (!problem || !taskSet.has(problemId)) return null;
+      if (!problem) return null;
 
       const afterProblem = block.slice(block.indexOf(problem[0]) + problem[0].length);
       const verdict = VERDICTS.find((item) => afterProblem.includes(item)) || "";
@@ -279,8 +289,7 @@ function parseReaderSubmissions(text, authorId, tasks) {
         verdict,
       };
     })
-    .filter(Boolean)
-    .filter((item) => item.timestamp >= CHALLENGE_START);
+    .filter(Boolean);
 }
 
 function parseReaderAuthorName(text) {
