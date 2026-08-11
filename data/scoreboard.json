@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-11T05:47:59.844Z",
+  "updatedAt": "2026-08-11T06:29:56.087Z",
   "pages": 5,
   "days": [
     [
@@ -1223,11 +1223,32 @@
           "task": 1502,
           "difficulty": 74,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11244656,
+              "date": "11:00:13 11 Aug 2026",
+              "timestamp": 1786446013000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1502,
+              "problemName": "Domino Dots",
+              "language": "Python 3.12 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11244655,
+              "date": "11:00:01 11 Aug 2026",
+              "timestamp": 1786446001000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1502,
+              "problemName": "Domino Dots",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1416,
@@ -1250,10 +1271,10 @@
           "attempts": []
         }
       ],
-      "solved": 25,
+      "solved": 26,
       "penalty": 28,
       "wa": 28,
-      "difficultyScore": 9498,
+      "difficultyScore": 9572,
       "hardSolved": 7,
       "hardScore": 6772
     },
