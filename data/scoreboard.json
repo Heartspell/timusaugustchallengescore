@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-11T10:13:27.065Z",
+  "updatedAt": "2026-08-11T11:08:31.154Z",
   "pages": 5,
   "days": [
     [
@@ -3995,10 +3995,21 @@
           "difficulty": 92,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 1,
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11244900,
+              "date": "15:52:11 11 Aug 2026",
+              "timestamp": 1786463531000,
+              "authorName": "Isa",
+              "problemId": 1601,
+              "problemName": "AntiCAPS",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1127,
@@ -4063,8 +4074,8 @@
         }
       ],
       "solved": 12,
-      "penalty": 5,
-      "wa": 5,
+      "penalty": 6,
+      "wa": 6,
       "difficultyScore": 925,
       "hardSolved": 0,
       "hardScore": 0
