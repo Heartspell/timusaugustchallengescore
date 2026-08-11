@@ -231,11 +231,17 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
 
   for (let page = 0; page < PAGES && next; page += 1) {
     const text = await fetchText(readerUrl(next));
+
     if (!timusName) timusName = parseReaderAuthorName(text);
-    const pageSubmissions = parseSubmissions(html, author.id);
-    const filteredPageSubmissions = pageSubmissions.filter((item) => taskSet.has(item.problemId) && item.timestamp >= CHALLENGE_START);
-    submissions.push(...filteredPageSubmissions);
-    if (filteredPageSubmissions.length < SUBMISSIONS_PER_PAGE) break;
+
+    const pageSubmissions = parseSubmissions(text, author.id);
+    const submissionsAfterChallengeStart = pageSubmissions.filter((item) => item.timestamp >= CHALLENGE_START);
+
+    const submissionsInChallenge = submissionsAfterChallengeStart.filter((item) => taskSet.has(item.problemId));
+    submissions.push(...submissionsInChallenge);
+
+    if (submissionsAfterChallengeStart.length < SUBMISSIONS_PER_PAGE) break;
+    
     const nextHref = text.match(/\[Next 100\]\((https:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1]
       || text.match(/Next 100.*?\((https:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1];
     next = nextHref || "";

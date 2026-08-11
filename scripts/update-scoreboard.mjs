@@ -111,10 +111,15 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
   for (let page = 0; page < PAGES && next; page += 1) {
     const html = await fetchText(`${BASE}${next}`);
     if (!timusName) timusName = parseStatusAuthorName(html);
+
     const pageSubmissions = parseSubmissions(html, author.id);
-    const filteredPageSubmissions = pageSubmissions.filter((item) => taskSet.has(item.problemId) && item.timestamp >= CHALLENGE_START);
-    submissions.push(...filteredPageSubmissions);
-    if (filteredPageSubmissions.length < SUBMISSIONS_PER_PAGE) break;
+    const submissionsAfterChallengeStart = pageSubmissions.filter((item) => item.timestamp >= CHALLENGE_START);
+
+    const submissionsInChallenge = submissionsAfterChallengeStart.filter((item) => taskSet.has(item.problemId));
+    submissions.push(...submissionsInChallenge);
+
+    if (submissionsAfterChallengeStart.length < SUBMISSIONS_PER_PAGE) break;
+
     const nextHref = html.match(/<td class="footer_right"[^>]*>[\s\S]*?<a href="([^"]+)"/i)?.[1];
     next = nextHref ? `/${decodeEntities(nextHref).replace(/^\/+/, "")}` : "";
   }
