@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-11T06:29:56.087Z",
+  "updatedAt": "2026-08-11T07:50:03.524Z",
   "pages": 5,
   "days": [
     [
@@ -3377,11 +3377,966 @@
           "task": 1079,
           "difficulty": 111,
           "hard": false,
+          "solved": true,
+          "penalty": 1,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11244679,
+              "date": "12:16:44 11 Aug 2026",
+              "timestamp": 1786450604000,
+              "authorName": "curela",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "Visual C++ 2022 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11244678,
+              "date": "12:16:08 11 Aug 2026",
+              "timestamp": 1786450568000,
+              "authorName": "curela",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "Python 3.12 x64",
+              "verdict": "Compilation error"
+            }
+          ]
+        },
+        {
+          "task": 1038,
+          "difficulty": 489,
+          "hard": false,
           "solved": false,
           "penalty": 0,
           "wa": 0,
           "label": "",
           "attempts": []
+        },
+        {
+          "task": 1422,
+          "difficulty": 850,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1349,
+          "difficulty": 51,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11244681,
+              "date": "12:27:05 11 Aug 2026",
+              "timestamp": 1786451225000,
+              "authorName": "curela",
+              "problemId": 1349,
+              "problemName": "Farm",
+              "language": "Visual C++ 2022 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1190,
+          "difficulty": 339,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1268,
+          "difficulty": 722,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1601,
+          "difficulty": 92,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1127,
+          "difficulty": 322,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1076,
+          "difficulty": 712,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1502,
+          "difficulty": 74,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1416,
+          "difficulty": 386,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1743,
+          "difficulty": 988,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 14,
+      "penalty": 5,
+      "wa": 5,
+      "difficultyScore": 1339,
+      "hardSolved": 0,
+      "hardScore": 0
+    },
+    {
+      "id": 408257,
+      "name": "Ordobaev Amirhan",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "penalty": 1,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11240373,
+              "date": "08:55:02 1 Aug 2026",
+              "timestamp": 1785574502000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240372,
+              "date": "08:53:56 1 Aug 2026",
+              "timestamp": 1785574436000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Runtime error"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240376,
+              "date": "09:11:40 1 Aug 2026",
+              "timestamp": 1785575500000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1780,
+          "difficulty": 897,
+          "hard": true,
+          "solved": true,
+          "penalty": 5,
+          "wa": 5,
+          "label": "+(5)",
+          "attempts": [
+            {
+              "id": 11240391,
+              "date": "09:36:43 1 Aug 2026",
+              "timestamp": 1785577003000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240389,
+              "date": "09:32:15 1 Aug 2026",
+              "timestamp": 1785576735000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240386,
+              "date": "09:25:18 1 Aug 2026",
+              "timestamp": 1785576318000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240384,
+              "date": "09:21:08 1 Aug 2026",
+              "timestamp": 1785576068000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240383,
+              "date": "09:19:39 1 Aug 2026",
+              "timestamp": 1785575979000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240382,
+              "date": "09:18:22 1 Aug 2026",
+              "timestamp": 1785575902000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240374,
+              "date": "09:02:54 1 Aug 2026",
+              "timestamp": 1785574974000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": true,
+          "penalty": 2,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11240735,
+              "date": "12:50:50 2 Aug 2026",
+              "timestamp": 1785675050000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240734,
+              "date": "12:49:24 2 Aug 2026",
+              "timestamp": 1785674964000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240732,
+              "date": "12:48:19 2 Aug 2026",
+              "timestamp": 1785674899000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240730,
+              "date": "12:46:32 2 Aug 2026",
+              "timestamp": 1785674792000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240728,
+              "date": "12:44:44 2 Aug 2026",
+              "timestamp": 1785674684000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1115,
+          "difficulty": 410,
+          "hard": true,
+          "solved": true,
+          "penalty": 29,
+          "wa": 29,
+          "label": "+(29)",
+          "attempts": [
+            {
+              "id": 11241431,
+              "date": "15:22:55 4 Aug 2026",
+              "timestamp": 1785856975000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11240988,
+              "date": "23:16:48 2 Aug 2026",
+              "timestamp": 1785712608000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240981,
+              "date": "23:13:05 2 Aug 2026",
+              "timestamp": 1785712385000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240980,
+              "date": "23:12:47 2 Aug 2026",
+              "timestamp": 1785712367000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240979,
+              "date": "23:12:29 2 Aug 2026",
+              "timestamp": 1785712349000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240978,
+              "date": "23:12:08 2 Aug 2026",
+              "timestamp": 1785712328000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240977,
+              "date": "23:11:26 2 Aug 2026",
+              "timestamp": 1785712286000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240976,
+              "date": "23:10:56 2 Aug 2026",
+              "timestamp": 1785712256000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240975,
+              "date": "23:10:37 2 Aug 2026",
+              "timestamp": 1785712237000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240963,
+              "date": "23:00:41 2 Aug 2026",
+              "timestamp": 1785711641000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240960,
+              "date": "22:58:04 2 Aug 2026",
+              "timestamp": 1785711484000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240959,
+              "date": "22:55:50 2 Aug 2026",
+              "timestamp": 1785711350000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240957,
+              "date": "22:55:12 2 Aug 2026",
+              "timestamp": 1785711312000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240955,
+              "date": "22:49:23 2 Aug 2026",
+              "timestamp": 1785710963000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240952,
+              "date": "22:48:06 2 Aug 2026",
+              "timestamp": 1785710886000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240948,
+              "date": "22:42:23 2 Aug 2026",
+              "timestamp": 1785710543000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240947,
+              "date": "22:40:23 2 Aug 2026",
+              "timestamp": 1785710423000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240946,
+              "date": "22:38:52 2 Aug 2026",
+              "timestamp": 1785710332000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240945,
+              "date": "22:37:03 2 Aug 2026",
+              "timestamp": 1785710223000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240944,
+              "date": "22:36:23 2 Aug 2026",
+              "timestamp": 1785710183000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11240943,
+              "date": "22:35:06 2 Aug 2026",
+              "timestamp": 1785710106000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240942,
+              "date": "22:31:59 2 Aug 2026",
+              "timestamp": 1785709919000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240940,
+              "date": "22:30:24 2 Aug 2026",
+              "timestamp": 1785709824000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11240937,
+              "date": "22:28:55 2 Aug 2026",
+              "timestamp": 1785709735000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240936,
+              "date": "22:27:19 2 Aug 2026",
+              "timestamp": 1785709639000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240935,
+              "date": "22:26:26 2 Aug 2026",
+              "timestamp": 1785709586000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240934,
+              "date": "22:25:50 2 Aug 2026",
+              "timestamp": 1785709550000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240932,
+              "date": "22:24:56 2 Aug 2026",
+              "timestamp": 1785709496000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240749,
+              "date": "13:36:49 2 Aug 2026",
+              "timestamp": 1785677809000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240744,
+              "date": "13:25:28 2 Aug 2026",
+              "timestamp": 1785677128000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1115,
+              "problemName": "Ships",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11241057,
+              "date": "10:01:56 3 Aug 2026",
+              "timestamp": 1785751316000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1313,
+              "problemName": "Some Words about Sport",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1987,
+          "difficulty": 167,
+          "hard": false,
+          "solved": true,
+          "penalty": 1,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11241241,
+              "date": "22:05:03 3 Aug 2026",
+              "timestamp": 1785794703000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1987,
+              "problemName": "Nested Segments",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11241240,
+              "date": "22:03:47 3 Aug 2026",
+              "timestamp": 1785794627000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1987,
+              "problemName": "Nested Segments",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1852,
+          "difficulty": 2438,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1820,
+          "difficulty": 25,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11242377,
+              "date": "11:21:08 7 Aug 2026",
+              "timestamp": 1786101668000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1820,
+              "problemName": "Ural Steaks",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1247,
+          "difficulty": 241,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1932,
+          "difficulty": 965,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1567,
+          "difficulty": 41,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1343,
+          "difficulty": 417,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1467,
+          "difficulty": 1217,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 2012,
+          "difficulty": 17,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11244665,
+              "date": "11:42:16 11 Aug 2026",
+              "timestamp": 1786448536000,
+              "authorName": "amirhanordobaev",
+              "problemId": 2012,
+              "problemName": "About Grisha N.",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1613,
+          "difficulty": 142,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1434,
+          "difficulty": 875,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1196,
+          "difficulty": 52,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1295,
+          "difficulty": 151,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1019,
+          "difficulty": 465,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1079,
+          "difficulty": 111,
+          "hard": false,
+          "solved": true,
+          "penalty": 6,
+          "wa": 6,
+          "label": "+(6)",
+          "attempts": [
+            {
+              "id": 11243585,
+              "date": "19:43:29 9 Aug 2026",
+              "timestamp": 1786304609000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11243584,
+              "date": "19:43:19 9 Aug 2026",
+              "timestamp": 1786304599000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "G++ 13.2 x64",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11243582,
+              "date": "19:41:52 9 Aug 2026",
+              "timestamp": 1786304512000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11243581,
+              "date": "19:41:41 9 Aug 2026",
+              "timestamp": 1786304501000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "G++ 13.2 x64",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11243580,
+              "date": "19:41:26 9 Aug 2026",
+              "timestamp": 1786304486000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11243575,
+              "date": "19:39:33 9 Aug 2026",
+              "timestamp": 1786304373000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Compilation error"
+            },
+            {
+              "id": 11243574,
+              "date": "19:39:18 9 Aug 2026",
+              "timestamp": 1786304358000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "G++ 13.2 x64",
+              "verdict": "Compilation error"
+            }
+          ]
         },
         {
           "task": 1038,
@@ -3467,11 +4422,22 @@
           "task": 1502,
           "difficulty": 74,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11244662,
+              "date": "11:33:43 11 Aug 2026",
+              "timestamp": 1786448023000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1502,
+              "problemName": "Domino Dots",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1416,
@@ -3495,11 +4461,11 @@
         }
       ],
       "solved": 12,
-      "penalty": 4,
-      "wa": 4,
-      "difficultyScore": 1177,
-      "hardSolved": 0,
-      "hardScore": 0
+      "penalty": 44,
+      "wa": 44,
+      "difficultyScore": 2184,
+      "hardSolved": 2,
+      "hardScore": 1307
     },
     {
       "id": 408280,
@@ -5855,918 +6821,6 @@
       "difficultyScore": 834,
       "hardSolved": 0,
       "hardScore": 0
-    },
-    {
-      "id": 408257,
-      "name": "Ordobaev Amirhan",
-      "cells": [
-        {
-          "task": 1000,
-          "difficulty": 16,
-          "hard": false,
-          "solved": true,
-          "penalty": 1,
-          "wa": 1,
-          "label": "+(1)",
-          "attempts": [
-            {
-              "id": 11240373,
-              "date": "08:55:02 1 Aug 2026",
-              "timestamp": 1785574502000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240372,
-              "date": "08:53:56 1 Aug 2026",
-              "timestamp": 1785574436000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Runtime error"
-            }
-          ]
-        },
-        {
-          "task": 1213,
-          "difficulty": 170,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240376,
-              "date": "09:11:40 1 Aug 2026",
-              "timestamp": 1785575500000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1213,
-              "problemName": "Cockroaches!",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1780,
-          "difficulty": 897,
-          "hard": true,
-          "solved": true,
-          "penalty": 5,
-          "wa": 5,
-          "label": "+(5)",
-          "attempts": [
-            {
-              "id": 11240391,
-              "date": "09:36:43 1 Aug 2026",
-              "timestamp": 1785577003000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240389,
-              "date": "09:32:15 1 Aug 2026",
-              "timestamp": 1785576735000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240386,
-              "date": "09:25:18 1 Aug 2026",
-              "timestamp": 1785576318000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240384,
-              "date": "09:21:08 1 Aug 2026",
-              "timestamp": 1785576068000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240383,
-              "date": "09:19:39 1 Aug 2026",
-              "timestamp": 1785575979000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240382,
-              "date": "09:18:22 1 Aug 2026",
-              "timestamp": 1785575902000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            }
-          ]
-        },
-        {
-          "task": 1001,
-          "difficulty": 14,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240374,
-              "date": "09:02:54 1 Aug 2026",
-              "timestamp": 1785574974000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1001,
-              "problemName": "Reverse Root",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1049,
-          "difficulty": 249,
-          "hard": false,
-          "solved": true,
-          "penalty": 2,
-          "wa": 2,
-          "label": "+(2)",
-          "attempts": [
-            {
-              "id": 11240735,
-              "date": "12:50:50 2 Aug 2026",
-              "timestamp": 1785675050000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240734,
-              "date": "12:49:24 2 Aug 2026",
-              "timestamp": 1785674964000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240732,
-              "date": "12:48:19 2 Aug 2026",
-              "timestamp": 1785674899000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240730,
-              "date": "12:46:32 2 Aug 2026",
-              "timestamp": 1785674792000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240728,
-              "date": "12:44:44 2 Aug 2026",
-              "timestamp": 1785674684000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1115,
-          "difficulty": 410,
-          "hard": true,
-          "solved": true,
-          "penalty": 29,
-          "wa": 29,
-          "label": "+(29)",
-          "attempts": [
-            {
-              "id": 11241431,
-              "date": "15:22:55 4 Aug 2026",
-              "timestamp": 1785856975000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Compilation error"
-            },
-            {
-              "id": 11240988,
-              "date": "23:16:48 2 Aug 2026",
-              "timestamp": 1785712608000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240981,
-              "date": "23:13:05 2 Aug 2026",
-              "timestamp": 1785712385000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240980,
-              "date": "23:12:47 2 Aug 2026",
-              "timestamp": 1785712367000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240979,
-              "date": "23:12:29 2 Aug 2026",
-              "timestamp": 1785712349000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240978,
-              "date": "23:12:08 2 Aug 2026",
-              "timestamp": 1785712328000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240977,
-              "date": "23:11:26 2 Aug 2026",
-              "timestamp": 1785712286000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240976,
-              "date": "23:10:56 2 Aug 2026",
-              "timestamp": 1785712256000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240975,
-              "date": "23:10:37 2 Aug 2026",
-              "timestamp": 1785712237000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240963,
-              "date": "23:00:41 2 Aug 2026",
-              "timestamp": 1785711641000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240960,
-              "date": "22:58:04 2 Aug 2026",
-              "timestamp": 1785711484000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240959,
-              "date": "22:55:50 2 Aug 2026",
-              "timestamp": 1785711350000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240957,
-              "date": "22:55:12 2 Aug 2026",
-              "timestamp": 1785711312000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240955,
-              "date": "22:49:23 2 Aug 2026",
-              "timestamp": 1785710963000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240952,
-              "date": "22:48:06 2 Aug 2026",
-              "timestamp": 1785710886000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240948,
-              "date": "22:42:23 2 Aug 2026",
-              "timestamp": 1785710543000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240947,
-              "date": "22:40:23 2 Aug 2026",
-              "timestamp": 1785710423000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240946,
-              "date": "22:38:52 2 Aug 2026",
-              "timestamp": 1785710332000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240945,
-              "date": "22:37:03 2 Aug 2026",
-              "timestamp": 1785710223000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240944,
-              "date": "22:36:23 2 Aug 2026",
-              "timestamp": 1785710183000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Compilation error"
-            },
-            {
-              "id": 11240943,
-              "date": "22:35:06 2 Aug 2026",
-              "timestamp": 1785710106000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240942,
-              "date": "22:31:59 2 Aug 2026",
-              "timestamp": 1785709919000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240940,
-              "date": "22:30:24 2 Aug 2026",
-              "timestamp": 1785709824000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Time limit exceeded"
-            },
-            {
-              "id": 11240937,
-              "date": "22:28:55 2 Aug 2026",
-              "timestamp": 1785709735000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240936,
-              "date": "22:27:19 2 Aug 2026",
-              "timestamp": 1785709639000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240935,
-              "date": "22:26:26 2 Aug 2026",
-              "timestamp": 1785709586000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240934,
-              "date": "22:25:50 2 Aug 2026",
-              "timestamp": 1785709550000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240932,
-              "date": "22:24:56 2 Aug 2026",
-              "timestamp": 1785709496000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240749,
-              "date": "13:36:49 2 Aug 2026",
-              "timestamp": 1785677809000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240744,
-              "date": "13:25:28 2 Aug 2026",
-              "timestamp": 1785677128000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            }
-          ]
-        },
-        {
-          "task": 1313,
-          "difficulty": 34,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11241057,
-              "date": "10:01:56 3 Aug 2026",
-              "timestamp": 1785751316000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1313,
-              "problemName": "Some Words about Sport",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1987,
-          "difficulty": 167,
-          "hard": false,
-          "solved": true,
-          "penalty": 1,
-          "wa": 1,
-          "label": "+(1)",
-          "attempts": [
-            {
-              "id": 11241241,
-              "date": "22:05:03 3 Aug 2026",
-              "timestamp": 1785794703000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1987,
-              "problemName": "Nested Segments",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11241240,
-              "date": "22:03:47 3 Aug 2026",
-              "timestamp": 1785794627000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1987,
-              "problemName": "Nested Segments",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Wrong answer"
-            }
-          ]
-        },
-        {
-          "task": 1852,
-          "difficulty": 2438,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1820,
-          "difficulty": 25,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11242377,
-              "date": "11:21:08 7 Aug 2026",
-              "timestamp": 1786101668000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1820,
-              "problemName": "Ural Steaks",
-              "language": "G++ 13.2 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1247,
-          "difficulty": 241,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1932,
-          "difficulty": 965,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1567,
-          "difficulty": 41,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1343,
-          "difficulty": 417,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1467,
-          "difficulty": 1217,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 2012,
-          "difficulty": 17,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1613,
-          "difficulty": 142,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1434,
-          "difficulty": 875,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1196,
-          "difficulty": 52,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1295,
-          "difficulty": 151,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1019,
-          "difficulty": 465,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1079,
-          "difficulty": 111,
-          "hard": false,
-          "solved": true,
-          "penalty": 6,
-          "wa": 6,
-          "label": "+(6)",
-          "attempts": [
-            {
-              "id": 11243585,
-              "date": "19:43:29 9 Aug 2026",
-              "timestamp": 1786304609000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1079,
-              "problemName": "Maximum",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11243584,
-              "date": "19:43:19 9 Aug 2026",
-              "timestamp": 1786304599000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1079,
-              "problemName": "Maximum",
-              "language": "G++ 13.2 x64",
-              "verdict": "Compilation error"
-            },
-            {
-              "id": 11243582,
-              "date": "19:41:52 9 Aug 2026",
-              "timestamp": 1786304512000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1079,
-              "problemName": "Maximum",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Compilation error"
-            },
-            {
-              "id": 11243581,
-              "date": "19:41:41 9 Aug 2026",
-              "timestamp": 1786304501000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1079,
-              "problemName": "Maximum",
-              "language": "G++ 13.2 x64",
-              "verdict": "Compilation error"
-            },
-            {
-              "id": 11243580,
-              "date": "19:41:26 9 Aug 2026",
-              "timestamp": 1786304486000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1079,
-              "problemName": "Maximum",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Compilation error"
-            },
-            {
-              "id": 11243575,
-              "date": "19:39:33 9 Aug 2026",
-              "timestamp": 1786304373000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1079,
-              "problemName": "Maximum",
-              "language": "Kotlin 1.9.22",
-              "verdict": "Compilation error"
-            },
-            {
-              "id": 11243574,
-              "date": "19:39:18 9 Aug 2026",
-              "timestamp": 1786304358000,
-              "authorName": "amirhanordobaev",
-              "problemId": 1079,
-              "problemName": "Maximum",
-              "language": "G++ 13.2 x64",
-              "verdict": "Compilation error"
-            }
-          ]
-        },
-        {
-          "task": 1038,
-          "difficulty": 489,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1422,
-          "difficulty": 850,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1349,
-          "difficulty": 51,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1190,
-          "difficulty": 339,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1268,
-          "difficulty": 722,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1601,
-          "difficulty": 92,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1127,
-          "difficulty": 322,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1076,
-          "difficulty": 712,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1502,
-          "difficulty": 74,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1416,
-          "difficulty": 386,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1743,
-          "difficulty": 988,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        }
-      ],
-      "solved": 10,
-      "penalty": 44,
-      "wa": 44,
-      "difficultyScore": 2093,
-      "hardSolved": 2,
-      "hardScore": 1307
     },
     {
       "id": 408298,
