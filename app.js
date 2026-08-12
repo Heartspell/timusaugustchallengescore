@@ -242,8 +242,8 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
 
     if (submissionsAfterChallengeStart.length < SUBMISSIONS_PER_PAGE) break;
     
-    const nextHref = text.match(/\[Next 100\]\((https:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1]
-      || text.match(/Next 100.*?\((https:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1];
+    const nextHref = text.match(/\[Next 100\]\((https?:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1]
+      || text.match(/Next 100.*?\((https?:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1];
     next = nextHref || "";
   }
 
