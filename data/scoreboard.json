@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-12T09:18:33.833Z",
+  "updatedAt": "2026-08-12T12:34:47.602Z",
   "pages": 5,
   "days": [
     [
@@ -4356,11 +4356,21 @@
           "task": 1613,
           "difficulty": 142,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 1,
           "wa": 1,
-          "label": "-1",
+          "label": "+(1)",
           "attempts": [
+            {
+              "id": 11245921,
+              "date": "17:31:59 12 Aug 2026",
+              "timestamp": 1786555919000,
+              "authorName": "Isa",
+              "problemId": 1613,
+              "problemName": "For Fans of Statistics",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
             {
               "id": 11244131,
               "date": "15:19:10 10 Aug 2026",
@@ -4701,10 +4711,10 @@
           "attempts": []
         }
       ],
-      "solved": 14,
+      "solved": 15,
       "penalty": 12,
       "wa": 12,
-      "difficultyScore": 1420,
+      "difficultyScore": 1562,
       "hardSolved": 0,
       "hardScore": 0
     },
