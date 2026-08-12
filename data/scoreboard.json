@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-11T19:48:38.718Z",
+  "updatedAt": "2026-08-12T04:25:17.088Z",
   "pages": 5,
   "days": [
     [
@@ -1031,10 +1031,20 @@
           "difficulty": 850,
           "hard": true,
           "solved": false,
-          "penalty": 21,
-          "wa": 21,
-          "label": "-21",
+          "penalty": 22,
+          "wa": 22,
+          "label": "-22",
           "attempts": [
+            {
+              "id": 11245783,
+              "date": "09:25:00 12 Aug 2026",
+              "timestamp": 1786526700000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1422,
+              "problemName": "Fireflies",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Running"
+            },
             {
               "id": 11245335,
               "date": "23:12:08 11 Aug 2026",
@@ -1483,8 +1493,8 @@
         }
       ],
       "solved": 26,
-      "penalty": 49,
-      "wa": 49,
+      "penalty": 50,
+      "wa": 50,
       "difficultyScore": 9569,
       "hardSolved": 7,
       "hardScore": 6770
