@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-12T16:28:10.764Z",
+  "updatedAt": "2026-08-12T18:39:11.199Z",
   "pages": 5,
   "days": [
     [
@@ -1455,21 +1455,53 @@
           "task": 1601,
           "difficulty": 92,
           "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "solved": true,
+          "penalty": 1,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11246139,
+              "date": "23:24:31 12 Aug 2026",
+              "timestamp": 1786577071000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1601,
+              "problemName": "AntiCAPS",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11246137,
+              "date": "23:19:53 12 Aug 2026",
+              "timestamp": 1786576793000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1601,
+              "problemName": "AntiCAPS",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Runtime error"
+            }
+          ]
         },
         {
           "task": 1127,
           "difficulty": 322,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11246141,
+              "date": "23:30:18 12 Aug 2026",
+              "timestamp": 1786577418000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1127,
+              "problemName": "Colored Bricks",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1076,
@@ -1536,21 +1568,43 @@
           "task": 1404,
           "difficulty": 80,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11246118,
+              "date": "22:52:15 12 Aug 2026",
+              "timestamp": 1786575135000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1404,
+              "problemName": "Easy to Hack!",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1513,
           "difficulty": 381,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11246132,
+              "date": "23:10:45 12 Aug 2026",
+              "timestamp": 1786576245000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1513,
+              "problemName": "Lemon Tale",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1669,
@@ -1563,10 +1617,10 @@
           "attempts": []
         }
       ],
-      "solved": 27,
-      "penalty": 50,
-      "wa": 50,
-      "difficultyScore": 10415,
+      "solved": 31,
+      "penalty": 51,
+      "wa": 51,
+      "difficultyScore": 11290,
       "hardSolved": 8,
       "hardScore": 7618
     },
