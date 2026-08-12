@@ -278,7 +278,7 @@ function parseReaderSubmissions(text, authorId) {
       const verdict = VERDICTS.find((item) => afterProblem.includes(item)) || "";
       const language = verdict ? clean(afterProblem.slice(0, afterProblem.indexOf(verdict))) : clean(afterProblem);
       const afterVerdict = verdict ? afterProblem.slice(afterProblem.indexOf(verdict) + verdict.length) : "";
-      const timeMemMatch = afterVerdict.match(/(\d[\d.]*)\s+(\d[\d.]*\s*(?:KB|MB|GB|B))/i);
+      const timeMemMatch = afterVerdict.match(/(?:\d+\s+)?(\d[\d.]*)\s+([\d\s]+(?:KB|MB|GB|B))/i);
       const time = timeMemMatch ? clean(timeMemMatch[1]) : "";
       const memory = timeMemMatch ? clean(timeMemMatch[2]) : "";
 
