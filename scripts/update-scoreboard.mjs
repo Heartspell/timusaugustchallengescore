@@ -167,10 +167,13 @@ function parseStatusAuthorName(html) {
   return clean(stripTags(match?.[1] || ""));
 }
 
+const IGNORED_VERDICTS = new Set(["Compilation error", "Restricted function"]);
+
 function scoreTask(task, submissions, difficulty = 0, hard = false) {
   const list = submissions.filter((item) => item.problemId === task).sort((a, b) => a.id - b.id);
   const ac = list.find((item) => item.verdict === "Accepted");
-  const penalty = list.filter((item) => item.verdict !== "Accepted").length;
+  const beforeAc = ac ? list.slice(0, list.indexOf(ac)) : [];
+  const penalty = ac ? beforeAc.filter((item) => !IGNORED_VERDICTS.has(item.verdict)).length : 0;
   return {
     task,
     difficulty,
