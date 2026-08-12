@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-12T18:39:11.199Z",
+  "updatedAt": "2026-08-12T19:50:04.696Z",
   "pages": 5,
   "days": [
     [
@@ -124,7 +124,7 @@
     "1404": 80,
     "1416": 386,
     "1422": 850,
-    "1434": 873,
+    "1434": 872,
     "1467": 1217,
     "1502": 74,
     "1513": 381,
@@ -823,7 +823,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": true,
           "penalty": 0,
@@ -1620,9 +1620,9 @@
       "solved": 31,
       "penalty": 51,
       "wa": 51,
-      "difficultyScore": 11290,
+      "difficultyScore": 11289,
       "hardSolved": 8,
-      "hardScore": 7618
+      "hardScore": 7617
     },
     {
       "id": 408303,
@@ -2274,13 +2274,44 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "solved": true,
+          "penalty": 2,
+          "wa": 2,
+          "label": "+(2)",
+          "attempts": [
+            {
+              "id": 11246148,
+              "date": "23:49:28 12 Aug 2026",
+              "timestamp": 1786578568000,
+              "authorName": "Adil",
+              "problemId": 1434,
+              "problemName": "Buses in Vasyuki",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11246147,
+              "date": "23:47:14 12 Aug 2026",
+              "timestamp": 1786578434000,
+              "authorName": "Adil",
+              "problemId": 1434,
+              "problemName": "Buses in Vasyuki",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11246145,
+              "date": "23:43:20 12 Aug 2026",
+              "timestamp": 1786578200000,
+              "authorName": "Adil",
+              "problemId": 1434,
+              "problemName": "Buses in Vasyuki",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1196,
@@ -2670,12 +2701,12 @@
           "attempts": []
         }
       ],
-      "solved": 19,
-      "penalty": 43,
-      "wa": 43,
-      "difficultyScore": 5287,
-      "hardSolved": 2,
-      "hardScore": 2903
+      "solved": 20,
+      "penalty": 45,
+      "wa": 45,
+      "difficultyScore": 6159,
+      "hardSolved": 3,
+      "hardScore": 3775
     },
     {
       "id": 408323,
@@ -2993,7 +3024,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": true,
           "penalty": 0,
@@ -3271,9 +3302,9 @@
       "solved": 16,
       "penalty": 5,
       "wa": 5,
-      "difficultyScore": 2676,
+      "difficultyScore": 2675,
       "hardSolved": 2,
-      "hardScore": 1338
+      "hardScore": 1337
     },
     {
       "id": 408283,
@@ -3895,7 +3926,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4480,7 +4511,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -5499,7 +5530,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -6182,7 +6213,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -6713,7 +6744,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -7523,7 +7554,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -8103,7 +8134,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -8517,7 +8548,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9068,7 +9099,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9504,7 +9535,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9919,7 +9950,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -10423,7 +10454,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -10806,7 +10837,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11199,7 +11230,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11592,7 +11623,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11964,7 +11995,7 @@
         },
         {
           "task": 1434,
-          "difficulty": 873,
+          "difficulty": 872,
           "hard": true,
           "solved": false,
           "penalty": 0,
