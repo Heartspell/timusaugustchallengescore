@@ -278,6 +278,8 @@ function parseReaderSubmissions(text, authorId) {
       const verdict = VERDICTS.find((item) => afterProblem.includes(item)) || "";
       const language = verdict ? clean(afterProblem.slice(0, afterProblem.indexOf(verdict))) : clean(afterProblem);
       const afterVerdict = verdict ? afterProblem.slice(afterProblem.indexOf(verdict) + verdict.length) : "";
+      const testNoMatch = afterVerdict.match(/^\s*(\d+)\s+\d+\.\d+/);
+      const testNo = testNoMatch ? clean(testNoMatch[1]) : "";
       const timeMemMatch = afterVerdict.match(/(?:\d+\s+)?(\d+\.\d+)\s+([\d\s]+(?:KB|MB|GB|B))/i);
       const time = timeMemMatch ? clean(timeMemMatch[1]) : "";
       const memory = timeMemMatch ? clean(timeMemMatch[2]) : "";
@@ -291,6 +293,7 @@ function parseReaderSubmissions(text, authorId) {
         problemName: clean(problem[2]),
         language,
         verdict,
+        testNo,
         time,
         memory,
       };
@@ -549,6 +552,7 @@ function showAttempts(row, cell) {
       <td>${escapeHtml(item.date)}</td>
       <td>${item.problemId}. ${escapeHtml(item.problemName)}</td>
       <td>${escapeHtml(item.verdict)}</td>
+      <td>${escapeHtml(item.testNo || "")}</td>
       <td>${escapeHtml(item.language)}</td>
       <td>${escapeHtml(item.time || "")}</td>
       <td>${escapeHtml(item.memory || "")}</td>

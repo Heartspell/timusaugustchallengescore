@@ -157,8 +157,9 @@ function parseSubmissions(html, authorId) {
         problemName: clean(stripTags((cells[3] || "").match(/<span class="problemname">([\s\S]*?)<\/span>/i)?.[1] || "")).replace(/^\.\s*/, ""),
         language: clean(stripTags(cells[4])),
         verdict: clean(stripTags(cells[5])),
-        time: clean(stripTags(cells[6])),
-        memory: clean(stripTags(cells[7])),
+        testNo: clean(stripTags(cells[6])),
+        time: clean(stripTags(cells[7])),
+        memory: clean(stripTags(cells[8])),
       };
     })
     .filter(Boolean);
