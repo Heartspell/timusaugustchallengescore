@@ -107,7 +107,7 @@ async function loadTaskDifficulties(tasks) {
 async function loadTaskInfo(task) {
   const html = await fetchText(`${BASE}/problem.aspx?space=1&num=${task}&locale=en`);
   const difficulty = Number(html.match(/Difficulty:\s*(\d+)/i)?.[1] || 0);
-  const name = clean(html.match(/<h2[^>]*class="[^"]*problem_title[^"]*"[^>]*>([\s\S]*?)<\/h2>/i)?.[1] || "");
+  const name = clean(stripTags(html.match(/<h2[^>]*class="[^"]*problem_title[^"]*"[^>]*>([\s\S]*?)<\/h2>/i)?.[1] || "")).replace(/^\d+\.\s*/, "");
   return { difficulty, name };
 }
 
