@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-12T07:46:47.196Z",
+  "updatedAt": "2026-08-12T09:18:33.833Z",
   "pages": 5,
   "days": [
     [
@@ -4663,11 +4663,22 @@
           "task": 1404,
           "difficulty": 80,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11245841,
+              "date": "13:13:43 12 Aug 2026",
+              "timestamp": 1786540423000,
+              "authorName": "Isa",
+              "problemId": 1404,
+              "problemName": "Easy to Hack!",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1513,
@@ -4690,10 +4701,10 @@
           "attempts": []
         }
       ],
-      "solved": 13,
+      "solved": 14,
       "penalty": 12,
       "wa": 12,
-      "difficultyScore": 1340,
+      "difficultyScore": 1420,
       "hardSolved": 0,
       "hardScore": 0
     },
