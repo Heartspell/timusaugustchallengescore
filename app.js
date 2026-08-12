@@ -235,7 +235,7 @@ async function loadTaskDifficulties(tasks, saved = {}, savedNames = {}) {
 async function loadTaskInfo(task) {
   const text = await fetchText(readerUrl(`${TIMUS}/problem.aspx?space=1&num=${task}&locale=en`));
   const difficulty = Number(text.match(/Difficulty:\s*(\d+)/i)?.[1] || 0);
-  const name = clean(text.match(/<h2[^>]*class="[^"]*problem_title[^"]*"[^>]*>([\s\S]*?)<\/h2>/i)?.[1] || "");
+  const name = clean(text.match(new RegExp(`^\\s*(?:#{1,6}\\s*)?${task}\\.\\s+(.+)$`, "m"))?.[1] || "");
   return { difficulty, name };
 }
 
