@@ -277,6 +277,10 @@ function parseReaderSubmissions(text, authorId) {
       const afterProblem = block.slice(block.indexOf(problem[0]) + problem[0].length);
       const verdict = VERDICTS.find((item) => afterProblem.includes(item)) || "";
       const language = verdict ? clean(afterProblem.slice(0, afterProblem.indexOf(verdict))) : clean(afterProblem);
+      const afterVerdict = verdict ? afterProblem.slice(afterProblem.indexOf(verdict) + verdict.length) : "";
+      const timeMemMatch = afterVerdict.match(/(\d[\d.]*)\s+(\d[\d.]*\s*(?:KB|MB|GB|B))/i);
+      const time = timeMemMatch ? clean(timeMemMatch[1]) : "";
+      const memory = timeMemMatch ? clean(timeMemMatch[2]) : "";
 
       return {
         id: Number(match[1]),
@@ -287,6 +291,8 @@ function parseReaderSubmissions(text, authorId) {
         problemName: clean(problem[2]),
         language,
         verdict,
+        time,
+        memory,
       };
     })
     .filter(Boolean);
@@ -544,6 +550,8 @@ function showAttempts(row, cell) {
       <td>${item.problemId}. ${escapeHtml(item.problemName)}</td>
       <td>${escapeHtml(item.verdict)}</td>
       <td>${escapeHtml(item.language)}</td>
+      <td>${escapeHtml(item.time || "")}</td>
+      <td>${escapeHtml(item.memory || "")}</td>
     </tr>
   `).join("");
 }
