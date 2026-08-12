@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-12T12:34:47.602Z",
+  "updatedAt": "2026-08-12T14:08:00.218Z",
   "pages": 5,
   "days": [
     [
@@ -106,7 +106,7 @@
     "1000": 16,
     "1001": 14,
     "1019": 465,
-    "1038": 489,
+    "1038": 488,
     "1049": 249,
     "1076": 712,
     "1079": 111,
@@ -998,7 +998,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -1566,7 +1566,7 @@
       "solved": 27,
       "penalty": 50,
       "wa": 50,
-      "difficultyScore": 10415,
+      "difficultyScore": 10414,
       "hardSolved": 8,
       "hardScore": 7617
     },
@@ -2414,13 +2414,54 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "solved": true,
+          "penalty": 3,
+          "wa": 3,
+          "label": "+(3)",
+          "attempts": [
+            {
+              "id": 11245952,
+              "date": "18:32:57 12 Aug 2026",
+              "timestamp": 1786559577000,
+              "authorName": "Adil",
+              "problemId": 1038,
+              "problemName": "Spell Checker",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11245950,
+              "date": "18:26:04 12 Aug 2026",
+              "timestamp": 1786559164000,
+              "authorName": "Adil",
+              "problemId": 1038,
+              "problemName": "Spell Checker",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11245949,
+              "date": "18:25:29 12 Aug 2026",
+              "timestamp": 1786559129000,
+              "authorName": "Adil",
+              "problemId": 1038,
+              "problemName": "Spell Checker",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Runtime error"
+            },
+            {
+              "id": 11245947,
+              "date": "18:24:27 12 Aug 2026",
+              "timestamp": 1786559067000,
+              "authorName": "Adil",
+              "problemId": 1038,
+              "problemName": "Spell Checker",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1422,
@@ -2575,10 +2616,10 @@
           "attempts": []
         }
       ],
-      "solved": 18,
-      "penalty": 40,
-      "wa": 40,
-      "difficultyScore": 4799,
+      "solved": 19,
+      "penalty": 43,
+      "wa": 43,
+      "difficultyScore": 5287,
       "hardSolved": 2,
       "hardScore": 2903
     },
@@ -3023,7 +3064,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -3872,7 +3913,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 4,
@@ -4467,7 +4508,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -5525,7 +5566,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -6179,7 +6220,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -6690,7 +6731,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 2,
@@ -7478,7 +7519,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -8058,7 +8099,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -8472,7 +8513,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9023,7 +9064,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9459,7 +9500,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9874,7 +9915,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10378,7 +10419,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10761,7 +10802,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11154,7 +11195,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11547,7 +11588,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11919,7 +11960,7 @@
         },
         {
           "task": 1038,
-          "difficulty": 489,
+          "difficulty": 488,
           "hard": false,
           "solved": false,
           "penalty": 0,
