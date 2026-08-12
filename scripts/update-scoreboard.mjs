@@ -23,7 +23,7 @@ const authors = await loadAuthors();
 const days = await loadTaskDays();
 const tasks = days.flat();
 const hardTasks = getHardTaskSet(days);
-const difficulties = await loadTaskDifficulties(tasks);
+const { difficulties, names } = await loadTaskDifficulties(tasks);
 const rows = [];
 
 for (const author of authors) {
@@ -40,6 +40,7 @@ const scoreboard = {
   days,
   tasks,
   difficulties,
+  names,
   rows,
 };
 
@@ -90,16 +91,24 @@ async function loadTaskDays() {
 }
 
 async function loadTaskDifficulties(tasks) {
-  const pairs = [];
+  const difficultyPairs = [];
+  const namePairs = [];
   for (const task of tasks) {
-    pairs.push([task, await loadTaskDifficulty(task).catch(() => 0)]);
+    const { difficulty, name } = await loadTaskInfo(task).catch(() => ({ difficulty: 0, name: "" }));
+    difficultyPairs.push([task, difficulty]);
+    namePairs.push([task, name]);
   }
-  return Object.fromEntries(pairs);
+  return {
+    difficulties: Object.fromEntries(difficultyPairs),
+    names: Object.fromEntries(namePairs),
+  };
 }
 
-async function loadTaskDifficulty(task) {
+async function loadTaskInfo(task) {
   const html = await fetchText(`${BASE}/problem.aspx?space=1&num=${task}&locale=en`);
-  return Number(html.match(/Difficulty:\s*(\d+)/i)?.[1] || 0);
+  const difficulty = Number(html.match(/Difficulty:\s*(\d+)/i)?.[1] || 0);
+  const name = clean(html.match(/<h2[^>]*class="[^"]*problem_title[^"]*"[^>]*>([\s\S]*?)<\/h2>/i)?.[1] || "");
+  return { difficulty, name };
 }
 
 async function loadRow(author, tasks, difficulties, hardTasks) {
