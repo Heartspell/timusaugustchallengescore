@@ -54,6 +54,7 @@ let lastTasks = [];
 let lastDays = [];
 let lastDifficulties = {};
 let lastHardTasks = new Set();
+let lastNames = {};
 let lastStatusPrefix = "";
 let lastStatusSuffix = "";
 let rankMode = "solved";
@@ -69,7 +70,7 @@ rankButtons.forEach((button) => {
     rankMode = button.dataset.rank;
     setActiveRankButton();
     if (!lastDays.length) return;
-    const view = renderBoard(lastRows, lastTasks, lastDays, lastDifficulties, lastHardTasks);
+    const view = renderBoard(lastRows, lastTasks, lastDays, lastDifficulties, lastHardTasks, lastNames);
     updateStatus(view);
   });
 });
@@ -78,7 +79,7 @@ weekButtons.forEach((button) => {
     if (!lastDays.length) return;
     const weekCount = getWeekCount(lastDays);
     selectedWeek = clamp(selectedWeek + Number(button.dataset.weekStep), 1, weekCount);
-    const view = renderBoard(lastRows, lastTasks, lastDays, lastDifficulties, lastHardTasks);
+    const view = renderBoard(lastRows, lastTasks, lastDays, lastDifficulties, lastHardTasks, lastNames);
     updateStatus(view);
   });
 });
@@ -90,7 +91,7 @@ window.addEventListener("resize", () => {
   clearTimeout(resizeTimer);
   resizeTimer = setTimeout(() => {
     if (!lastDays.length) return;
-    const view = renderBoard(lastRows, lastTasks, lastDays, lastDifficulties, lastHardTasks);
+    const view = renderBoard(lastRows, lastTasks, lastDays, lastDifficulties, lastHardTasks, lastNames);
     updateStatus(view);
   }, 120);
 });
@@ -112,7 +113,7 @@ async function loadLiveBoard(options = {}) {
     const tasks = days.flat();
     const hardTasks = getHardTaskSet(days);
     const savedRows = new Map(normalizeRows(savedData?.rows || [], tasks, savedData?.difficulties || {}, hardTasks).map((row) => [row.id, row]));
-    const difficulties = await loadTaskDifficulties(tasks, savedData?.difficulties || {});
+    const { difficulties, names } = await loadTaskDifficulties(tasks, savedData?.difficulties || {}, savedData?.names || {});
     let failed = 0;
     const rows = await mapLimit(authors, LIVE_LIMIT, async (author) => {
       try {
@@ -125,7 +126,7 @@ async function loadLiveBoard(options = {}) {
         return emptyRow(author, tasks, difficulties, hardTasks);
       }
     });
-    const view = renderBoard(rows, tasks, days, difficulties, hardTasks);
+    const view = renderBoard(rows, tasks, days, difficulties, hardTasks, names);
     const parsed = authors.length - failed;
     lastStatusPrefix = failed ? `live ${parsed}/${authors.length} ${new Date().toLocaleTimeString("ru-RU")}` : `live ${new Date().toLocaleTimeString("ru-RU")}`;
     lastStatusSuffix = "";
@@ -152,8 +153,9 @@ async function loadSavedBoard(liveError) {
     const days = data.days || chunk(tasks, 3);
     const hardTasks = getHardTaskSet(days);
     const difficulties = data.difficulties || {};
+    const names = data.names || {};
     const rows = applyAuthorAliases(normalizeRows(data.rows || [], tasks, difficulties, hardTasks), authors);
-    const view = renderBoard(rows, tasks, days, difficulties, hardTasks);
+    const view = renderBoard(rows, tasks, days, difficulties, hardTasks, names);
     lastStatusPrefix = `saved ${formatSavedTime(data.updatedAt)}`;
     lastStatusSuffix = "";
     updateStatus(view);
@@ -209,18 +211,32 @@ async function loadSavedDifficulties() {
   }
 }
 
-async function loadTaskDifficulties(tasks, saved = {}) {
-  const pairs = await Promise.all(tasks.map(async (task) => {
+async function loadTaskDifficulties(tasks, saved = {}, savedNames = {}) {
+  const difficultyPairs = [];
+  const namePairs = [];
+  await Promise.all(tasks.map(async (task) => {
     const savedDifficulty = Number(saved[task] || 0);
-    if (savedDifficulty) return [task, savedDifficulty];
-    return [task, await loadTaskDifficulty(task).catch(() => 0)];
+    const savedName = savedNames[task] || "";
+    if (savedDifficulty && savedName) {
+      difficultyPairs.push([task, savedDifficulty]);
+      namePairs.push([task, savedName]);
+    } else {
+      const { difficulty, name } = await loadTaskInfo(task).catch(() => ({ difficulty: savedDifficulty, name: savedName }));
+      difficultyPairs.push([task, difficulty]);
+      namePairs.push([task, name]);
+    }
   }));
-  return Object.fromEntries(pairs);
+  return {
+    difficulties: Object.fromEntries(difficultyPairs),
+    names: Object.fromEntries(namePairs),
+  };
 }
 
-async function loadTaskDifficulty(task) {
+async function loadTaskInfo(task) {
   const text = await fetchText(readerUrl(`${TIMUS}/problem.aspx?space=1&num=${task}&locale=en`));
-  return Number(text.match(/Difficulty:\s*(\d+)/i)?.[1] || 0);
+  const difficulty = Number(text.match(/Difficulty:\s*(\d+)/i)?.[1] || 0);
+  const name = clean(text.match(new RegExp(`^\\s*(?:#{1,6}\\s*)?${task}\\.\\s+(.+)$`, "m"))?.[1] || "");
+  return { difficulty, name };
 }
 
 async function loadRow(author, tasks, difficulties, hardTasks) {
@@ -376,12 +392,13 @@ function enrichRow(row) {
   };
 }
 
-function renderBoard(rows, tasks, days, difficulties = {}, hardTasks = getHardTaskSet(days)) {
+function renderBoard(rows, tasks, days, difficulties = {}, hardTasks = getHardTaskSet(days), names = {}) {
   lastRows = rows;
   lastTasks = tasks;
   lastDays = days;
   lastDifficulties = difficulties;
   lastHardTasks = hardTasks;
+  lastNames = names;
   const metricColumns = getMetricColumns();
   syncSelectedWeek(days);
   renderWeekControls(days);
@@ -400,7 +417,7 @@ function renderBoard(rows, tasks, days, difficulties = {}, hardTasks = getHardTa
       ${taskDays.map((day) => `<th class="day" colspan="${day.tasks.length}">Day ${day.index + 1}</th>`).join("")}
     </tr>
     <tr>
-      ${visibleTasks.map((task) => taskHeaderHtml(task, difficulties[task] || 0)).join("")}
+      ${visibleTasks.map((task) => taskHeaderHtml(task, difficulties[task] || 0, names[task] || "")).join("")}
     </tr>
   `;
 
@@ -519,9 +536,10 @@ function setActiveRankButton() {
   });
 }
 
-function taskHeaderHtml(task, difficulty) {
-  const title = difficulty ? `difficulty ${difficulty}` : "difficulty unknown";
-  return `<th class="task" title="${title}"><a href="${TIMUS}/problem.aspx?space=1&num=${task}" target="_blank" rel="noreferrer">${task}</a></th>`;
+function taskHeaderHtml(task, difficulty, name = "") {
+  const diffLabel = difficulty ? `${difficulty}` : "difficulty unknown";
+  const title = name ? `${name}, ${diffLabel}` : (difficulty ? `difficulty ${difficulty}` : "difficulty unknown");
+  return `<th class="task" title="${escapeHtml(title)}"><a href="${TIMUS}/problem.aspx?space=1&num=${task}" target="_blank" rel="noreferrer">${task}</a></th>`;
 }
 
 function cellHtml(row, cell) {
