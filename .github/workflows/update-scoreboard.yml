@@ -3,7 +3,7 @@ name: Update scoreboard
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   push:
     paths:
       - "authors.txt"
@@ -25,6 +25,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 4 # one minute less than the 5-minute cron interval to avoid overlap
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
