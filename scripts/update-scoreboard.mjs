@@ -100,7 +100,7 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
     const submissionsInChallenge = submissionsAfterChallengeStart.filter((item) => taskSet.has(item.problemId));
     submissions.push(...submissionsInChallenge);
 
-    if (submissionsAfterChallengeStart.length < SUBMISSIONS_PER_PAGE) break;
+    if (submissionsAfterChallengeStart.length < pageSubmissions.length) break;
 
     const nextHref = html.match(/<td class="footer_right"[^>]*>[\s\S]*?<a href="([^"]+)"/i)?.[1];
     next = nextHref ? `/${decodeEntities(nextHref).replace(/^\/+/, "")}` : "";

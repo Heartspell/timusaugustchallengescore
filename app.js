@@ -240,7 +240,7 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
     const submissionsInChallenge = submissionsAfterChallengeStart.filter((item) => taskSet.has(item.problemId));
     submissions.push(...submissionsInChallenge);
 
-    if (submissionsAfterChallengeStart.length < SUBMISSIONS_PER_PAGE) break;
+    if (submissionsAfterChallengeStart.length < pageSubmissions.length) break;
     
     const nextHref = text.match(/\[Next 100\]\((https?:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1]
       || text.match(/Next 100.*?\((https?:\/\/acm\.timus\.ru\/status\.aspx[^)]+)\)/i)?.[1];
