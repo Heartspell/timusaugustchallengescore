@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-13T12:26:38.846Z",
+  "updatedAt": "2026-08-13T13:56:55.388Z",
   "pages": 5,
   "days": [
     [
@@ -3525,10 +3525,20 @@
           "difficulty": 382,
           "hard": false,
           "solved": false,
-          "penalty": 1,
-          "wa": 1,
-          "label": "-1",
+          "penalty": 2,
+          "wa": 2,
+          "label": "-2",
           "attempts": [
+            {
+              "id": 11246593,
+              "date": "17:31:15 13 Aug 2026",
+              "timestamp": 1786642275000,
+              "authorName": "Isa",
+              "problemId": 1513,
+              "problemName": "Lemon Tale",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
             {
               "id": 11246581,
               "date": "17:21:05 13 Aug 2026",
@@ -3594,8 +3604,8 @@
         }
       ],
       "solved": 19,
-      "penalty": 21,
-      "wa": 21,
+      "penalty": 22,
+      "wa": 22,
       "difficultyScore": 2515,
       "hardSolved": 0,
       "hardScore": 0
@@ -9212,6 +9222,16 @@
           "wa": 0,
           "label": "+",
           "attempts": [
+            {
+              "id": 11246632,
+              "date": "18:25:22 13 Aug 2026",
+              "timestamp": 1786645522000,
+              "authorName": "Kasym",
+              "problemId": 1404,
+              "problemName": "Easy to Hack!",
+              "language": "Visual C++ 2022",
+              "verdict": "Accepted"
+            },
             {
               "id": 11245793,
               "date": "09:47:57 12 Aug 2026",
