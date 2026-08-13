@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-13T04:08:44.375Z",
+  "updatedAt": "2026-08-13T06:07:49.056Z",
   "pages": 5,
   "days": [
     [
@@ -4797,10 +4797,40 @@
           "difficulty": 339,
           "hard": false,
           "solved": false,
-          "penalty": 3,
-          "wa": 3,
-          "label": "-3",
+          "penalty": 6,
+          "wa": 6,
+          "label": "-6",
           "attempts": [
+            {
+              "id": 11246368,
+              "date": "10:03:51 13 Aug 2026",
+              "timestamp": 1786615431000,
+              "authorName": "Isa",
+              "problemId": 1190,
+              "problemName": "Bar of Chocolate",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11246364,
+              "date": "09:55:48 13 Aug 2026",
+              "timestamp": 1786614948000,
+              "authorName": "Isa",
+              "problemId": 1190,
+              "problemName": "Bar of Chocolate",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11246363,
+              "date": "09:52:01 13 Aug 2026",
+              "timestamp": 1786614721000,
+              "authorName": "Isa",
+              "problemId": 1190,
+              "problemName": "Bar of Chocolate",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
             {
               "id": 11244983,
               "date": "16:50:10 11 Aug 2026",
@@ -4998,8 +5028,8 @@
         }
       ],
       "solved": 15,
-      "penalty": 12,
-      "wa": 12,
+      "penalty": 15,
+      "wa": 15,
       "difficultyScore": 1562,
       "hardSolved": 0,
       "hardScore": 0
@@ -5964,11 +5994,22 @@
           "task": 1209,
           "difficulty": 34,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11246372,
+              "date": "10:09:51 13 Aug 2026",
+              "timestamp": 1786615791000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1209,
+              "problemName": "1, 10, 100, 1000...",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1890,
@@ -5991,10 +6032,10 @@
           "attempts": []
         }
       ],
-      "solved": 12,
+      "solved": 13,
       "penalty": 44,
       "wa": 44,
-      "difficultyScore": 2184,
+      "difficultyScore": 2218,
       "hardSolved": 2,
       "hardScore": 1307
     },
