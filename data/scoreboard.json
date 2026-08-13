@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-13T09:27:06.064Z",
+  "updatedAt": "2026-08-13T10:23:12.808Z",
   "pages": 5,
   "days": [
     [
@@ -142,7 +142,7 @@
     "1601": 92,
     "1613": 142,
     "1669": 1388,
-    "1743": 988,
+    "1743": 989,
     "1780": 897,
     "1820": 25,
     "1852": 2438,
@@ -1545,7 +1545,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -2702,7 +2702,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3188,11 +3188,21 @@
           "task": 1038,
           "difficulty": 488,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 1,
           "wa": 1,
-          "label": "-1",
+          "label": "+(1)",
           "attempts": [
+            {
+              "id": 11246495,
+              "date": "14:27:37 13 Aug 2026",
+              "timestamp": 1786631257000,
+              "authorName": "Isa",
+              "problemId": 1038,
+              "problemName": "Spell Checker",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
             {
               "id": 11246493,
               "date": "14:25:52 13 Aug 2026",
@@ -3381,11 +3391,41 @@
           "task": 1601,
           "difficulty": 92,
           "hard": false,
-          "solved": false,
-          "penalty": 1,
-          "wa": 1,
-          "label": "-1",
+          "solved": true,
+          "penalty": 3,
+          "wa": 3,
+          "label": "+(3)",
           "attempts": [
+            {
+              "id": 11246526,
+              "date": "15:09:42 13 Aug 2026",
+              "timestamp": 1786633782000,
+              "authorName": "Isa",
+              "problemId": 1601,
+              "problemName": "AntiCAPS",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11246520,
+              "date": "15:02:22 13 Aug 2026",
+              "timestamp": 1786633342000,
+              "authorName": "Isa",
+              "problemId": 1601,
+              "problemName": "AntiCAPS",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11246516,
+              "date": "14:53:57 13 Aug 2026",
+              "timestamp": 1786632837000,
+              "authorName": "Isa",
+              "problemId": 1601,
+              "problemName": "AntiCAPS",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
             {
               "id": 11244900,
               "date": "15:52:11 11 Aug 2026",
@@ -3451,7 +3491,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3542,10 +3582,10 @@
           "attempts": []
         }
       ],
-      "solved": 17,
-      "penalty": 18,
-      "wa": 18,
-      "difficultyScore": 1935,
+      "solved": 19,
+      "penalty": 20,
+      "wa": 20,
+      "difficultyScore": 2515,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -4101,7 +4141,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -5010,7 +5050,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -6004,7 +6044,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -6688,7 +6728,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -7362,7 +7402,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -8047,7 +8087,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -8657,7 +8697,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9144,7 +9184,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9682,7 +9722,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -10148,7 +10188,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -10593,7 +10633,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11127,7 +11167,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11540,7 +11580,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11963,7 +12003,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -12386,7 +12426,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -12788,7 +12828,7 @@
         },
         {
           "task": 1743,
-          "difficulty": 988,
+          "difficulty": 989,
           "hard": true,
           "solved": false,
           "penalty": 0,
