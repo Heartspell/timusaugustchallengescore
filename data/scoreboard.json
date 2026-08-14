@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-14T09:43:31.229Z",
+  "updatedAt": "2026-08-14T10:40:39.462Z",
   "pages": 5,
   "days": [
     [
@@ -191,73 +191,40 @@
           "task": 1780,
           "difficulty": 895,
           "hard": true,
-          "solved": true,
+          "solved": false,
           "penalty": 0,
           "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240381,
-              "date": "09:17:23 1 Aug 2026",
-              "timestamp": 1785575843000,
-              "authorName": "Muravev Slava [Samara SAU]",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "PyPy 3.10 x64",
-              "verdict": "Accepted"
-            }
-          ]
+          "label": "",
+          "attempts": []
         },
         {
           "task": 1001,
           "difficulty": 14,
           "hard": false,
-          "solved": true,
+          "solved": false,
           "penalty": 0,
           "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240577,
-              "date": "23:24:03 1 Aug 2026",
-              "timestamp": 1785626643000,
-              "authorName": "Muravev Slava [Samara SAU]",
-              "problemId": 1001,
-              "problemName": "Reverse Root",
-              "language": "PyPy 3.10 x64",
-              "verdict": "Accepted"
-            }
-          ]
+          "label": "",
+          "attempts": []
         },
         {
           "task": 1049,
           "difficulty": 249,
           "hard": false,
-          "solved": true,
+          "solved": false,
           "penalty": 0,
           "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240580,
-              "date": "23:29:34 1 Aug 2026",
-              "timestamp": 1785626974000,
-              "authorName": "Muravev Slava [Samara SAU]",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "PyPy 3.10 x64",
-              "verdict": "Accepted"
-            }
-          ]
+          "label": "",
+          "attempts": []
         },
         {
           "task": 1115,
           "difficulty": 410,
           "hard": true,
           "solved": true,
-          "penalty": 7,
-          "wa": 7,
-          "label": "+(7)",
+          "penalty": 6,
+          "wa": 6,
+          "label": "+(6)",
           "attempts": [
             {
               "id": 11240686,
@@ -348,16 +315,6 @@
               "problemName": "Ships",
               "language": "PyPy 3.10 x64",
               "verdict": "Memory limit exceeded"
-            },
-            {
-              "id": 11240585,
-              "date": "23:38:56 1 Aug 2026",
-              "timestamp": 1785627536000,
-              "authorName": "Muravev Slava [Samara SAU]",
-              "problemId": 1115,
-              "problemName": "Ships",
-              "language": "PyPy 3.10 x64",
-              "verdict": "Time limit exceeded"
             }
           ]
         },
@@ -1621,11 +1578,52 @@
           "task": 1209,
           "difficulty": 34,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11246936,
+              "date": "15:18:21 14 Aug 2026",
+              "timestamp": 1786720701000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1209,
+              "problemName": "1, 10, 100, 1000...",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11246935,
+              "date": "15:18:10 14 Aug 2026",
+              "timestamp": 1786720690000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1209,
+              "problemName": "1, 10, 100, 1000...",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11246934,
+              "date": "15:17:55 14 Aug 2026",
+              "timestamp": 1786720675000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1209,
+              "problemName": "1, 10, 100, 1000...",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11246932,
+              "date": "15:17:39 14 Aug 2026",
+              "timestamp": 1786720659000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1209,
+              "problemName": "1, 10, 100, 1000...",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1890,
@@ -1699,12 +1697,12 @@
           "attempts": []
         }
       ],
-      "solved": 31,
-      "penalty": 51,
-      "wa": 51,
-      "difficultyScore": 12610,
-      "hardSolved": 9,
-      "hardScore": 9004
+      "solved": 29,
+      "penalty": 50,
+      "wa": 50,
+      "difficultyScore": 11486,
+      "hardSolved": 8,
+      "hardScore": 8109
     },
     {
       "id": 408292,
