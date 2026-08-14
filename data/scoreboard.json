@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-14T05:57:36.857Z",
+  "updatedAt": "2026-08-14T07:23:52.708Z",
   "pages": 5,
   "days": [
     [
@@ -155,7 +155,7 @@
     "1743": 989,
     "1780": 895,
     "1820": 25,
-    "1852": 2438,
+    "1852": 2439,
     "1890": 464,
     "1932": 963,
     "1987": 167,
@@ -425,7 +425,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": true,
           "penalty": 1,
@@ -1701,9 +1701,9 @@
       "solved": 30,
       "penalty": 52,
       "wa": 52,
-      "difficultyScore": 12489,
+      "difficultyScore": 12490,
       "hardSolved": 9,
-      "hardScore": 9003
+      "hardScore": 9004
     },
     {
       "id": 408292,
@@ -1866,7 +1866,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -2586,10 +2586,21 @@
           "difficulty": 120,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 1,
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11246862,
+              "date": "12:18:38 14 Aug 2026",
+              "timestamp": 1786709918000,
+              "authorName": "Isa",
+              "problemId": 1726,
+              "problemName": "Visits",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 2024,
@@ -2613,8 +2624,8 @@
         }
       ],
       "solved": 22,
-      "penalty": 24,
-      "wa": 24,
+      "penalty": 25,
+      "wa": 25,
       "difficultyScore": 4280,
       "hardSolved": 1,
       "hardScore": 1214
@@ -3073,7 +3084,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": true,
           "penalty": 0,
@@ -3780,9 +3791,9 @@
       "solved": 21,
       "penalty": 46,
       "wa": 46,
-      "difficultyScore": 7054,
+      "difficultyScore": 7055,
       "hardSolved": 4,
-      "hardScore": 4670
+      "hardScore": 4671
     },
     {
       "id": 408323,
@@ -3956,7 +3967,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4846,7 +4857,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -5955,7 +5966,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -6596,7 +6607,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -7269,7 +7280,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -8076,7 +8087,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -8801,7 +8812,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9264,7 +9275,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9927,7 +9938,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -10423,7 +10434,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -10887,7 +10898,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11462,7 +11473,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11905,7 +11916,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -12358,7 +12369,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -12811,7 +12822,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -13243,7 +13254,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 2438,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
