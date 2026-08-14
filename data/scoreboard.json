@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-14T19:11:27.584Z",
+  "updatedAt": "2026-08-14T19:56:04.562Z",
   "pages": 5,
   "days": [
     [
@@ -2785,11 +2785,41 @@
           "task": 1513,
           "difficulty": 381,
           "hard": false,
-          "solved": false,
-          "penalty": 1,
-          "wa": 1,
-          "label": "-1",
+          "solved": true,
+          "penalty": 3,
+          "wa": 3,
+          "label": "+(3)",
           "attempts": [
+            {
+              "id": 11247192,
+              "date": "00:16:11 15 Aug 2026",
+              "timestamp": 1786752971000,
+              "authorName": "Adil",
+              "problemId": 1513,
+              "problemName": "Lemon Tale",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11247191,
+              "date": "00:12:59 15 Aug 2026",
+              "timestamp": 1786752779000,
+              "authorName": "Adil",
+              "problemId": 1513,
+              "problemName": "Lemon Tale",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Time limit exceeded"
+            },
+            {
+              "id": 11247190,
+              "date": "00:12:39 15 Aug 2026",
+              "timestamp": 1786752759000,
+              "authorName": "Adil",
+              "problemId": 1513,
+              "problemName": "Lemon Tale",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Wrong answer"
+            },
             {
               "id": 11247189,
               "date": "00:10:46 15 Aug 2026",
@@ -2905,10 +2935,10 @@
           "attempts": []
         }
       ],
-      "solved": 23,
-      "penalty": 48,
-      "wa": 48,
-      "difficultyScore": 7428,
+      "solved": 24,
+      "penalty": 50,
+      "wa": 50,
+      "difficultyScore": 7809,
       "hardSolved": 4,
       "hardScore": 4671
     },
