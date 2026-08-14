@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-14T13:37:41.185Z",
+  "updatedAt": "2026-08-14T14:35:39.842Z",
   "pages": 5,
   "days": [
     [
@@ -3771,10 +3771,21 @@
           "difficulty": 339,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 1,
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11247090,
+              "date": "19:35:35 14 Aug 2026",
+              "timestamp": 1786736135000,
+              "authorName": "Adil",
+              "problemId": 2024,
+              "problemName": "Adventure Time",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1724,
@@ -3788,8 +3799,8 @@
         }
       ],
       "solved": 21,
-      "penalty": 46,
-      "wa": 46,
+      "penalty": 47,
+      "wa": 47,
       "difficultyScore": 7055,
       "hardSolved": 4,
       "hardScore": 4671
