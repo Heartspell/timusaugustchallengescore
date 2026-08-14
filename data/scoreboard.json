@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-14T07:23:52.708Z",
+  "updatedAt": "2026-08-14T08:42:22.492Z",
   "pages": 5,
   "days": [
     [
@@ -192,9 +192,9 @@
           "difficulty": 895,
           "hard": true,
           "solved": true,
-          "penalty": 1,
-          "wa": 1,
-          "label": "+(1)",
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
           "attempts": [
             {
               "id": 11240381,
@@ -205,26 +205,6 @@
               "problemName": "Gray Code",
               "language": "PyPy 3.10 x64",
               "verdict": "Accepted"
-            },
-            {
-              "id": 11240380,
-              "date": "09:14:32 1 Aug 2026",
-              "timestamp": 1785575672000,
-              "authorName": "Muravev Slava [Samara SAU]",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "PyPy 3.10 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240379,
-              "date": "09:14:15 1 Aug 2026",
-              "timestamp": 1785575655000,
-              "authorName": "Muravev Slava [Samara SAU]",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "PyPy 3.10 x64",
-              "verdict": "Restricted function"
             }
           ]
         },
@@ -1671,11 +1651,32 @@
           "task": 1726,
           "difficulty": 120,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11246868,
+              "date": "12:31:00 14 Aug 2026",
+              "timestamp": 1786710660000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1726,
+              "problemName": "Visits",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11246867,
+              "date": "12:30:44 14 Aug 2026",
+              "timestamp": 1786710644000,
+              "authorName": "Muravev Slava [Samara SAU]",
+              "problemId": 1726,
+              "problemName": "Visits",
+              "language": "Python 3.12 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 2024,
@@ -1698,10 +1699,10 @@
           "attempts": []
         }
       ],
-      "solved": 30,
-      "penalty": 52,
-      "wa": 52,
-      "difficultyScore": 12490,
+      "solved": 31,
+      "penalty": 51,
+      "wa": 51,
+      "difficultyScore": 12610,
       "hardSolved": 9,
       "hardScore": 9004
     },
