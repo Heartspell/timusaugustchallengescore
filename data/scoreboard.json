@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-14T18:09:03.569Z",
+  "updatedAt": "2026-08-14T19:11:27.584Z",
   "pages": 5,
   "days": [
     [
@@ -2786,10 +2786,21 @@
           "difficulty": 381,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 1,
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11247189,
+              "date": "00:10:46 15 Aug 2026",
+              "timestamp": 1786752646000,
+              "authorName": "Adil",
+              "problemId": 1513,
+              "problemName": "Lemon Tale",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1669,
@@ -2895,8 +2906,8 @@
         }
       ],
       "solved": 23,
-      "penalty": 47,
-      "wa": 47,
+      "penalty": 48,
+      "wa": 48,
       "difficultyScore": 7428,
       "hardSolved": 4,
       "hardScore": 4671
