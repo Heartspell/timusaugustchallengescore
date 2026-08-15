@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-15T08:39:47.324Z",
+  "updatedAt": "2026-08-15T09:02:10.591Z",
   "pages": 5,
   "days": [
     [
@@ -119,7 +119,7 @@
     1724
   ],
   "difficulties": {
-    "1000": 16,
+    "1000": 0,
     "1001": 14,
     "1019": 465,
     "1038": 488,
@@ -131,7 +131,7 @@
     "1190": 339,
     "1196": 52,
     "1209": 34,
-    "1213": 170,
+    "1213": 0,
     "1247": 240,
     "1268": 722,
     "1295": 151,
@@ -153,7 +153,7 @@
     "1724": 657,
     "1726": 120,
     "1743": 989,
-    "1780": 895,
+    "1780": 0,
     "1820": 25,
     "1852": 2439,
     "1890": 464,
@@ -169,7 +169,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -179,7 +179,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -189,7 +189,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -1710,7 +1710,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -1731,7 +1731,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -1772,7 +1772,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": true,
           "penalty": 1,
@@ -2938,9 +2938,9 @@
       "solved": 24,
       "penalty": 50,
       "wa": 50,
-      "difficultyScore": 7809,
+      "difficultyScore": 6728,
       "hardSolved": 4,
-      "hardScore": 4671
+      "hardScore": 3776
     },
     {
       "id": 408292,
@@ -2948,7 +2948,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -2969,7 +2969,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -3010,7 +3010,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3863,7 +3863,7 @@
       "solved": 22,
       "penalty": 25,
       "wa": 25,
-      "difficultyScore": 4280,
+      "difficultyScore": 4094,
       "hardSolved": 1,
       "hardScore": 1214
     },
@@ -3873,7 +3873,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -3914,7 +3914,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -3935,7 +3935,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4521,7 +4521,7 @@
       "solved": 16,
       "penalty": 5,
       "wa": 5,
-      "difficultyScore": 2675,
+      "difficultyScore": 2489,
       "hardSolved": 2,
       "hardScore": 1337
     },
@@ -4531,7 +4531,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -4552,7 +4552,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -4573,7 +4573,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": true,
           "penalty": 1,
@@ -5460,9 +5460,9 @@
       "solved": 16,
       "penalty": 29,
       "wa": 29,
-      "difficultyScore": 2999,
+      "difficultyScore": 1918,
       "hardSolved": 2,
-      "hardScore": 1305
+      "hardScore": 410
     },
     {
       "id": 408257,
@@ -5470,7 +5470,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -5501,7 +5501,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -5522,7 +5522,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": true,
           "penalty": 5,
@@ -6495,9 +6495,9 @@
       "solved": 13,
       "penalty": 44,
       "wa": 44,
-      "difficultyScore": 2216,
+      "difficultyScore": 1135,
       "hardSolved": 2,
-      "hardScore": 1305
+      "hardScore": 410
     },
     {
       "id": 408280,
@@ -6505,7 +6505,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -6546,7 +6546,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -6567,7 +6567,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -7198,7 +7198,7 @@
       "solved": 11,
       "penalty": 14,
       "wa": 14,
-      "difficultyScore": 1117,
+      "difficultyScore": 931,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -7208,7 +7208,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -7229,7 +7229,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -7250,7 +7250,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -7902,7 +7902,7 @@
       "solved": 11,
       "penalty": 15,
       "wa": 15,
-      "difficultyScore": 623,
+      "difficultyScore": 437,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -7912,7 +7912,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -7933,7 +7933,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -7974,7 +7974,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -8617,7 +8617,7 @@
       "solved": 11,
       "penalty": 16,
       "wa": 16,
-      "difficultyScore": 1115,
+      "difficultyScore": 929,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -8627,7 +8627,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -8648,7 +8648,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -8679,7 +8679,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9257,7 +9257,7 @@
       "solved": 8,
       "penalty": 12,
       "wa": 12,
-      "difficultyScore": 1085,
+      "difficultyScore": 899,
       "hardSolved": 1,
       "hardScore": 410
     },
@@ -9267,7 +9267,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9277,7 +9277,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9287,7 +9287,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9805,7 +9805,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -9826,7 +9826,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -9847,7 +9847,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": true,
           "penalty": 5,
@@ -10352,9 +10352,9 @@
       "solved": 5,
       "penalty": 6,
       "wa": 6,
-      "difficultyScore": 1344,
+      "difficultyScore": 263,
       "hardSolved": 1,
-      "hardScore": 895
+      "hardScore": 0
     },
     {
       "id": 408277,
@@ -10362,7 +10362,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -10383,7 +10383,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -10404,7 +10404,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -10848,7 +10848,7 @@
       "solved": 4,
       "penalty": 2,
       "wa": 2,
-      "difficultyScore": 449,
+      "difficultyScore": 263,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -10858,7 +10858,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10868,7 +10868,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10878,7 +10878,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": true,
           "penalty": 1,
@@ -11323,9 +11323,9 @@
       "solved": 3,
       "penalty": 1,
       "wa": 1,
-      "difficultyScore": 2268,
+      "difficultyScore": 1373,
       "hardSolved": 3,
-      "hardScore": 2268
+      "hardScore": 1373
     },
     {
       "id": 408307,
@@ -11333,7 +11333,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -11364,7 +11364,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11374,7 +11374,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11787,7 +11787,7 @@
       "solved": 2,
       "penalty": 1,
       "wa": 1,
-      "difficultyScore": 30,
+      "difficultyScore": 14,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -11797,7 +11797,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11807,7 +11807,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11817,7 +11817,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": true,
           "penalty": 0,
@@ -12351,9 +12351,9 @@
       "solved": 2,
       "penalty": 11,
       "wa": 11,
-      "difficultyScore": 1305,
+      "difficultyScore": 410,
       "hardSolved": 2,
-      "hardScore": 1305
+      "hardScore": 410
     },
     {
       "id": 408279,
@@ -12361,7 +12361,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -12382,7 +12382,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12392,7 +12392,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -12794,7 +12794,7 @@
       "solved": 1,
       "penalty": 0,
       "wa": 0,
-      "difficultyScore": 16,
+      "difficultyScore": 0,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -12804,7 +12804,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -12835,7 +12835,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12845,7 +12845,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -13247,7 +13247,7 @@
       "solved": 1,
       "penalty": 1,
       "wa": 1,
-      "difficultyScore": 16,
+      "difficultyScore": 0,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -13257,7 +13257,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 16,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -13267,7 +13267,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 170,
+          "difficulty": 0,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -13277,7 +13277,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 895,
+          "difficulty": 0,
           "hard": true,
           "solved": false,
           "penalty": 0,
