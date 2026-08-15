@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-15T08:04:28.734Z",
+  "updatedAt": "2026-08-15T08:39:47.324Z",
   "pages": 5,
   "days": [
     [
@@ -119,23 +119,23 @@
     1724
   ],
   "difficulties": {
-    "1000": 0,
-    "1001": 0,
+    "1000": 16,
+    "1001": 14,
     "1019": 465,
     "1038": 488,
-    "1049": 0,
+    "1049": 249,
     "1076": 712,
     "1079": 111,
-    "1115": 0,
+    "1115": 410,
     "1127": 322,
     "1190": 339,
     "1196": 52,
     "1209": 34,
-    "1213": 0,
+    "1213": 170,
     "1247": 240,
     "1268": 722,
     "1295": 151,
-    "1313": 0,
+    "1313": 34,
     "1343": 416,
     "1349": 51,
     "1404": 80,
@@ -153,12 +153,12 @@
     "1724": 657,
     "1726": 120,
     "1743": 989,
-    "1780": 0,
+    "1780": 895,
     "1820": 25,
-    "1852": 0,
+    "1852": 2439,
     "1890": 464,
     "1932": 963,
-    "1987": 0,
+    "1987": 167,
     "2012": 17,
     "2024": 339
   },
@@ -169,7 +169,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -179,7 +179,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -189,7 +189,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -199,7 +199,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -209,7 +209,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -219,7 +219,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": true,
           "penalty": 6,
@@ -320,7 +320,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -341,7 +341,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -362,7 +362,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": true,
           "penalty": 1,
@@ -1700,9 +1700,9 @@
       "solved": 29,
       "penalty": 50,
       "wa": 50,
-      "difficultyScore": 8436,
+      "difficultyScore": 11486,
       "hardSolved": 8,
-      "hardScore": 5260
+      "hardScore": 8109
     },
     {
       "id": 408303,
@@ -1710,7 +1710,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -1731,7 +1731,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -1772,7 +1772,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": true,
           "penalty": 1,
@@ -1803,7 +1803,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -1854,7 +1854,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": true,
           "penalty": 4,
@@ -1915,7 +1915,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 16,
@@ -2086,7 +2086,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -2107,7 +2107,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": true,
           "penalty": 3,
@@ -2158,7 +2158,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": true,
           "penalty": 0,
@@ -2938,9 +2938,9 @@
       "solved": 24,
       "penalty": 50,
       "wa": 50,
-      "difficultyScore": 3825,
+      "difficultyScore": 7809,
       "hardSolved": 4,
-      "hardScore": 1337
+      "hardScore": 4671
     },
     {
       "id": 408292,
@@ -2948,7 +2948,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -2969,7 +2969,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -3010,7 +3010,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3020,7 +3020,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -3041,7 +3041,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -3062,7 +3062,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3072,7 +3072,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -3093,7 +3093,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -3103,7 +3103,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3863,7 +3863,7 @@
       "solved": 22,
       "penalty": 25,
       "wa": 25,
-      "difficultyScore": 3797,
+      "difficultyScore": 4280,
       "hardSolved": 1,
       "hardScore": 1214
     },
@@ -3873,7 +3873,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -3914,7 +3914,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -3935,7 +3935,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3945,7 +3945,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -3966,7 +3966,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -3987,7 +3987,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -3997,7 +3997,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -4018,7 +4018,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -4039,7 +4039,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -4521,7 +4521,7 @@
       "solved": 16,
       "penalty": 5,
       "wa": 5,
-      "difficultyScore": 2025,
+      "difficultyScore": 2675,
       "hardSolved": 2,
       "hardScore": 1337
     },
@@ -4531,7 +4531,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -4552,7 +4552,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -4573,7 +4573,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": true,
           "penalty": 1,
@@ -4604,7 +4604,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -4625,7 +4625,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -4646,7 +4646,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": true,
           "penalty": 17,
@@ -4857,7 +4857,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -4888,7 +4888,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -4929,7 +4929,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -5460,9 +5460,9 @@
       "solved": 16,
       "penalty": 29,
       "wa": 29,
-      "difficultyScore": 1044,
+      "difficultyScore": 2999,
       "hardSolved": 2,
-      "hardScore": 0
+      "hardScore": 1305
     },
     {
       "id": 408257,
@@ -5470,7 +5470,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -5501,7 +5501,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -5522,7 +5522,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": true,
           "penalty": 5,
@@ -5593,7 +5593,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -5614,7 +5614,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -5675,7 +5675,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": true,
           "penalty": 29,
@@ -5986,7 +5986,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -6007,7 +6007,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -6038,7 +6038,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -6495,9 +6495,9 @@
       "solved": 13,
       "penalty": 44,
       "wa": 44,
-      "difficultyScore": 261,
+      "difficultyScore": 2216,
       "hardSolved": 2,
-      "hardScore": 0
+      "hardScore": 1305
     },
     {
       "id": 408280,
@@ -6505,7 +6505,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -6546,7 +6546,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -6567,7 +6567,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -6577,7 +6577,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -6598,7 +6598,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": true,
           "penalty": 3,
@@ -6649,7 +6649,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -6659,7 +6659,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -6669,7 +6669,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -6679,7 +6679,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -7198,7 +7198,7 @@
       "solved": 11,
       "penalty": 14,
       "wa": 14,
-      "difficultyScore": 668,
+      "difficultyScore": 1117,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -7208,7 +7208,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -7229,7 +7229,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -7250,7 +7250,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -7260,7 +7260,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -7301,7 +7301,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -7311,7 +7311,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -7321,7 +7321,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -7342,7 +7342,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -7352,7 +7352,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -7902,7 +7902,7 @@
       "solved": 11,
       "penalty": 15,
       "wa": 15,
-      "difficultyScore": 389,
+      "difficultyScore": 623,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -7912,7 +7912,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -7933,7 +7933,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -7974,7 +7974,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -7984,7 +7984,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -8005,7 +8005,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -8036,7 +8036,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 5,
@@ -8097,7 +8097,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -8138,7 +8138,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -8159,7 +8159,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -8617,7 +8617,7 @@
       "solved": 11,
       "penalty": 16,
       "wa": 16,
-      "difficultyScore": 465,
+      "difficultyScore": 1115,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -8627,7 +8627,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -8648,7 +8648,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -8679,7 +8679,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -8689,7 +8689,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -8710,7 +8710,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -8741,7 +8741,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": true,
           "penalty": 8,
@@ -8842,7 +8842,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -8863,7 +8863,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -8884,7 +8884,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9257,9 +9257,9 @@
       "solved": 8,
       "penalty": 12,
       "wa": 12,
-      "difficultyScore": 25,
+      "difficultyScore": 1085,
       "hardSolved": 1,
-      "hardScore": 0
+      "hardScore": 410
     },
     {
       "id": 408326,
@@ -9267,7 +9267,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9277,7 +9277,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9287,7 +9287,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9297,7 +9297,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9307,7 +9307,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9317,7 +9317,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9327,7 +9327,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9337,7 +9337,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9347,7 +9347,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9805,7 +9805,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -9826,7 +9826,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -9847,7 +9847,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": true,
           "penalty": 5,
@@ -9918,7 +9918,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -9939,7 +9939,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -9980,7 +9980,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -9990,7 +9990,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10000,7 +10000,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10010,7 +10010,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -10352,9 +10352,9 @@
       "solved": 5,
       "penalty": 6,
       "wa": 6,
-      "difficultyScore": 0,
+      "difficultyScore": 1344,
       "hardSolved": 1,
-      "hardScore": 0
+      "hardScore": 895
     },
     {
       "id": 408277,
@@ -10362,7 +10362,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -10383,7 +10383,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -10404,7 +10404,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -10414,7 +10414,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -10445,7 +10445,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -10476,7 +10476,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -10486,7 +10486,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10496,7 +10496,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10506,7 +10506,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -10848,7 +10848,7 @@
       "solved": 4,
       "penalty": 2,
       "wa": 2,
-      "difficultyScore": 0,
+      "difficultyScore": 449,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -10858,7 +10858,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10868,7 +10868,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10878,7 +10878,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": true,
           "penalty": 1,
@@ -10909,7 +10909,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10919,7 +10919,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10929,7 +10929,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": true,
           "penalty": 0,
@@ -10950,7 +10950,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10960,7 +10960,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -10970,7 +10970,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11323,9 +11323,9 @@
       "solved": 3,
       "penalty": 1,
       "wa": 1,
-      "difficultyScore": 963,
+      "difficultyScore": 2268,
       "hardSolved": 3,
-      "hardScore": 963
+      "hardScore": 2268
     },
     {
       "id": 408307,
@@ -11333,7 +11333,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -11364,7 +11364,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11374,7 +11374,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11384,7 +11384,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -11405,7 +11405,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11415,7 +11415,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11425,7 +11425,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11435,7 +11435,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11445,7 +11445,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -11787,7 +11787,7 @@
       "solved": 2,
       "penalty": 1,
       "wa": 1,
-      "difficultyScore": 0,
+      "difficultyScore": 30,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -11797,7 +11797,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11807,7 +11807,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11817,7 +11817,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": true,
           "penalty": 0,
@@ -11838,7 +11838,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11848,7 +11848,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11858,7 +11858,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": true,
           "penalty": 11,
@@ -11989,7 +11989,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11999,7 +11999,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12009,7 +12009,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -12351,9 +12351,9 @@
       "solved": 2,
       "penalty": 11,
       "wa": 11,
-      "difficultyScore": 0,
+      "difficultyScore": 1305,
       "hardSolved": 2,
-      "hardScore": 0
+      "hardScore": 1305
     },
     {
       "id": 408279,
@@ -12361,7 +12361,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -12382,7 +12382,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12392,7 +12392,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -12402,7 +12402,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12412,7 +12412,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12422,7 +12422,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -12432,7 +12432,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12442,7 +12442,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12452,7 +12452,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -12794,7 +12794,7 @@
       "solved": 1,
       "penalty": 0,
       "wa": 0,
-      "difficultyScore": 0,
+      "difficultyScore": 16,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -12804,7 +12804,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -12835,7 +12835,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12845,7 +12845,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -12855,7 +12855,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12865,7 +12865,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12875,7 +12875,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -12885,7 +12885,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12895,7 +12895,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12905,7 +12905,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -13247,7 +13247,7 @@
       "solved": 1,
       "penalty": 1,
       "wa": 1,
-      "difficultyScore": 0,
+      "difficultyScore": 16,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -13257,7 +13257,7 @@
       "cells": [
         {
           "task": 1000,
-          "difficulty": 0,
+          "difficulty": 16,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -13267,7 +13267,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -13277,7 +13277,7 @@
         },
         {
           "task": 1780,
-          "difficulty": 0,
+          "difficulty": 895,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -13287,7 +13287,7 @@
         },
         {
           "task": 1001,
-          "difficulty": 0,
+          "difficulty": 14,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -13297,7 +13297,7 @@
         },
         {
           "task": 1049,
-          "difficulty": 0,
+          "difficulty": 249,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -13307,7 +13307,7 @@
         },
         {
           "task": 1115,
-          "difficulty": 0,
+          "difficulty": 410,
           "hard": true,
           "solved": false,
           "penalty": 0,
@@ -13317,7 +13317,7 @@
         },
         {
           "task": 1313,
-          "difficulty": 0,
+          "difficulty": 34,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -13327,7 +13327,7 @@
         },
         {
           "task": 1987,
-          "difficulty": 0,
+          "difficulty": 167,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -13337,7 +13337,7 @@
         },
         {
           "task": 1852,
-          "difficulty": 0,
+          "difficulty": 2439,
           "hard": true,
           "solved": false,
           "penalty": 0,
