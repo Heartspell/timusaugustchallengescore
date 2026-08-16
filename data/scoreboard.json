@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-16T16:57:36.346Z",
+  "updatedAt": "2026-08-16T17:17:35.820Z",
   "pages": 5,
   "days": [
     [
@@ -131,7 +131,7 @@
     "1190": 339,
     "1196": 52,
     "1209": 34,
-    "1213": 0,
+    "1213": 170,
     "1247": 240,
     "1268": 721,
     "1295": 151,
@@ -179,7 +179,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -1731,7 +1731,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -2989,7 +2989,7 @@
       "solved": 25,
       "penalty": 54,
       "wa": 54,
-      "difficultyScore": 8086,
+      "difficultyScore": 8256,
       "hardSolved": 4,
       "hardScore": 4671
     },
@@ -3020,7 +3020,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -3914,7 +3914,7 @@
       "solved": 22,
       "penalty": 25,
       "wa": 25,
-      "difficultyScore": 4094,
+      "difficultyScore": 4264,
       "hardSolved": 1,
       "hardScore": 1214
     },
@@ -3965,7 +3965,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -4572,7 +4572,7 @@
       "solved": 16,
       "penalty": 5,
       "wa": 5,
-      "difficultyScore": 2489,
+      "difficultyScore": 2659,
       "hardSolved": 2,
       "hardScore": 1337
     },
@@ -4603,7 +4603,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -5511,7 +5511,7 @@
       "solved": 16,
       "penalty": 29,
       "wa": 29,
-      "difficultyScore": 2813,
+      "difficultyScore": 2983,
       "hardSolved": 2,
       "hardScore": 1305
     },
@@ -5552,7 +5552,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -6546,7 +6546,7 @@
       "solved": 13,
       "penalty": 44,
       "wa": 44,
-      "difficultyScore": 2030,
+      "difficultyScore": 2200,
       "hardSolved": 2,
       "hardScore": 1305
     },
@@ -6597,7 +6597,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -7249,7 +7249,7 @@
       "solved": 11,
       "penalty": 14,
       "wa": 14,
-      "difficultyScore": 931,
+      "difficultyScore": 1101,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -7280,7 +7280,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -7953,7 +7953,7 @@
       "solved": 11,
       "penalty": 15,
       "wa": 15,
-      "difficultyScore": 437,
+      "difficultyScore": 607,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -7984,7 +7984,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 2,
@@ -8668,7 +8668,7 @@
       "solved": 11,
       "penalty": 16,
       "wa": 16,
-      "difficultyScore": 929,
+      "difficultyScore": 1099,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -8699,7 +8699,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 1,
@@ -9308,7 +9308,7 @@
       "solved": 8,
       "penalty": 12,
       "wa": 12,
-      "difficultyScore": 899,
+      "difficultyScore": 1069,
       "hardSolved": 1,
       "hardScore": 410
     },
@@ -9328,7 +9328,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -9877,7 +9877,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -10403,7 +10403,7 @@
       "solved": 5,
       "penalty": 6,
       "wa": 6,
-      "difficultyScore": 1158,
+      "difficultyScore": 1328,
       "hardSolved": 1,
       "hardScore": 895
     },
@@ -10434,7 +10434,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": true,
           "penalty": 0,
@@ -10899,7 +10899,7 @@
       "solved": 4,
       "penalty": 2,
       "wa": 2,
-      "difficultyScore": 263,
+      "difficultyScore": 433,
       "hardSolved": 0,
       "hardScore": 0
     },
@@ -10919,7 +10919,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11415,7 +11415,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -11858,7 +11858,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12433,7 +12433,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -12886,7 +12886,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
@@ -13318,7 +13318,7 @@
         },
         {
           "task": 1213,
-          "difficulty": 0,
+          "difficulty": 170,
           "hard": false,
           "solved": false,
           "penalty": 0,
