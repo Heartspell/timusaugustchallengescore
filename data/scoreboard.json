@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-16T10:09:59.865Z",
+  "updatedAt": "2026-08-16T10:38:05.417Z",
   "pages": 5,
   "days": [
     [
@@ -2868,10 +2868,41 @@
           "difficulty": 464,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 3,
+          "wa": 3,
+          "label": "-3",
+          "attempts": [
+            {
+              "id": 11247568,
+              "date": "15:36:32 16 Aug 2026",
+              "timestamp": 1786894592000,
+              "authorName": "Adil",
+              "problemId": 1890,
+              "problemName": "Money out of Thin Air",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11247564,
+              "date": "15:29:35 16 Aug 2026",
+              "timestamp": 1786894175000,
+              "authorName": "Adil",
+              "problemId": 1890,
+              "problemName": "Money out of Thin Air",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11247563,
+              "date": "15:29:22 16 Aug 2026",
+              "timestamp": 1786894162000,
+              "authorName": "Adil",
+              "problemId": 1890,
+              "problemName": "Money out of Thin Air",
+              "language": "GCC 13.2 x64",
+              "verdict": "Compilation error"
+            }
+          ]
         },
         {
           "task": 1441,
@@ -2936,8 +2967,8 @@
         }
       ],
       "solved": 24,
-      "penalty": 50,
-      "wa": 50,
+      "penalty": 53,
+      "wa": 53,
       "difficultyScore": 7809,
       "hardSolved": 4,
       "hardScore": 4671
