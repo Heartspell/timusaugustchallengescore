@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-17T17:33:41.189Z",
+  "updatedAt": "2026-08-17T17:58:49.138Z",
   "pages": 5,
   "days": [
     [
@@ -4307,11 +4307,22 @@
           "task": 1352,
           "difficulty": 132,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11248127,
+              "date": "22:50:42 17 Aug 2026",
+              "timestamp": 1787007042000,
+              "authorName": "Isa",
+              "problemId": 1352,
+              "problemName": "Mersenne Primes",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1141,
@@ -4364,10 +4375,10 @@
           "attempts": []
         }
       ],
-      "solved": 24,
+      "solved": 25,
       "penalty": 25,
       "wa": 25,
-      "difficultyScore": 4714,
+      "difficultyScore": 4846,
       "hardSolved": 1,
       "hardScore": 1214
     },
