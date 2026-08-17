@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-17T07:19:15.520Z",
+  "updatedAt": "2026-08-17T07:28:43.766Z",
   "pages": 5,
   "days": [
     [
@@ -6934,11 +6934,22 @@
           "task": 1349,
           "difficulty": 51,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11247872,
+              "date": "12:26:28 17 Aug 2026",
+              "timestamp": 1786969588000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1349,
+              "problemName": "Farm",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1190,
@@ -7223,10 +7234,10 @@
           "attempts": []
         }
       ],
-      "solved": 13,
+      "solved": 14,
       "penalty": 44,
       "wa": 44,
-      "difficultyScore": 2216,
+      "difficultyScore": 2267,
       "hardSolved": 2,
       "hardScore": 1305
     },
