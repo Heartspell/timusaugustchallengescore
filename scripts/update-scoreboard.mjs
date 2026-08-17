@@ -1,5 +1,5 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
-import { initLogFile, logLoadRow } from "./logger.mjs";
+import { flushLogFile, initLogFile, logLoadRow } from "./logger.mjs";
 
 const PAGES = Number(process.env.TIMUS_PAGES || 5);
 const SUBMISSIONS_PER_PAGE = 100;
@@ -47,6 +47,7 @@ const scoreboard = {
 };
 
 await writeFile("data/scoreboard.json", JSON.stringify(scoreboard, null, 2) + "\n");
+flushLogFile();
 
 async function loadAuthors() {
   const body = await readFile("authors.txt", "utf8");
