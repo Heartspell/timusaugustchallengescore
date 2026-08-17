@@ -110,12 +110,12 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
     const submissionsInChallenge = submissionsAfterChallengeStart.filter((item) => taskSet.has(item.problemId));
     submissions.push(...submissionsInChallenge);
 
-    const nextHref = html.match(/<td class="footer_right"[^>]*>[\s\S]*?<a href="([^"]+)"/i)?.[1];
+    const nextHref = parseNextHref(html);
     logLoadRow(author.id, pageNumber, "nextHref", nextHref || "");
 
     next = submissionsAfterChallengeStart.length < pageSubmissions.length
       ? ""
-      : nextHref ? `/${decodeEntities(nextHref).replace(/^\/+/, "")}` : "";
+      : nextHref ? normalizeNextHref(nextHref) : "";
     logLoadRow(author.id, pageNumber, "next", next);
   }
 
@@ -131,6 +131,19 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
 
 function uniqueById(items) {
   return [...new Map(items.map((item) => [item.id, item])).values()];
+}
+
+function parseNextHref(html) {
+  return html.match(/<td class="footer_right"[^>]*>[\s\S]*?<a href="([^"]*status\.aspx[^"]*from=\d+[^"]*)"/i)?.[1] || "";
+}
+
+function normalizeNextHref(href) {
+  const value = decodeEntities(href);
+  if (/^https?:\/\//i.test(value)) {
+    const url = new URL(value);
+    return `${url.pathname}${url.search}`;
+  }
+  return `/${value.replace(/^\/+/, "")}`;
 }
 
 function parseSubmissions(html, authorId) {
