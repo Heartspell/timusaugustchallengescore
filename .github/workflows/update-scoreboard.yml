@@ -46,7 +46,7 @@ jobs:
         if: steps.scoreboard.outputs.changed == 'true'
         with:
           commit_message: "Update Timus scoreboard"
-          file_pattern: data/scoreboard.json index.html
+          file_pattern: data/scoreboard.json index.html logs/update-scoreboard.log
       - uses: actions/configure-pages@v5
         if: steps.scoreboard.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
       - name: Build static artifact
