@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-17T08:51:12.668Z",
+  "updatedAt": "2026-08-17T09:26:12.264Z",
   "pages": 5,
   "days": [
     [
@@ -3248,11 +3248,21 @@
           "task": 1141,
           "difficulty": 364,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 1,
           "wa": 1,
-          "label": "-1",
+          "label": "+(1)",
           "attempts": [
+            {
+              "id": 11247926,
+              "date": "14:21:47 17 Aug 2026",
+              "timestamp": 1786976507000,
+              "authorName": "Adil",
+              "problemId": 1141,
+              "problemName": "RSA Attack",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
             {
               "id": 11247662,
               "date": "22:25:20 16 Aug 2026",
@@ -3306,10 +3316,10 @@
           "attempts": []
         }
       ],
-      "solved": 26,
+      "solved": 27,
       "penalty": 55,
       "wa": 55,
-      "difficultyScore": 8404,
+      "difficultyScore": 8768,
       "hardSolved": 4,
       "hardScore": 4671
     },
