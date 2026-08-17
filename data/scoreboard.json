@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-17T12:31:24.003Z",
+  "updatedAt": "2026-08-17T13:23:19.454Z",
   "pages": 5,
   "days": [
     [
@@ -4255,11 +4255,22 @@
           "task": 1104,
           "difficulty": 95,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11247991,
+              "date": "17:31:30 17 Aug 2026",
+              "timestamp": 1786987890000,
+              "authorName": "Isa",
+              "problemId": 1104,
+              "problemName": "Don’t Ask Woman about Her Age",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1219,
@@ -4342,10 +4353,10 @@
           "attempts": []
         }
       ],
-      "solved": 22,
+      "solved": 23,
       "penalty": 25,
       "wa": 25,
-      "difficultyScore": 4280,
+      "difficultyScore": 4375,
       "hardSolved": 1,
       "hardScore": 1214
     },
