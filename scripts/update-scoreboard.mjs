@@ -26,7 +26,8 @@ const authors = await loadAuthors();
 const days = await loadTaskDays();
 const tasks = days.flat();
 const hardTasks = getHardTaskSet(days);
-const difficulties = await loadTaskDifficulties(tasks);
+const savedDifficulties = await loadSavedDifficulties();
+const difficulties = await loadTaskDifficulties(tasks, savedDifficulties);
 const rows = [];
 
 for (const author of authors) {
@@ -74,11 +75,21 @@ async function loadTaskDays() {
     .filter((day) => day.length > 0);
 }
 
-async function loadTaskDifficulties(tasks) {
-  const pairs = [];
-  for (const task of tasks) {
-    pairs.push([task, await loadTaskDifficulty(task).catch(() => 0)]);
+async function loadSavedDifficulties() {
+  try {
+    const data = JSON.parse(await readFile("data/scoreboard.json", "utf8"));
+    return data.difficulties || {};
+  } catch {
+    return {};
   }
+}
+
+async function loadTaskDifficulties(tasks, saved = {}) {
+  const pairs = await Promise.all(tasks.map(async (task) => {
+    const savedDifficulty = Number(saved[task] || 0);
+    if (savedDifficulty > 0) return [task, savedDifficulty];
+    return [task, await loadTaskDifficulty(task).catch(() => 0)];
+  }));
   return Object.fromEntries(pairs);
 }
 
