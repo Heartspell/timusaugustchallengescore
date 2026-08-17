@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-17T14:56:40.354Z",
+  "updatedAt": "2026-08-17T15:45:57.094Z",
   "pages": 5,
   "days": [
     [
@@ -4235,11 +4235,22 @@
           "task": 2024,
           "difficulty": 339,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11248081,
+              "date": "20:42:30 17 Aug 2026",
+              "timestamp": 1786999350000,
+              "authorName": "Isa",
+              "problemId": 2024,
+              "problemName": "Adventure Time",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1724,
@@ -4353,10 +4364,10 @@
           "attempts": []
         }
       ],
-      "solved": 23,
+      "solved": 24,
       "penalty": 25,
       "wa": 25,
-      "difficultyScore": 4375,
+      "difficultyScore": 4714,
       "hardSolved": 1,
       "hardScore": 1214
     },
