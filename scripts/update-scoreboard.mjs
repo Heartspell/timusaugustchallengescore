@@ -1,4 +1,5 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { initLogFile, logLoadRow } from "./logger.mjs";
 
 const PAGES = Number(process.env.TIMUS_PAGES || 5);
 const SUBMISSIONS_PER_PAGE = 100;
@@ -18,6 +19,8 @@ const MONTHS = {
   Nov: 10,
   Dec: 11,
 };
+
+initLogFile();
 
 const authors = await loadAuthors();
 const days = await loadTaskDays();
@@ -91,19 +94,29 @@ async function loadRow(author, tasks, difficulties, hardTasks) {
   let next = `/status.aspx?space=1&author=${author.id}&count=${SUBMISSIONS_PER_PAGE}&locale=en`;
 
   for (let page = 0; page < PAGES && next; page += 1) {
-    const html = await fetchText(`${BASE}${next}`);
+    const pageNumber = page + 1;
+    const fetchUrl = `${BASE}${next}`;
+    logLoadRow(author.id, pageNumber, "fetchUrl", fetchUrl);
+
+    const html = await fetchText(fetchUrl);
     if (!timusName) timusName = parseStatusAuthorName(html);
 
     const pageSubmissions = parseSubmissions(html, author.id);
+    logLoadRow(author.id, pageNumber, "pageSubmissions", pageSubmissions.length);
+
     const submissionsAfterChallengeStart = pageSubmissions.filter((item) => item.timestamp >= CHALLENGE_START);
+    logLoadRow(author.id, pageNumber, "submissionsAfterChallengeStart", submissionsAfterChallengeStart.length);
 
     const submissionsInChallenge = submissionsAfterChallengeStart.filter((item) => taskSet.has(item.problemId));
     submissions.push(...submissionsInChallenge);
 
-    if (submissionsAfterChallengeStart.length < pageSubmissions.length) break;
-
     const nextHref = html.match(/<td class="footer_right"[^>]*>[\s\S]*?<a href="([^"]+)"/i)?.[1];
-    next = nextHref ? `/${decodeEntities(nextHref).replace(/^\/+/, "")}` : "";
+    logLoadRow(author.id, pageNumber, "nextHref", nextHref || "");
+
+    next = submissionsAfterChallengeStart.length < pageSubmissions.length
+      ? ""
+      : nextHref ? `/${decodeEntities(nextHref).replace(/^\/+/, "")}` : "";
+    logLoadRow(author.id, pageNumber, "next", next);
   }
 
   const uniqueSubmissions = uniqueById(submissions);
