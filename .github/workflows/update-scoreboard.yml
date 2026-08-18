@@ -2,13 +2,21 @@ name: Update scoreboard
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types:
+      - update-scoreboard
   schedule:
     - cron: "*/5 * * * *"
   push:
     paths:
       - "authors.txt"
       - "tasks.txt"
+      - "app.js"
+      - "index.html"
+      - "style.css"
+      - "scripts/logger.mjs"
       - "scripts/update-scoreboard.mjs"
+      - ".github/workflows/update-scoreboard.yml"
 
 permissions:
   contents: write
@@ -48,17 +56,17 @@ jobs:
           commit_message: "Update Timus scoreboard"
           file_pattern: data/scoreboard.json index.html logs/update-scoreboard.log
       - uses: actions/configure-pages@v5
-        if: steps.scoreboard.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.scoreboard.outputs.changed == 'true' || github.event_name == 'workflow_dispatch' || github.event_name == 'repository_dispatch' || github.event_name == 'push'
       - name: Build static artifact
-        if: steps.scoreboard.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.scoreboard.outputs.changed == 'true' || github.event_name == 'workflow_dispatch' || github.event_name == 'repository_dispatch' || github.event_name == 'push'
         run: |
           mkdir -p _site/data
           cp index.html style.css app.js authors.txt tasks.txt .nojekyll _site/
           cp data/scoreboard.json _site/data/
       - uses: actions/upload-pages-artifact@v3
-        if: steps.scoreboard.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.scoreboard.outputs.changed == 'true' || github.event_name == 'workflow_dispatch' || github.event_name == 'repository_dispatch' || github.event_name == 'push'
         with:
           path: _site
       - id: deployment
-        if: steps.scoreboard.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.scoreboard.outputs.changed == 'true' || github.event_name == 'workflow_dispatch' || github.event_name == 'repository_dispatch' || github.event_name == 'push'
         uses: actions/deploy-pages@v4
