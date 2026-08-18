@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-18T06:16:42.505Z",
+  "updatedAt": "2026-08-18T06:57:01.674Z",
   "pages": 5,
   "days": [
     [
@@ -7201,11 +7201,22 @@
           "task": 1104,
           "difficulty": 95,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11248346,
+              "date": "11:29:27 18 Aug 2026",
+              "timestamp": 1787052567000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1104,
+              "problemName": "Don’t Ask Woman about Her Age",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1219,
@@ -7261,11 +7272,22 @@
           "task": 2111,
           "difficulty": 73,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11248347,
+              "date": "11:35:21 18 Aug 2026",
+              "timestamp": 1787052921000,
+              "authorName": "amirhanordobaev",
+              "problemId": 2111,
+              "problemName": "Plato",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1377,
@@ -7288,10 +7310,10 @@
           "attempts": []
         }
       ],
-      "solved": 14,
+      "solved": 16,
       "penalty": 44,
       "wa": 44,
-      "difficultyScore": 2267,
+      "difficultyScore": 2435,
       "hardSolved": 2,
       "hardScore": 1305
     },
