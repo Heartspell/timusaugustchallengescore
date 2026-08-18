@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync } from "node:fs";
+import { appendFileSync, mkdirSync } from "node:fs";
 
 const LOG_FILE = `logs/update-scoreboard-${new Date().toISOString().slice(0, 10)}.log`;
 const lines = [];
@@ -8,7 +8,6 @@ export function initLogFile() {
   mkdirSync("logs", { recursive: true });
   lines.length = 0;
   initialized = true;
-  writeFileSync(LOG_FILE, "");
 }
 
 export function logLoadRow(authorId, page, key, value = "") {
@@ -18,8 +17,9 @@ export function logLoadRow(authorId, page, key, value = "") {
 }
 
 export function flushLogFile() {
-  if (!initialized) return;
-  writeFileSync(LOG_FILE, lines.length ? `${lines.join("\n")}\n` : "");
+  if (!initialized || lines.length === 0) return;
+  appendFileSync(LOG_FILE, `# ${new Date().toISOString()}\n${lines.join("\n")}\n`);
+  lines.length = 0;
 }
 
 process.once("exit", flushLogFile);
