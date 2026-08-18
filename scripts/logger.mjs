@@ -1,6 +1,6 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const LOG_FILE = "logs/update-scoreboard.log";
+const LOG_FILE = `logs/update-scoreboard-${new Date().toISOString().slice(0, 10)}.log`;
 const lines = [];
 let initialized = false;
 
