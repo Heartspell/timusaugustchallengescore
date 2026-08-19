@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-19T13:26:30.710Z",
+  "updatedAt": "2026-08-19T14:05:47.917Z",
   "pages": 5,
   "days": [
     [
@@ -3442,11 +3442,32 @@
           "task": 1280,
           "difficulty": 141,
           "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "solved": true,
+          "penalty": 1,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11248815,
+              "date": "18:52:47 19 Aug 2026",
+              "timestamp": 1787165567000,
+              "authorName": "Adil",
+              "problemId": 1280,
+              "problemName": "Topological Sorting",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11248814,
+              "date": "18:52:35 19 Aug 2026",
+              "timestamp": 1787165555000,
+              "authorName": "Adil",
+              "problemId": 1280,
+              "problemName": "Topological Sorting",
+              "language": "G++ 13.2 x64",
+              "verdict": "Compilation error"
+            }
+          ]
         },
         {
           "task": 1236,
@@ -3469,10 +3490,10 @@
           "attempts": []
         }
       ],
-      "solved": 28,
-      "penalty": 55,
-      "wa": 55,
-      "difficultyScore": 9265,
+      "solved": 29,
+      "penalty": 56,
+      "wa": 56,
+      "difficultyScore": 9406,
       "hardSolved": 5,
       "hardScore": 5168
     },
@@ -4511,10 +4532,31 @@
           "difficulty": 497,
           "hard": true,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 2,
+          "wa": 2,
+          "label": "-2",
+          "attempts": [
+            {
+              "id": 11248819,
+              "date": "19:02:43 19 Aug 2026",
+              "timestamp": 1787166163000,
+              "authorName": "Isa",
+              "problemId": 1535,
+              "problemName": "The Hobbit or There and Back Again",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11248818,
+              "date": "18:59:45 19 Aug 2026",
+              "timestamp": 1787165985000,
+              "authorName": "Isa",
+              "problemId": 1535,
+              "problemName": "The Hobbit or There and Back Again",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1494,
@@ -4578,8 +4620,8 @@
         }
       ],
       "solved": 25,
-      "penalty": 25,
-      "wa": 25,
+      "penalty": 27,
+      "wa": 27,
       "difficultyScore": 4846,
       "hardSolved": 1,
       "hardScore": 1214
