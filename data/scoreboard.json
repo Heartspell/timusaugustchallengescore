@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-19T14:05:47.917Z",
+  "updatedAt": "2026-08-19T14:48:19.585Z",
   "pages": 5,
   "days": [
     [
@@ -4531,11 +4531,21 @@
           "task": 1535,
           "difficulty": 497,
           "hard": true,
-          "solved": false,
+          "solved": true,
           "penalty": 2,
           "wa": 2,
-          "label": "-2",
+          "label": "+(2)",
           "attempts": [
+            {
+              "id": 11248825,
+              "date": "19:31:00 19 Aug 2026",
+              "timestamp": 1787167860000,
+              "authorName": "Isa",
+              "problemId": 1535,
+              "problemName": "The Hobbit or There and Back Again",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            },
             {
               "id": 11248819,
               "date": "19:02:43 19 Aug 2026",
@@ -4619,12 +4629,12 @@
           "attempts": []
         }
       ],
-      "solved": 25,
+      "solved": 26,
       "penalty": 27,
       "wa": 27,
-      "difficultyScore": 4846,
-      "hardSolved": 1,
-      "hardScore": 1214
+      "difficultyScore": 5343,
+      "hardSolved": 2,
+      "hardScore": 1711
     },
     {
       "id": 408323,
