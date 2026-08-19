@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-19T16:13:37.034Z",
+  "updatedAt": "2026-08-19T16:47:25.597Z",
   "pages": 5,
   "days": [
     [
@@ -4511,11 +4511,22 @@
           "task": 2111,
           "difficulty": 73,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11248848,
+              "date": "21:42:50 19 Aug 2026",
+              "timestamp": 1787175770000,
+              "authorName": "Isa",
+              "problemId": 2111,
+              "problemName": "Plato",
+              "language": "G++ 13.2 x64",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1377,
@@ -4629,10 +4640,10 @@
           "attempts": []
         }
       ],
-      "solved": 26,
+      "solved": 27,
       "penalty": 27,
       "wa": 27,
-      "difficultyScore": 5343,
+      "difficultyScore": 5416,
       "hardSolved": 2,
       "hardScore": 1711
     },
