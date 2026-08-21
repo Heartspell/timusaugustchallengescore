@@ -9,8 +9,18 @@ Static ICPC-style scoreboard for a Timus challenge.
 
 ## Update data
 
-The site parses Timus in the browser on load and falls back to `data/scoreboard.json`.
-GitHub Actions updates that JSON every 5 minutes.
+The site only reads `data/scoreboard.json`.
+GitHub Actions parses Timus and updates that JSON every 5 minutes.
+
+External update trigger:
+
+```sh
+curl -X POST \
+  -H "Authorization: Bearer $GITHUB_TOKEN" \
+  -H "Accept: application/vnd.github+json" \
+  https://api.github.com/repos/Heartspell/timusaugustchallengescore/dispatches \
+  -d '{"event_type":"update-scoreboard"}'
+```
 
 Manual update:
 
