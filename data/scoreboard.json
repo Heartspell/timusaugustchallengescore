@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-21T14:25:31.467Z",
+  "updatedAt": "2026-08-21T15:02:03.136Z",
   "pages": 5,
   "days": [
     [
@@ -6138,20 +6138,62 @@
           "difficulty": 174,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 3,
+          "wa": 3,
+          "label": "-3",
+          "attempts": [
+            {
+              "id": 11249785,
+              "date": "19:38:19 21 Aug 2026",
+              "timestamp": 1787341099000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1303,
+              "problemName": "Minimal Coverage",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Runtime error"
+            },
+            {
+              "id": 11249784,
+              "date": "19:37:36 21 Aug 2026",
+              "timestamp": 1787341056000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1303,
+              "problemName": "Minimal Coverage",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Runtime error"
+            },
+            {
+              "id": 11249783,
+              "date": "19:37:22 21 Aug 2026",
+              "timestamp": 1787341042000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1303,
+              "problemName": "Minimal Coverage",
+              "language": "G++ 13.2 x64",
+              "verdict": "Compilation error"
+            }
+          ]
         },
         {
           "task": 1258,
           "difficulty": 417,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11249786,
+              "date": "19:38:56 21 Aug 2026",
+              "timestamp": 1787341136000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1258,
+              "problemName": "Pool",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1500,
@@ -6164,10 +6206,10 @@
           "attempts": []
         }
       ],
-      "solved": 17,
-      "penalty": 44,
-      "wa": 44,
-      "difficultyScore": 2577,
+      "solved": 18,
+      "penalty": 47,
+      "wa": 47,
+      "difficultyScore": 2994,
       "hardSolved": 2,
       "hardScore": 1305
     },
