@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-22T09:12:40.740Z",
+  "updatedAt": "2026-08-22T09:42:37.529Z",
   "pages": 5,
   "days": [
     [
@@ -13285,11 +13285,32 @@
           "task": 1079,
           "difficulty": 111,
           "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "solved": true,
+          "penalty": 1,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11250105,
+              "date": "14:24:20 22 Aug 2026",
+              "timestamp": 1787408660000,
+              "authorName": "prolibek",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11250104,
+              "date": "14:23:29 22 Aug 2026",
+              "timestamp": 1787408609000,
+              "authorName": "prolibek",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1038,
@@ -13732,10 +13753,10 @@
           "attempts": []
         }
       ],
-      "solved": 5,
-      "penalty": 6,
-      "wa": 6,
-      "difficultyScore": 1344,
+      "solved": 6,
+      "penalty": 7,
+      "wa": 7,
+      "difficultyScore": 1455,
       "hardSolved": 1,
       "hardScore": 895
     },
