@@ -305,18 +305,21 @@ function parseDate(block) {
   };
 }
 
+const IGNORED_VERDICTS = new Set(["Compilation error", "Restricted function"]);
+
 function scoreTask(task, submissions, difficulty = 0, hard = false) {
   const list = submissions.filter((item) => item.problemId === task).sort((a, b) => a.id - b.id);
-  const ac = list.find((item) => item.verdict === "Accepted");
-  const penalty = list.filter((item) => item.verdict !== "Accepted").length;
+  const firstAcceptedIndex = list.findIndex((item) => item.verdict === "Accepted");
+  const beforeAc = firstAcceptedIndex >= 0 ? list.slice(0, firstAcceptedIndex) : [];
+  const penalty = firstAcceptedIndex >= 0 ? beforeAc.filter((item) => !IGNORED_VERDICTS.has(item.verdict)).length : 0;
   return {
     task,
     difficulty,
     hard,
-    solved: Boolean(ac),
+    solved: firstAcceptedIndex >= 0,
     penalty,
     wa: penalty,
-    label: ac ? (penalty ? `+(${penalty})` : "+") : (penalty ? `-${penalty}` : ""),
+    label: firstAcceptedIndex >= 0 ? (penalty ? `+(${penalty})` : "+") : (penalty ? `-${penalty}` : ""),
     attempts: list.slice().reverse(),
   };
 }
