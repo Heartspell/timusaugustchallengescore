@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-23T20:38:02.977Z",
+  "updatedAt": "2026-08-23T20:43:00.433Z",
   "pages": 5,
   "days": [
     [
@@ -5782,11 +5782,22 @@
           "task": 1196,
           "difficulty": 52,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11250762,
+              "date": "01:38:44 24 Aug 2026",
+              "timestamp": 1787535524000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1196,
+              "problemName": "History Exam",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1295,
@@ -6479,10 +6490,10 @@
           "attempts": []
         }
       ],
-      "solved": 19,
+      "solved": 20,
       "penalty": 47,
       "wa": 47,
-      "difficultyScore": 3152,
+      "difficultyScore": 3204,
       "hardSolved": 2,
       "hardScore": 1305
     },
