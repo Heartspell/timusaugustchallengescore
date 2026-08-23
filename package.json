@@ -1,0 +1,13 @@
+{
+  "name": "timus-august-challenge-scoreboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/ping-scoreboard.mjs",
+    "update": "node scripts/update-scoreboard.mjs"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

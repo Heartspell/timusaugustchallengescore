@@ -22,6 +22,14 @@ curl -X POST \
   -d '{"event_type":"update-scoreboard"}'
 ```
 
+Heroku pinger:
+
+```sh
+heroku config:set GITHUB_TOKEN=your_token_here
+heroku config:set PING_INTERVAL_MS=300000
+git push heroku 13-disable-live-update:main
+```
+
 Manual update:
 
 ```sh
