@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-23T13:58:00.003Z",
+  "updatedAt": "2026-08-23T14:02:57.320Z",
   "pages": 5,
   "days": [
     [
@@ -6411,11 +6411,22 @@
           "task": 1017,
           "difficulty": 158,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11250743,
+              "date": "19:01:03 23 Aug 2026",
+              "timestamp": 1787511663000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1017,
+              "problemName": "Staircases",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1329,
@@ -6468,10 +6479,10 @@
           "attempts": []
         }
       ],
-      "solved": 18,
+      "solved": 19,
       "penalty": 47,
       "wa": 47,
-      "difficultyScore": 2994,
+      "difficultyScore": 3152,
       "hardSolved": 2,
       "hardScore": 1305
     },
