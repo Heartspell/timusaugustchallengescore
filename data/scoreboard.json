@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-23T07:43:06.815Z",
+  "updatedAt": "2026-08-23T08:01:54.031Z",
   "pages": 5,
   "days": [
     [
@@ -9323,10 +9323,30 @@
           "difficulty": 174,
           "hard": false,
           "solved": false,
-          "penalty": 1,
-          "wa": 1,
-          "label": "-1",
+          "penalty": 3,
+          "wa": 3,
+          "label": "-3",
           "attempts": [
+            {
+              "id": 11250700,
+              "date": "12:49:20 23 Aug 2026",
+              "timestamp": 1787489360000,
+              "authorName": "CoHHa9_MyXa",
+              "problemId": 1303,
+              "problemName": "Minimal Coverage",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11250699,
+              "date": "12:43:59 23 Aug 2026",
+              "timestamp": 1787489039000,
+              "authorName": "CoHHa9_MyXa",
+              "problemId": 1303,
+              "problemName": "Minimal Coverage",
+              "language": "G++ 13.2 x64",
+              "verdict": "Wrong answer"
+            },
             {
               "id": 11250697,
               "date": "12:24:28 23 Aug 2026",
@@ -9391,8 +9411,8 @@
         }
       ],
       "solved": 12,
-      "penalty": 17,
-      "wa": 17,
+      "penalty": 19,
+      "wa": 19,
       "difficultyScore": 696,
       "hardSolved": 0,
       "hardScore": 0
