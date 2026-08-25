@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-25T10:01:43.731Z",
+  "updatedAt": "2026-08-25T10:06:42.998Z",
   "pages": 5,
   "days": [
     [
@@ -6726,10 +6726,21 @@
           "difficulty": 160,
           "hard": false,
           "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
+          "penalty": 1,
+          "wa": 1,
+          "label": "-1",
+          "attempts": [
+            {
+              "id": 11251055,
+              "date": "15:02:24 25 Aug 2026",
+              "timestamp": 1787670144000,
+              "authorName": "amirhanordobaev",
+              "problemId": 2000,
+              "problemName": "Grand Theft Array V",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Wrong answer"
+            }
+          ]
         },
         {
           "task": 1700,
@@ -6753,8 +6764,8 @@
         }
       ],
       "solved": 20,
-      "penalty": 47,
-      "wa": 47,
+      "penalty": 48,
+      "wa": 48,
       "difficultyScore": 3204,
       "hardSolved": 2,
       "hardScore": 1305
