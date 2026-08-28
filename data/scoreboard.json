@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-28T13:08:05.871Z",
+  "updatedAt": "2026-08-28T13:13:04.368Z",
   "pages": 5,
   "days": [
     [
@@ -14105,6 +14105,1015 @@
       "hardScore": 410
     },
     {
+      "id": 408301,
+      "name": "prolibek",
+      "cells": [
+        {
+          "task": 1000,
+          "difficulty": 16,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240802,
+              "date": "17:18:35 2 Aug 2026",
+              "timestamp": 1785691115000,
+              "authorName": "prolibek",
+              "problemId": 1000,
+              "problemName": "A+B Problem",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1213,
+          "difficulty": 170,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240800,
+              "date": "17:15:18 2 Aug 2026",
+              "timestamp": 1785690918000,
+              "authorName": "prolibek",
+              "problemId": 1213,
+              "problemName": "Cockroaches!",
+              "language": "PyPy 3.10 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1780,
+          "difficulty": 895,
+          "hard": true,
+          "solved": true,
+          "penalty": 5,
+          "wa": 5,
+          "label": "+(5)",
+          "attempts": [
+            {
+              "id": 11240792,
+              "date": "17:03:01 2 Aug 2026",
+              "timestamp": 1785690181000,
+              "authorName": "prolibek",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240789,
+              "date": "16:57:33 2 Aug 2026",
+              "timestamp": 1785689853000,
+              "authorName": "prolibek",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240787,
+              "date": "16:44:29 2 Aug 2026",
+              "timestamp": 1785689069000,
+              "authorName": "prolibek",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240592,
+              "date": "23:54:39 1 Aug 2026",
+              "timestamp": 1785628479000,
+              "authorName": "prolibek",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240591,
+              "date": "23:53:36 1 Aug 2026",
+              "timestamp": 1785628416000,
+              "authorName": "prolibek",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            },
+            {
+              "id": 11240590,
+              "date": "23:53:05 1 Aug 2026",
+              "timestamp": 1785628385000,
+              "authorName": "prolibek",
+              "problemId": 1780,
+              "problemName": "Gray Code",
+              "language": "Visual C++ 2022 x64",
+              "verdict": "Compilation error"
+            }
+          ]
+        },
+        {
+          "task": 1001,
+          "difficulty": 14,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11240804,
+              "date": "17:21:53 2 Aug 2026",
+              "timestamp": 1785691313000,
+              "authorName": "prolibek",
+              "problemId": 1001,
+              "problemName": "Reverse Root",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1049,
+          "difficulty": 249,
+          "hard": false,
+          "solved": true,
+          "penalty": 1,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11240818,
+              "date": "17:50:33 2 Aug 2026",
+              "timestamp": 1785693033000,
+              "authorName": "prolibek",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240817,
+              "date": "17:50:06 2 Aug 2026",
+              "timestamp": 1785693006000,
+              "authorName": "prolibek",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11240811,
+              "date": "17:28:16 2 Aug 2026",
+              "timestamp": 1785691696000,
+              "authorName": "prolibek",
+              "problemId": 1049,
+              "problemName": "Brave Balloonists",
+              "language": "Clang++ 17 x64",
+              "verdict": "Time limit exceeded"
+            }
+          ]
+        },
+        {
+          "task": 1115,
+          "difficulty": 410,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1313,
+          "difficulty": 34,
+          "hard": false,
+          "solved": true,
+          "penalty": 0,
+          "wa": 0,
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11252026,
+              "date": "18:08:59 28 Aug 2026",
+              "timestamp": 1787940539000,
+              "authorName": "prolibek",
+              "problemId": 1313,
+              "problemName": "Some Words about Sport",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            }
+          ]
+        },
+        {
+          "task": 1987,
+          "difficulty": 167,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1852,
+          "difficulty": 2439,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1820,
+          "difficulty": 25,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1247,
+          "difficulty": 240,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1932,
+          "difficulty": 963,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1567,
+          "difficulty": 41,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1343,
+          "difficulty": 416,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1467,
+          "difficulty": 1214,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 2012,
+          "difficulty": 17,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1613,
+          "difficulty": 142,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1434,
+          "difficulty": 872,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1196,
+          "difficulty": 52,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1295,
+          "difficulty": 151,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1019,
+          "difficulty": 465,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1079,
+          "difficulty": 111,
+          "hard": false,
+          "solved": true,
+          "penalty": 1,
+          "wa": 1,
+          "label": "+(1)",
+          "attempts": [
+            {
+              "id": 11250105,
+              "date": "14:24:20 22 Aug 2026",
+              "timestamp": 1787408660000,
+              "authorName": "prolibek",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "Clang++ 17 x64",
+              "verdict": "Accepted"
+            },
+            {
+              "id": 11250104,
+              "date": "14:23:29 22 Aug 2026",
+              "timestamp": 1787408609000,
+              "authorName": "prolibek",
+              "problemId": 1079,
+              "problemName": "Maximum",
+              "language": "Clang++ 17 x64",
+              "verdict": "Wrong answer"
+            }
+          ]
+        },
+        {
+          "task": 1038,
+          "difficulty": 488,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1422,
+          "difficulty": 850,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1349,
+          "difficulty": 51,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1190,
+          "difficulty": 339,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1268,
+          "difficulty": 721,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1601,
+          "difficulty": 92,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1127,
+          "difficulty": 322,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1076,
+          "difficulty": 712,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1502,
+          "difficulty": 74,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1416,
+          "difficulty": 386,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1743,
+          "difficulty": 989,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1404,
+          "difficulty": 80,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1513,
+          "difficulty": 381,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1669,
+          "difficulty": 1388,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1209,
+          "difficulty": 34,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1890,
+          "difficulty": 463,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1441,
+          "difficulty": 1132,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1726,
+          "difficulty": 120,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 2024,
+          "difficulty": 339,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1724,
+          "difficulty": 657,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1104,
+          "difficulty": 95,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1219,
+          "difficulty": 121,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1748,
+          "difficulty": 268,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1352,
+          "difficulty": 132,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1141,
+          "difficulty": 364,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1456,
+          "difficulty": 746,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 2111,
+          "difficulty": 73,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1377,
+          "difficulty": 296,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1535,
+          "difficulty": 497,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1494,
+          "difficulty": 90,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1128,
+          "difficulty": 412,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1705,
+          "difficulty": 946,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1280,
+          "difficulty": 141,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1236,
+          "difficulty": 498,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1468,
+          "difficulty": 836,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1022,
+          "difficulty": 142,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1298,
+          "difficulty": 234,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 2109,
+          "difficulty": 533,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1303,
+          "difficulty": 174,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1258,
+          "difficulty": 417,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1500,
+          "difficulty": 640,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1017,
+          "difficulty": 158,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1329,
+          "difficulty": 453,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1089,
+          "difficulty": 841,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1244,
+          "difficulty": 254,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 2027,
+          "difficulty": 539,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 2028,
+          "difficulty": 878,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1401,
+          "difficulty": 159,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1486,
+          "difficulty": 623,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1074,
+          "difficulty": 2107,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 2000,
+          "difficulty": 160,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1700,
+          "difficulty": 482,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1042,
+          "difficulty": 807,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1402,
+          "difficulty": 130,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1182,
+          "difficulty": 507,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1926,
+          "difficulty": 997,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1881,
+          "difficulty": 62,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1066,
+          "difficulty": 583,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 2170,
+          "difficulty": 1390,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1260,
+          "difficulty": 112,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1966,
+          "difficulty": 681,
+          "hard": false,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        },
+        {
+          "task": 1518,
+          "difficulty": 1049,
+          "hard": true,
+          "solved": false,
+          "penalty": 0,
+          "wa": 0,
+          "label": "",
+          "attempts": []
+        }
+      ],
+      "solved": 7,
+      "penalty": 7,
+      "wa": 7,
+      "difficultyScore": 1489,
+      "hardSolved": 1,
+      "hardScore": 895
+    },
+    {
       "id": 408326,
       "name": "Сарыбаев Касым",
       "cells": [
@@ -15061,1004 +16070,6 @@
       "difficultyScore": 562,
       "hardSolved": 0,
       "hardScore": 0
-    },
-    {
-      "id": 408301,
-      "name": "prolibek",
-      "cells": [
-        {
-          "task": 1000,
-          "difficulty": 16,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240802,
-              "date": "17:18:35 2 Aug 2026",
-              "timestamp": 1785691115000,
-              "authorName": "prolibek",
-              "problemId": 1000,
-              "problemName": "A+B Problem",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1213,
-          "difficulty": 170,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240800,
-              "date": "17:15:18 2 Aug 2026",
-              "timestamp": 1785690918000,
-              "authorName": "prolibek",
-              "problemId": 1213,
-              "problemName": "Cockroaches!",
-              "language": "PyPy 3.10 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1780,
-          "difficulty": 895,
-          "hard": true,
-          "solved": true,
-          "penalty": 5,
-          "wa": 5,
-          "label": "+(5)",
-          "attempts": [
-            {
-              "id": 11240792,
-              "date": "17:03:01 2 Aug 2026",
-              "timestamp": 1785690181000,
-              "authorName": "prolibek",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240789,
-              "date": "16:57:33 2 Aug 2026",
-              "timestamp": 1785689853000,
-              "authorName": "prolibek",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Clang++ 17 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240787,
-              "date": "16:44:29 2 Aug 2026",
-              "timestamp": 1785689069000,
-              "authorName": "prolibek",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Clang++ 17 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240592,
-              "date": "23:54:39 1 Aug 2026",
-              "timestamp": 1785628479000,
-              "authorName": "prolibek",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Clang++ 17 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240591,
-              "date": "23:53:36 1 Aug 2026",
-              "timestamp": 1785628416000,
-              "authorName": "prolibek",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Clang++ 17 x64",
-              "verdict": "Wrong answer"
-            },
-            {
-              "id": 11240590,
-              "date": "23:53:05 1 Aug 2026",
-              "timestamp": 1785628385000,
-              "authorName": "prolibek",
-              "problemId": 1780,
-              "problemName": "Gray Code",
-              "language": "Visual C++ 2022 x64",
-              "verdict": "Compilation error"
-            }
-          ]
-        },
-        {
-          "task": 1001,
-          "difficulty": 14,
-          "hard": false,
-          "solved": true,
-          "penalty": 0,
-          "wa": 0,
-          "label": "+",
-          "attempts": [
-            {
-              "id": 11240804,
-              "date": "17:21:53 2 Aug 2026",
-              "timestamp": 1785691313000,
-              "authorName": "prolibek",
-              "problemId": 1001,
-              "problemName": "Reverse Root",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            }
-          ]
-        },
-        {
-          "task": 1049,
-          "difficulty": 249,
-          "hard": false,
-          "solved": true,
-          "penalty": 1,
-          "wa": 1,
-          "label": "+(1)",
-          "attempts": [
-            {
-              "id": 11240818,
-              "date": "17:50:33 2 Aug 2026",
-              "timestamp": 1785693033000,
-              "authorName": "prolibek",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240817,
-              "date": "17:50:06 2 Aug 2026",
-              "timestamp": 1785693006000,
-              "authorName": "prolibek",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11240811,
-              "date": "17:28:16 2 Aug 2026",
-              "timestamp": 1785691696000,
-              "authorName": "prolibek",
-              "problemId": 1049,
-              "problemName": "Brave Balloonists",
-              "language": "Clang++ 17 x64",
-              "verdict": "Time limit exceeded"
-            }
-          ]
-        },
-        {
-          "task": 1115,
-          "difficulty": 410,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1313,
-          "difficulty": 34,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1987,
-          "difficulty": 167,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1852,
-          "difficulty": 2439,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1820,
-          "difficulty": 25,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1247,
-          "difficulty": 240,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1932,
-          "difficulty": 963,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1567,
-          "difficulty": 41,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1343,
-          "difficulty": 416,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1467,
-          "difficulty": 1214,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 2012,
-          "difficulty": 17,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1613,
-          "difficulty": 142,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1434,
-          "difficulty": 872,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1196,
-          "difficulty": 52,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1295,
-          "difficulty": 151,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1019,
-          "difficulty": 465,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1079,
-          "difficulty": 111,
-          "hard": false,
-          "solved": true,
-          "penalty": 1,
-          "wa": 1,
-          "label": "+(1)",
-          "attempts": [
-            {
-              "id": 11250105,
-              "date": "14:24:20 22 Aug 2026",
-              "timestamp": 1787408660000,
-              "authorName": "prolibek",
-              "problemId": 1079,
-              "problemName": "Maximum",
-              "language": "Clang++ 17 x64",
-              "verdict": "Accepted"
-            },
-            {
-              "id": 11250104,
-              "date": "14:23:29 22 Aug 2026",
-              "timestamp": 1787408609000,
-              "authorName": "prolibek",
-              "problemId": 1079,
-              "problemName": "Maximum",
-              "language": "Clang++ 17 x64",
-              "verdict": "Wrong answer"
-            }
-          ]
-        },
-        {
-          "task": 1038,
-          "difficulty": 488,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1422,
-          "difficulty": 850,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1349,
-          "difficulty": 51,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1190,
-          "difficulty": 339,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1268,
-          "difficulty": 721,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1601,
-          "difficulty": 92,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1127,
-          "difficulty": 322,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1076,
-          "difficulty": 712,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1502,
-          "difficulty": 74,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1416,
-          "difficulty": 386,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1743,
-          "difficulty": 989,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1404,
-          "difficulty": 80,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1513,
-          "difficulty": 381,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1669,
-          "difficulty": 1388,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1209,
-          "difficulty": 34,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1890,
-          "difficulty": 463,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1441,
-          "difficulty": 1132,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1726,
-          "difficulty": 120,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 2024,
-          "difficulty": 339,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1724,
-          "difficulty": 657,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1104,
-          "difficulty": 95,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1219,
-          "difficulty": 121,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1748,
-          "difficulty": 268,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1352,
-          "difficulty": 132,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1141,
-          "difficulty": 364,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1456,
-          "difficulty": 746,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 2111,
-          "difficulty": 73,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1377,
-          "difficulty": 296,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1535,
-          "difficulty": 497,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1494,
-          "difficulty": 90,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1128,
-          "difficulty": 412,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1705,
-          "difficulty": 946,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1280,
-          "difficulty": 141,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1236,
-          "difficulty": 498,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1468,
-          "difficulty": 836,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1022,
-          "difficulty": 142,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1298,
-          "difficulty": 234,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 2109,
-          "difficulty": 533,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1303,
-          "difficulty": 174,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1258,
-          "difficulty": 417,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1500,
-          "difficulty": 640,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1017,
-          "difficulty": 158,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1329,
-          "difficulty": 453,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1089,
-          "difficulty": 841,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1244,
-          "difficulty": 254,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 2027,
-          "difficulty": 539,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 2028,
-          "difficulty": 878,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1401,
-          "difficulty": 159,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1486,
-          "difficulty": 623,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1074,
-          "difficulty": 2107,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 2000,
-          "difficulty": 160,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1700,
-          "difficulty": 482,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1042,
-          "difficulty": 807,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1402,
-          "difficulty": 130,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1182,
-          "difficulty": 507,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1926,
-          "difficulty": 997,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1881,
-          "difficulty": 62,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1066,
-          "difficulty": 583,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 2170,
-          "difficulty": 1390,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1260,
-          "difficulty": 112,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1966,
-          "difficulty": 681,
-          "hard": false,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        },
-        {
-          "task": 1518,
-          "difficulty": 1049,
-          "hard": true,
-          "solved": false,
-          "penalty": 0,
-          "wa": 0,
-          "label": "",
-          "attempts": []
-        }
-      ],
-      "solved": 6,
-      "penalty": 7,
-      "wa": 7,
-      "difficultyScore": 1455,
-      "hardSolved": 1,
-      "hardScore": 895
     },
     {
       "id": 408277,
