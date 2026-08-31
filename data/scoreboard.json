@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-31T13:17:24.284Z",
+  "updatedAt": "2026-08-31T13:22:30.236Z",
   "pages": 5,
   "days": [
     [
@@ -7413,11 +7413,22 @@
           "task": 1881,
           "difficulty": 62,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11253218,
+              "date": "18:20:54 31 Aug 2026",
+              "timestamp": 1788200454000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1881,
+              "problemName": "Long problem statement",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1066,
@@ -7571,10 +7582,10 @@
           "attempts": []
         }
       ],
-      "solved": 22,
+      "solved": 23,
       "penalty": 48,
       "wa": 48,
-      "difficultyScore": 3463,
+      "difficultyScore": 3525,
       "hardSolved": 2,
       "hardScore": 1305
     },
