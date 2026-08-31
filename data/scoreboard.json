@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-31T13:07:26.899Z",
+  "updatedAt": "2026-08-31T13:12:27.181Z",
   "pages": 5,
   "days": [
     [
@@ -7473,11 +7473,22 @@
           "task": 1020,
           "difficulty": 100,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11253215,
+              "date": "18:10:10 31 Aug 2026",
+              "timestamp": 1788199810000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1020,
+              "problemName": "Rope",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1198,
@@ -7560,10 +7571,10 @@
           "attempts": []
         }
       ],
-      "solved": 21,
+      "solved": 22,
       "penalty": 48,
       "wa": 48,
-      "difficultyScore": 3363,
+      "difficultyScore": 3463,
       "hardSolved": 2,
       "hardScore": 1305
     },
