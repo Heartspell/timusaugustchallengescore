@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-31T13:27:25.005Z",
+  "updatedAt": "2026-08-31T13:32:24.661Z",
   "pages": 5,
   "days": [
     [
@@ -7535,11 +7535,22 @@
           "task": 1430,
           "difficulty": 461,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11253226,
+              "date": "18:30:31 31 Aug 2026",
+              "timestamp": 1788201031000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1430,
+              "problemName": "Crime and Punishment",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1587,
@@ -7582,10 +7593,10 @@
           "attempts": []
         }
       ],
-      "solved": 23,
+      "solved": 24,
       "penalty": 48,
       "wa": 48,
-      "difficultyScore": 3525,
+      "difficultyScore": 3986,
       "hardSolved": 2,
       "hardScore": 1305
     },
