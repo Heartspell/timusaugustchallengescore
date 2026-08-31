@@ -1,6 +1,6 @@
 {
   "title": "TIMUS August 2026 Challenge",
-  "updatedAt": "2026-08-31T13:02:26.231Z",
+  "updatedAt": "2026-08-31T13:07:26.899Z",
   "pages": 5,
   "days": [
     [
@@ -7301,11 +7301,22 @@
           "task": 1401,
           "difficulty": 159,
           "hard": false,
-          "solved": false,
+          "solved": true,
           "penalty": 0,
           "wa": 0,
-          "label": "",
-          "attempts": []
+          "label": "+",
+          "attempts": [
+            {
+              "id": 11253212,
+              "date": "18:04:05 31 Aug 2026",
+              "timestamp": 1788199445000,
+              "authorName": "amirhanordobaev",
+              "problemId": 1401,
+              "problemName": "Gamers",
+              "language": "Kotlin 1.9.22",
+              "verdict": "Accepted"
+            }
+          ]
         },
         {
           "task": 1486,
@@ -7549,10 +7560,10 @@
           "attempts": []
         }
       ],
-      "solved": 20,
+      "solved": 21,
       "penalty": 48,
       "wa": 48,
-      "difficultyScore": 3204,
+      "difficultyScore": 3363,
       "hardSolved": 2,
       "hardScore": 1305
     },
